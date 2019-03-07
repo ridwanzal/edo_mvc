@@ -25,14 +25,14 @@ class Frontpage extends CI_Controller {
 
   public function service(){
     $data['title_bar'] = "Layanan | Edo";
-    $data['header_page'] = "Sekilas Tentang saay";
+    $data['header_page'] = "Sekilas Tentang saya";
     $this->load->view('frontheader', $data );
     $this->load->view('frontservice', $data);
     $this->load->view('frontfooter', $data);
   }
 
   public function contact(){
-    $data['title_bar'] = "Layanan | Edo";
+    $data['title_bar'] = "Kontak | Edo";
     $data['header_page'] = "Sekilas Tentang saay";
     $this->load->view('frontheader', $data );
     $this->load->view('frontcontact', $data);
@@ -52,7 +52,7 @@ class Frontpage extends CI_Controller {
     $this->db->insert('contact', $data);
     $check = $this->db->affected_rows() > 0;
 		if($check){
-      $this->session->set_flashdata('success', 'Submit data berhasil');
+      $this->session->set_flashdata('success', 'Submit data berhasil, Terima kasih.');
 			redirect(base_url('index.php/frontpage/contact'));
 		}
   }

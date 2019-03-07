@@ -3,8 +3,9 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <p class="text_header headingtext">Let's be creative !</p>
-                        <p id="captiontext">I'am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing(and occasionally designing) stunning and quality website and applications.</p>
-                        <div class="separator"></div><button class="button1_outline_small" type="button" id="learnmore"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <button class="button1_small" type="button"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button>
+                        <p id="captiontext">I'am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
+                        <div class="separator"></div>
+                        <a href="<?php echo base_url() ?>index.php/frontpage/contact"><button class="button1_outline_small" type="button" id="learnmore"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <button class="button1_small" type="button"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12"></div>
                 </div>
@@ -77,7 +78,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12">
-                        <p class="medium_text">Contact Me</p>
+                        <a href="<?php echo base_url() ?>index.php/frontpage/contact"><p class="medium_text">Contact Me</p></a>
                     </div>
                 </div>
                 <div class="row">
