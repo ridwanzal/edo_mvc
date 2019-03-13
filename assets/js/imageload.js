@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 
-var path = "/home/ridwanzal/NetBeansProjects/EdoWeb/public_html/myweb/img/gallery/";
+// var path = "http://localhost/edo/assets/img/work/logo/";
+
+
 
 var imageGallery = {
     load: function () {
@@ -67,12 +69,12 @@ var imageLoad = {
         try {
             $.each(img, function(i, src){
                 console.log("index i : "+ i);
-                var li = $('<li class="load_list_img">').appendTo(ulid);
-                $('<img class="galhover">').appendTo(li).one('load', function(){
-                }).attr('src', src);
-                if(i == 7){
-                    li = li + "<br/>";
-                }
+                var li = $('<img class="galhover2" src='+src+'>').appendTo(ulid);
+                // $('<img class="galhover2">').appendTo(li).one('load', function(){
+                // }).attr('src', src);
+                // if(i == 7){
+                //     // li = li + "<br/>";
+                // }
             });
         }
         catch (e){

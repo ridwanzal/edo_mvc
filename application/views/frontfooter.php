@@ -17,13 +17,17 @@
             crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
         </script> 
-        <script src="js/publicvariable.js" type="text/javascript">
+        <script src="<?php echo base_url() ?>assets/js/publicvariable.js" type="text/javascript">
         </script>
+        <script src="<?php echo base_url() ?>assets/js/imageload.js" type="text/javascript">
+        </script> 
         <script src="<?php echo base_url() ?>assets/js/main.js" type="text/javascript">
         </script> 
-        <script src="js/outtermodule.js" type="text/javascript">
+        <script src="<?php echo base_url() ?>assets/js/outtermodule.js" type="text/javascript">
         </script> 
-        <script src="js/imageload.js" type="text/javascript">
+        <script src="<?php echo base_url() ?>assets/js/uploadjs.js" type="text/javascript">
+        </script> 
+        <script src="<?php echo base_url() ?>assets/js/input.js" type="text/javascript">
         </script> 
         <script src="https://maps.googleapis.com/maps/api/js">
         </script> 

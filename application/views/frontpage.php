@@ -62,6 +62,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12">
+                        <h3>Logo Design Galleries</h3>
+                        <p class="medium_text">These are the latest recent work that I've been working up     </p>
+                    </div>
+                </div>
+                <br/>
+                <div id="imageList"></div>
+                </div>
+        </div>
+        <div class="fifthsection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12">
                         <h3>My Recent Work&nbsp;&nbsp;<span><img src="<?php echo base_url() ?>assets/img/recent_image.png"></span></h3>
                         <p class="medium_text">These are the latest recent work that I've been working up     </p>
                     </div>
@@ -71,16 +83,6 @@
                     <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"></div>
                     <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"></div>
                     <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"></div>
-                </div>
-            </div>
-        </div>
-        <div class="fifthsection">
-            <div class="container">
-                <div class="row">
-                        <div class="col-lg-12 col-md-12 col-xs-12">
-                            <h3>Logo Design Galleries</h3>
-                            <p class="medium_text">These are the latest recent work that I've been working up     </p>
-                        </div>
                 </div>
             </div>
         </div>
@@ -103,9 +105,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="rowing">
-                <ul id="imageList"></ul>
         </div>
         <div id="map">
             <div class="container">

@@ -250,6 +250,24 @@
  Project	: Portofolio Website
  Start Date	: Dec 1, 2016
  ------------------------------------------------------*/
+
+ var imageslist2 = [
+    'http://localhost/edo/assets/img/work/logo/deskmodd.png',
+    'http://localhost/edo/assets/img/work/logo/uclothing.png',
+    'http://localhost/edo/assets/img/work/logo/edocs.png',
+    'http://localhost/edo/assets/img/work/logo/palsmart.png',
+    'http://localhost/edo/assets/img/work/logo/sienger.png',
+    'http://localhost/edo/assets/img/work/logo/ut.png',
+    'http://localhost/edo/assets/img/work/logo/warm.png',
+    'http://localhost/edo/assets/img/work/logo/palembangcom.png',
+    'http://localhost/edo/assets/img/work/logo/learn.png',
+    'http://localhost/edo/assets/img/work/logo/karpetjuaro.png',
+    'http://localhost/edo/assets/img/work/logo/kemilau.png',
+    'http://localhost/edo/assets/img/work/logo/quickyuda.png',
+    'http://localhost/edo/assets/img/work/logo/piban.png',
+    'http://localhost/edo/assets/img/work/logo/comnets.png',
+  ];
+
  var element = {
     attrslen: function (elemclass) {
         document.getElementsByClassName(elemclass).attributes.length;
@@ -273,10 +291,13 @@ function loadtest() {
 
 function loadImage() {
     console.log("loadimage");
-    var path = "/home/ridwanzal/NetBeansProjects/EdoWeb/public_html/myweb/img/gallery/";
+    // var path = "/home/ridwanzal/NetBeansProjects/EdoWeb/public_html/myweb/img/gallery/";
+    // var path = "../../assets/img/work/logo/";
+    // var path = "http://localhost/edo/assets/img/work/logo";
     $.ajax({
         url: path,
         success: function (data) {
+            // alert(data);
             console.log("ajax " + data);
             $(data).find("a").attr("href", function (i, val) {
                 if (val.match(/\.(jpe?g|png|gif)$/)) {
@@ -325,7 +346,7 @@ $(document).ready(function () {
     var daysname = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var hariini = daysname[hari];
     $('#clock').attr('title', 'Tanggal Hari ini');
-    $('#clock').append('<img src="img/calender.png">' + "&nbsp;&nbsp;" +
+    $('#clock').append("&nbsp;&nbsp;" +
             hariini + " " + " - " + bulan + " - " + year);
     $('.searchspan').attr('title', 'Car');
     // $('#clock').attr('readonly', readonly);	
@@ -348,7 +369,7 @@ $(document).ready(function () {
     //     $(this).removeClass('overlay');
     // });
 
-    animate_el.hoverOverlay(idToOverlay, classOverlay);
+    // animate_el.hoverOverlay(idToOverlay, classOverlay);
 
     function myMap() {
         console.log("Masuk map nih");
@@ -426,16 +447,16 @@ $(document).ready(function () {
     //    uniqueHelperMDN(duplicatesArray);
     //    var x = 12
     //    uniqueHelperMDNT(duplicatesArray, x);
-    loadImage();
-    loadtest();
-    imageGallery.load();
-    imageJSON.load();
-    localLoad.load();
+    // loadImage();
+    // loadtest();
+    // imageGallery.load();
+    // imageJSON.load();
+    // localLoad.load();
     try {
         var ulid  = $('#imageList');
-        imageLoad.load(imageslist, ulid);
+        imageLoad.load(imageslist2, ulid);
         // animate the element of the icon
-        animate_el.hoverOverlay(idToOverlay, classOverlay);
+        // animate_el.hoverOverlay(idToOverlay, classOverlay);
     } catch (error) {
         console.log("err : " + error);
     }
