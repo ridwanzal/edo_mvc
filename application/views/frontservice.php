@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-xs-4">
                 <div class="background_flyer panel_container">
-                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img//idea.png"></span>&nbsp;&nbsp;IT Consulting</p>
+                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img/idea2.png"></span>&nbsp;&nbsp;IT Consulting</p>
                     <br/>
                     <p class="text_justified small_text">
                         Memiliki pemahaman mendalam mengenai berbagai aspek operasional IT,
@@ -29,7 +29,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-xs-4">
                 <div class="background_flyer panel_container">
-                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img//idea.png"></span>&nbsp;&nbsp;Web Development</p>
+                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img/programming2.png"></span>&nbsp;&nbsp;Web Development</p>
                     <br/>
                     <p class="text_justified small_text">
                         Memiliki pemahaman mendalam mengenai berbagai aspek operasional IT,
@@ -45,7 +45,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-xs-4">
                 <div class="background_flyer panel_container">
-                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img//idea.png"></span>&nbsp;&nbsp;Graphic Design</p>
+                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img//design2.png"></span>&nbsp;&nbsp;Graphic Design</p>
                     <br/>
                     <p class="text_justified small_text">
                         Memiliki pemahaman mendalam mengenai berbagai aspek operasional IT,

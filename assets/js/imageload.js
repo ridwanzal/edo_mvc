@@ -69,12 +69,7 @@ var imageLoad = {
         try {
             $.each(img, function(i, src){
                 console.log("index i : "+ i);
-                var li = $('<img class="galhover2" src='+src+'>').appendTo(ulid);
-                // $('<img class="galhover2">').appendTo(li).one('load', function(){
-                // }).attr('src', src);
-                // if(i == 7){
-                //     // li = li + "<br/>";
-                // }
+                var li = $('<img title="Image Gallery" class="galhover2" src='+src+'>').appendTo(ulid);
             });
         }
         catch (e){
