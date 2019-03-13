@@ -47,19 +47,6 @@
                         <button class="button1_outline_small_black block_display mycv download" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Download my CV</button> &nbsp;&nbsp;&nbsp;
                          <button class="button1_outline_small_black block_display block_display linkedin" type="button"><span class="fa fa-linkedin"></span>&nbsp;&nbsp;View my Linkedin</button>&nbsp;&nbsp;&nbsp;
                          <button class="button1_outline_small_black block_display block_display linkedin" type="button"><span class="fa fa-github"></span>&nbsp;&nbsp;View my Github</button>&nbsp;&nbsp;&nbsp;
-                         <br/>
-                         <br/>
-                         <br/>
-                         <h4 class="text_bold">Experiences</h4>
-                         <p class="medium_text">
-                            Shortly after graduating from <b>Universitas Sriwijaya</b> as a 
-                            Computer Engineering student, I joined easySoft Indonesia as
-                            a Front-End Engineer, UI/UX Engineer where I got to work on a 
-                            variety of interesting projects and improve my design and coding skills
-                            also I've to learn deployment process like system admistrator does. 
-
-                            Here's a few things I'm experienced with :
-                        </p>
                     </div>
                 </div>
             </div>
