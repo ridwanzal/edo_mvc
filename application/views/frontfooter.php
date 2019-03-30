@@ -2,7 +2,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12">
-                        <p><b>All Rights Reserved</b>. &copy;<span id="printyear"></span>, Palembang, Indonesia</p>
+                        <p><b>All Rights Reserved</b>. &copy;<span id="printyear"></span> Palembang, Indonesia</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-xs-12"></div>
                     <div class="col-log-3 col-md-3 col-xs-12">

@@ -311,6 +311,16 @@ function loadImage() {
 
 $(document).ready(function () {
     // document ready
+    let prgal = $('#preload_gallery');
+    let container = $('#imageList');
+    let galhover2 = $('.galhover2');
+    document.getElementById('preload_gallery').style.display = "none";
+    if(galhover2.length == 0){
+         document.getElementById('preload_gallery').style.display = "none";
+    }else{
+        document.getElementById('preload_gallery').style.display = "none";
+    }
+
     $('#searchbar').click(function () {
         $('#searchinput').toggle(function () {
         }).animate({
