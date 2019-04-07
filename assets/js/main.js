@@ -266,6 +266,13 @@
     'http://localhost/edo/assets/img/work/logo/quickyuda.png',
     'http://localhost/edo/assets/img/work/logo/piban.png',
     'http://localhost/edo/assets/img/work/logo/comnets.png',
+    'http://localhost/edo/assets/img/work/logo/1.png',
+    'http://localhost/edo/assets/img/work/logo/2.png',
+    'http://localhost/edo/assets/img/work/logo/3.png',
+    'http://localhost/edo/assets/img/work/logo/4.png',
+    'http://localhost/edo/assets/img/work/logo/5.png',
+    'http://localhost/edo/assets/img/work/logo/6.png',
+    'http://localhost/edo/assets/img/work/logo/7.png',
   ];
 
  var element = {

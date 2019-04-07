@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="302.00894mm"
+   height="302.00894mm"
+   viewBox="0 0 302.00894 302.00894"
+   version="1.1"
+   id="svg13043"
+   inkscape:version="0.92.2 (unknown)"
+   sodipodi:docname="logo1.svg">
+  <defs
+     id="defs13037" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="1840.9492"
+     inkscape:cy="-1372.3043"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="1366"
+     inkscape:window-y="21"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata13040">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1348.0674,232.94388)">
+    <rect
+       inkscape:export-ydpi="68.08567"
+       inkscape:export-xdpi="68.08567"
+       inkscape:export-filename="/opt/lampp/htdocs/scafol/img/logo_main.png"
+       style="opacity:1;fill:#ffda09;fill-opacity:1;stroke:none;stroke-width:54.5883522;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect12930-3"
+       width="302.00894"
+       height="302.00894"
+       x="-1348.0674"
+       y="-232.94388"
+       rx="78.784943"
+       ry="78.784943" />
+    <g
+       inkscape:export-ydpi="68.08567"
+       inkscape:export-xdpi="68.08567"
+       inkscape:export-filename="/opt/lampp/htdocs/scafol/img/logo_main.png"
+       transform="matrix(1.8241306,0,0,-1.8241306,4412.9037,7987.2597)"
+       id="g12940-6">
+      <g
+         transform="matrix(1.2642947,0,0,1.2642947,-3021.7833,4405.7399)"
+         id="g12934-7"
+         style="fill:#ffffff">
+        <path
+           inkscape:connector-curvature="0"
+           id="path12932-5"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C -0.2,0.026 -0.634,0.223 -2.899,0.488 L -5.772,22.2 c 0,7.137 -5.786,12.923 -12.923,12.923 -1.539,0 -2.786,-1.245 -2.786,-2.783 V 15.39 h -2.62 v 23.258 c 0,4.281 -3.15,6.205 -7.752,7.752 -0.309,0.104 -0.691,0.222 -1.126,0.35 -6.609,1.938 -13.655,1.928 -20.222,-0.149 -0.221,-0.07 -0.425,-0.137 -0.61,-0.201 -4.044,-1.402 -7.752,-3.471 -7.752,-7.752 V 15.39 h -2.619 v 16.946 c 0,1.539 -1.248,2.787 -2.786,2.787 -7.138,0 -12.924,-5.786 -12.924,-12.923 L -82.778,0.398 c -1.581,-0.221 -1.814,-0.38 -1.981,-0.403 -2.202,-0.305 -3.741,-2.336 -3.438,-4.54 0.304,-2.203 2.341,-3.748 4.54,-3.441 0.151,0.021 13.505,2.077 41.295,2.077 26.764,0 41.17,-2.061 41.331,-2.081 0.175,-0.023 0.347,-0.033 0.519,-0.033 1.996,0 3.729,1.481 3.991,3.513 C 3.763,-2.304 2.206,-0.285 0,0" />
+      </g>
+      <g
+         id="g12938-3"
+         transform="matrix(1.2642947,0,0,1.2642947,-3016.4837,4388.1949)"
+         style="fill:#ffffff;fill-opacity:1">
+        <path
+           d="m 0,0 -2.584,0.076 c -0.092,1.263 -0.725,2.208 -2.041,2.177 h -84.199 c -0.649,-0.53 -1.127,-1.85 -1.437,-2.756 l -0.103,-0.292 -1.069,-4.942 0.067,4.932 -1.864,-0.074 c 0,0 -0.169,-4.183 1.486,-5.012 l 0.01,-0.004 c 0.164,-0.081 0.344,-0.129 0.545,-0.137 0.9,-0.036 1.937,-0.052 2.857,0 0.043,-0.002 0.085,-0.001 0.129,0 h 82.671 c 1.053,-0.066 2.288,-0.042 3.347,0 C 0.219,-5.938 0,0 0,0"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path12936-5"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>

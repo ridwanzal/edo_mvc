@@ -33,9 +33,17 @@ class Frontpage extends CI_Controller {
 
   public function contact(){
     $data['title_bar'] = "Kontak | Edo";
-    $data['header_page'] = "Sekilas Tentang saay";
+    $data['header_page'] = "Sekilas Tentang saya";
     $this->load->view('frontheader', $data );
     $this->load->view('frontcontact', $data);
+    $this->load->view('frontfooter', $data);
+  }
+
+  public function project(){
+    $data['title_bar'] = "Project | Edo";
+    $data['header_page'] = "Sekilas Tentang saay";
+    $this->load->view('frontheader', $data );
+    $this->load->view('frontproject', $data);
     $this->load->view('frontfooter', $data);
   }
 

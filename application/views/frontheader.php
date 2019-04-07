@@ -36,11 +36,11 @@
                         <li class="menu">
                             <a href="#about" title="Portofolio">Portofolio</a>
                         </li> 
+                        <!-- <li class="menu">
+                            <a href="<?php echo base_url() ?>index.php/frontpage/project" title="Project">Project</a>
+                        </li> -->
                         <li class="menu">
-                            <a href="#project" title="Project">Project</a>
-                        </li>
-                        <li class="menu">
-                            <a href="#blog" title="Blog">Blog</a>
+                            <a href="<?php echo base_url() ?>blog" title="Blog">Blog</a>
                         </li>
                         <li class="menu">
                             <a href="<?php echo base_url() ?>index.php/frontpage/contact" title="Kontak">Contact</a>

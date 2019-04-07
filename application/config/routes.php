@@ -54,5 +54,6 @@ $route['default_controller'] = 'frontpage';
 $route['frontabout'] = 'frontpage/frontabout';
 $route['frontservice'] = 'frontpage/frontservice';
 $route['frontcontact'] = 'frontpage/frontcontact';
+$route['frontproject'] =  'frontpage/frontproject';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
