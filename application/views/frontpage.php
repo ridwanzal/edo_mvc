@@ -23,7 +23,7 @@
                         <h1 class="text_bold">M. Ridwan Zalbina</h1>
                         <p>Software Engineer, Graphic Designer and Linux Enthusiast</p>
                         <br/>
-                        <p class="medium_text">I'am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing(and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Tech Lead. </p>
+                        <p class="medium_text">I'am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing(and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Co-Founder and Tech Lead Engineer. </p>
                         <br/>
                         <h4 class="text_bold">About Me</h4>
                         <p class="medium_text">

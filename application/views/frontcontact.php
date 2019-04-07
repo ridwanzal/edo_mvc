@@ -14,21 +14,21 @@
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
                                     <p>Name</p>
-                                    <input placeholder="Masukkan nama anda" type="text" name="p_name" class="form-control input_general" >
+                                    <input placeholder="Please input your name" type="text" name="p_name" class="form-control input_general" >
                                 </div> 
                             </div>
                             <br/>
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
                                     <p>Email</p>
-                                    <input placeholder="Masukkan email anda" type="text" name="p_email" class="form-control input_general" >
+                                    <input placeholder="Please input your email" type="text" name="p_email" class="form-control input_general" >
                                 </div> 
                             </div>
                             <br/>
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
                                     <p>Message</p>
-                                    <textarea placeholder="Masukkan isi pesan" width="100%" name="p_message" rows="7" class="form-control input_general"></textarea>
+                                    <textarea placeholder="Please input your message" width="100%" name="p_message" rows="7" class="form-control input_general"></textarea>
                                 </div> 
                             </div>
                             <div class="row">
