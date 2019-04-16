@@ -47,7 +47,7 @@
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                    <a href="https://api.whatsapp.com/send?phone=081919992000"><button class="button1_outline_small_black_smaller" title="Hire Me"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Hire Me</button></a>
+                    <a href="https://api.whatsapp.com/send?phone=081919992000"><button class="button1_outline_small_black_smaller" title="Hire Me"><span class="lil_caret fa fa-caret-right"></span>&nbsp;&nbsp;Hire Me</button></a>
                     <!-- <li>
                             <a href="#contact" title="">Maps</a>
                         </li>
