@@ -34,23 +34,21 @@
                             <a href="<?php echo base_url() ?>index.php/frontpage/service" title="Service">Service</a>
                         </li>
                         <li class="menu">
-                            <a href="#about" title="Portofolio">Portofolio</a>
+                            <a href="<?php echo base_url() ?>index.php/frontpage/project" title="Portofolio">Portofolio</a>
                         </li> 
                         <!-- <li class="menu">
                             <a href="<?php echo base_url() ?>index.php/frontpage/project" title="Project">Project</a>
                         </li> -->
-                        <li class="menu">
+                        <!-- <li class="menu">
                             <a href="<?php echo base_url() ?>blog" title="Blog">Blog</a>
-                        </li>
+                        </li> -->
                         <li class="menu">
                             <a href="<?php echo base_url() ?>index.php/frontpage/contact" title="Kontak">Contact</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a class="toppad" id="clock"></a>
-                        </li>
-                        <!-- <li>
+                    <a href="https://api.whatsapp.com/send?phone=081919992000"><button class="button1_outline_small_black_smaller" title="Hire Me"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Hire Me</button></a>
+                    <!-- <li>
                             <a href="#contact" title="">Maps</a>
                         </li>
                         <li class="toppad"><input id="searchinput" placeholder="Pencarian . . ." type="text"></li>

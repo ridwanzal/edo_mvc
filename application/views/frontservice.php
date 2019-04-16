@@ -10,7 +10,7 @@
         <br/>
         <p class="medium_text"></p>
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="col-lg-4 col-md-4  col-sm-12 col-xs-12">
                 <div class="background_flyer panel_container">
                     <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img/idea2.png"></span>&nbsp;&nbsp;IT Consulting</p>
                     <br/>
@@ -27,7 +27,7 @@
                      </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="background_flyer panel_container">
                     <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img/programming2.png"></span>&nbsp;&nbsp;Web Development</p>
                     <br/>
@@ -43,7 +43,7 @@
                      </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="background_flyer panel_container">
                     <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img//design2.png"></span>&nbsp;&nbsp;Graphic Design</p>
                     <br/>

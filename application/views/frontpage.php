@@ -2,8 +2,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12">
-                        <p class="text_header headingtext">Let's be creative !</p>
-                        <p id="captiontext">I'am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
+                        <p class="text_header headingtext">IT Consulting</p>
+                        <p id="captiontext">I am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
                         <div class="separator"></div>
                         <a href="<?php echo base_url() ?>index.php/frontpage/contact"><button class="button1_outline_small" type="button" id="learnmore"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <button class="button1_small" type="button"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
@@ -23,13 +23,13 @@
                         <h1 class="text_bold">M. Ridwan Zalbina</h1>
                         <p>Software Engineer, Graphic Designer and Linux Enthusiast</p>
                         <br/>
-                        <p class="medium_text">I'am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing(and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Co-Founder and Tech Lead Engineer. </p>
+                        <p class="medium_text">I'am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Co-Founder and Tech Lead Engineer. </p>
                         <br/>
                         <h4 class="text_bold">About Me</h4>
                         <p class="medium_text">
-                            Shortly after graduating from <b>Universitas Sriwijaya</b> as a 
+                        Shortly after graduating from <b>Universitas Sriwijaya</b> in 2016 as a 
                             Computer Engineering student, I joined easySoft Indonesia as
-                            a Front-End Engineer, UI/UX Engineer where...
+                            a Front-End Engineer, UI/UX Engineer where ...
                         </p>
                         <a href="<?php echo base_url() ?>index.php/frontpage/about" ><p style="text-decoration:underline;">More info</p></a>
                     </div>

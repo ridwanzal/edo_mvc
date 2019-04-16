@@ -26,7 +26,7 @@ define( 'DB_NAME', 'edo_blog' );
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '12345' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );

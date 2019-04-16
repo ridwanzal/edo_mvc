@@ -201,6 +201,24 @@ nav > .mynav{
 	color: #fff;
 }
 
+.button1_outline_small_black_smaller{
+	background: transparent;
+	border: 2px solid #888;
+	color: #888;
+	font-family: Open Sans, sans-serif;
+	font-size: 12px;
+	border-radius: 2px;
+	padding: 4px 24px 4px 24px;
+	position: relative;
+	top: 11px;
+	font-weight: bold;
+}
+
+.button1_outline_small_black_smaller:hover{
+	background: #888;
+	color: #fff;
+}
+
 #searchinput {
 	display: none;
 	margin-right: 10px;
@@ -239,6 +257,7 @@ nav > .mynav{
 .overlay {
 	background: #eee;
 	z-index: 5;
+	cursor: pointer;
 	transition: 0.5s;
 	padding: 0;
 	margin: 0;

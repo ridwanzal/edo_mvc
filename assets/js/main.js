@@ -100,11 +100,11 @@
 //           $this.fadeIn(500);
 //       });
 //   }, 3500);
-//   $('.galhover').hover(function () {
-//       $(this).delay(500).addClass('overlay');
-//   }).mouseleave(function () {
-//       $(this).removeClass('overlay');
-//   });
+  $('.galhover').hover(function () {
+      $(this).delay(500).addClass('overlay');
+  }).mouseleave(function () {
+      $(this).removeClass('overlay');
+  });
 
 //   function myMap() {
 //       console.log("Masuk map nih");
@@ -273,6 +273,13 @@
     'http://localhost/edo/assets/img/work/logo/5.png',
     'http://localhost/edo/assets/img/work/logo/6.png',
     'http://localhost/edo/assets/img/work/logo/7.png',
+    'http://localhost/edo/assets/img/work/logo/8.png',
+    'http://localhost/edo/assets/img/work/logo/9.png',
+    'http://localhost/edo/assets/img/work/logo/10.png',
+    'http://localhost/edo/assets/img/work/logo/11.png',
+    'http://localhost/edo/assets/img/work/logo/12.png',
+    'http://localhost/edo/assets/img/work/logo/13.png',
+    'http://localhost/edo/assets/img/work/logo/14.png',
   ];
 
  var element = {
@@ -368,11 +375,11 @@ $(document).ready(function () {
     $('.searchspan').attr('title', 'Car');
     // $('#clock').attr('readonly', readonly);	
     setInterval(function () {
-        $('.text_header').fadeOut(500, function () {
+        $('.text_header').fadeOut(300, function () {
             var $this = $(this);
-            var $text1 = "Product Branding !";
-            var $text2 = "Bring Idea to Live !";
-            var $text3 = "Go Promote !";
+            var $text1 = "IT Consulting";
+            var $text2 = "Web Development";
+            var $text3 = "Graphic Design";
             var $text4 = "";
             $this.text($this.text() == $text1 ? $text2 : $this.text()== $text2 ? $text3 : $text1);
             $this.toggleClass('first second');
@@ -380,11 +387,11 @@ $(document).ready(function () {
         });
     }, 3500);
 
-    // $('.galhover').hover(function () {
-    //     $(this).delay(500).addClass('overlay');
-    // }).mouseleave(function () {
-    //     $(this).removeClass('overlay');
-    // });
+    $('.galhover').hover(function () {
+        $(this).delay(500).addClass('overlay');
+    }).mouseleave(function () {
+        $(this).removeClass('overlay');
+    });
 
     // animate_el.hoverOverlay(idToOverlay, classOverlay);
 
