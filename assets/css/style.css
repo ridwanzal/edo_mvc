@@ -374,3 +374,18 @@ nav > .mynav{
 	box-shadow: none !important;
 	outline: none !important;
 }
+
+.gal_caption_title{
+	position: relative;
+	bottom: 35px;
+	/* width: 100%; */
+	background: #eee;
+	/* color: #fff; */
+	padding: 5px 10px 5px 10px;
+	float: right;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	z-index: 10;
+	cursor: pointer;
+	border-radius: 2px;
+}

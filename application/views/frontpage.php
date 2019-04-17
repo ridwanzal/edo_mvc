@@ -86,10 +86,10 @@
                     </div>
                 </div>
                 <div class="row imagegallery1">
-                    <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/prowire.png"></div>
-                    <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"></div>
-                    <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"></div>
-                    <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"></div>
+                    <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/prowire.png"><span title="View Details"  class="gal_caption_title">View Details</span></div>
+                    <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"><span title="View Details" class="gal_caption_title">View Details</span></div>
+                    <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"><span title="View Details" class="gal_caption_title">View Details</span></div>
+                    <div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"><span title="View Details"  class="gal_caption_title">View Details</span></div>
                 </div>
             </div>
         </div>
