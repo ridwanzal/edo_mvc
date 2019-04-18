@@ -1,0 +1,372 @@
+/*GLOBAL */
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url("img/noise2.png") repeat;
+}
+
+.btn {
+	border-radius: 3;
+}
+
+.content {
+	color: #808080;
+	font-size: 16px;
+}
+
+.content2 {
+	color: #808080;
+}
+
+.content3 {
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 0.3px;
+}
+
+.content4 {
+	color: #666;
+	font-size: 25px;
+	letter-spacing: 0.3px;
+}
+
+.btn .btn-success {
+	border-radius: 1px;
+}
+
+/*NAVBAR  1 SECTION */
+
+.navbar1{
+	margin: 0;
+	background-color: #3c2249;
+	letter-spacing: 0.6px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	border-bottom: none;
+	text-align: center;
+}
+
+.navbar {
+	color: #fff;
+}
+
+.navdownload {
+	margin-top: 4px;
+}
+
+.container {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+/* END OF NAVBAR PART */
+
+
+/* NAVBAR DEFAULT 2 SECTION*/
+.navbar-default {
+	margin-top: 70px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #fff !important;
+}
+
+.navbar2 {
+	padding-top: 4px;
+	padding-bottom: 3px;
+	border-bottom: none;
+}
+
+.textnav2 > li > a {
+	color: #3c2249;
+	text-align: left;
+}
+
+.btndown {
+	margin-top: 4px;
+	color: #fff;
+	border:none;
+}
+
+
+/* SECTION OF FRONTIMAGE */
+
+.frontimage {
+	margin-top: 100px;
+	background-color: #f5f5f5;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	color: #3c2249;
+}
+
+
+.headline {
+	letter-spacing: 0.2px;
+}
+
+.frontapps {
+	text-align: center;
+	z-index: 1;
+	height: 360px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: relative;
+	bottom: 0px;
+}
+
+.downcontent {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.badge {
+	color: #fff;
+	background-color: #7bc982;
+	padding-bottom: 4px;
+	margin-bottom: 2px;
+}
+
+
+/* SECTION OF INFO */
+
+.info {
+	background-color:#fff;
+	padding: 50px;
+	color: #3c2249;
+	text-align: center;
+	z-index: 2;
+	position: relative;
+}
+
+
+
+
+/* SECTION OF FEATURES */
+
+.features {
+	padding-top: 90px;
+	padding-bottom: 60px;
+	text-align: center;
+	background-color: #f5f5f5;
+	z-index: 3;
+	position: relative;
+}
+
+
+
+/* SECTION OF MOBILE VERSION */
+
+.mobileversion {
+	z-index: 1;
+	position: relative;9	height: 420px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	top:5px;
+	color: #3c2249;
+
+}
+
+.iphoneProWire {
+	position: relative;
+}
+
+.mobilecontent {
+text-align: left;
+}
+
+.buttonstore
+{
+	padding-top: 5px;
+	display: block;
+}
+
+.play{
+	padding-right: 10px;
+	padding-bottom: 10px
+}
+
+.app {
+	padding-bottom: 10px;
+}
+
+.play:hover{
+	opacity: 0.7;
+}
+
+.app:hover {
+	opacity: 0.7;
+}
+
+
+
+/*SECTION OF PLANS */
+.plans {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #f5f5f5;
+	z-index: 3;
+	position: relative;
+}
+
+.panel-primary > .panel-heading  {
+	background-color: #3c2249;
+	color: #fff;
+	outline: none;
+	border-radius: none;
+	background-image: none;
+	font-weight: bold;
+	padding-top: 1.5px;
+	padding-bottom: 2px;
+}
+
+.panel-primary > .panel-body {
+	border-color: #3c2249;
+	outline: none;
+	border-radius: none;
+	background-image: none;
+}
+
+.panel {
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px #ececec solid;
+	box-shadow: 10px; 
+}
+
+.garis {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.price sup {
+	font-size: 30px;
+	color: #3c2249;
+}
+
+.price small {
+	font-size: 20px;
+	color: #3c2249;
+}
+
+.price big {
+	font-size: 80px;
+	color: #3c2249;
+}
+
+.buttonplans {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+/* SECTION OF SEPARATOR */
+
+.separator {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	background-color: #978a9e;
+	color: #fff;
+	text-align: center;
+	z-index: 3;
+	position: relative;
+}
+
+.sep2 {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	background-color: #ececec;
+	text-align: center;
+	z-index: 3;
+	position: relative;
+	border-top: 1px #e1e1e1 solid;
+}
+
+
+/* SECTION OF OPENSOURCE */
+
+.opensource {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #3c2249;
+	text-align: center;
+	z-index: 3;
+}
+
+/* SECTION OF PARALLAX */
+
+#parallax-image {
+	size: 60%;
+	background-image: url("img/parallax.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 240px;
+}
+
+.parallax-content{
+	padding-top: 45px;
+	padding border-bottom: 30px;
+}
+
+#head-parallax {
+	color: #fff;
+}
+
+#head-parallax2 {
+	color: #fff;
+}
+
+.parallax-right {
+	display: inline-block;
+	text-align: right;
+}
+
+.parallax-down {
+	display: inline-block;
+}
+
+
+/*  SECTION FOOTER */
+.footer {
+	padding:60px;
+	background-color: #f5f5f5;
+}
+
+.separator {
+	.margin-bottom: 12px;
+}
+
+
+.footlist {
+	list-style: none;
+	text-align: left;
+}
+
+.item {
+	margin-bottom: 14px;
+	color: #808080;
+}
+
+.item > a  {
+	color: #808080;
+}
+.item > a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+/* SECTION FOOTER BOTTOM */
+.footerbottom {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #eee;
+}
+.social {
+	letter-spacing: 5px;
+	text-align: right;
+}
+
+.social > a > i {
+	color: #808080;
+}

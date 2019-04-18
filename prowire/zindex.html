@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>z-index @Khoiruddin.Com</title>
+<style type="text/css">
+body{
+	margin:0 auto;
+	padding:20px;
+}
+
+.kotak-merah{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	background:red;
+	width:200px;
+	height:200px;	
+	z-index:3;
+}
+
+.kotak-kuning{
+	z-index:2;
+	position:relative;
+	float:left;
+	margin:40px 0 0 -160px;
+	padding:0;
+	background:yellow;
+	width:200px;
+	height:200px
+}
+
+.kotak-hijau{
+	position:relative;
+	float:left;
+	margin:80px 0 0 -160px;
+	padding:0;
+	background:green;
+	width:200px;
+	height:200px;
+	z-index:1;
+}
+
+.tulisan-merah{
+	top:200px;
+	left:155px;
+	position:fixed;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.tulisan-kuning{
+	top:240px;
+	left:195px;
+	position:fixed;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.tulisan-hijau{
+	top:280px;
+	left:235px;
+	position:fixed;
+	font-family:Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+<div class='kotak-merah'>
+	<div class="tulisan-merah">z-index 3</div>
+</div>
+<div class='kotak-kuning'>
+	<div class="tulisan-kuning">z-index 2</div>
+</div>
+<div class='kotak-hijau'>
+	<div class="tulisan-hijau">z-index 1</div>
+</div>
+</body>
+</html>
