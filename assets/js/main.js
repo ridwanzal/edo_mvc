@@ -252,34 +252,34 @@
  ------------------------------------------------------*/
 
  var imageslist2 = [
-    'http://localhost/edo/assets/img/work/logo/deskmodd.png',
-    'http://localhost/edo/assets/img/work/logo/uclothing.png',
-    'http://localhost/edo/assets/img/work/logo/edocs.png',
-    'http://localhost/edo/assets/img/work/logo/palsmart.png',
-    'http://localhost/edo/assets/img/work/logo/sienger.png',
-    'http://localhost/edo/assets/img/work/logo/ut.png',
-    'http://localhost/edo/assets/img/work/logo/warm.png',
-    'http://localhost/edo/assets/img/work/logo/palembangcom.png',
-    'http://localhost/edo/assets/img/work/logo/learn.png',
-    'http://localhost/edo/assets/img/work/logo/karpetjuaro.png',
-    'http://localhost/edo/assets/img/work/logo/kemilau.png',
-    'http://localhost/edo/assets/img/work/logo/quickyuda.png',
-    'http://localhost/edo/assets/img/work/logo/piban.png',
-    'http://localhost/edo/assets/img/work/logo/comnets.png',
-    'http://localhost/edo/assets/img/work/logo/1.png',
-    'http://localhost/edo/assets/img/work/logo/2.png',
-    'http://localhost/edo/assets/img/work/logo/3.png',
-    'http://localhost/edo/assets/img/work/logo/4.png',
-    'http://localhost/edo/assets/img/work/logo/5.png',
-    'http://localhost/edo/assets/img/work/logo/6.png',
-    'http://localhost/edo/assets/img/work/logo/7.png',
-    'http://localhost/edo/assets/img/work/logo/8.png',
-    'http://localhost/edo/assets/img/work/logo/9.png',
-    'http://localhost/edo/assets/img/work/logo/10.png',
-    'http://localhost/edo/assets/img/work/logo/11.png',
-    'http://localhost/edo/assets/img/work/logo/12.png',
-    'http://localhost/edo/assets/img/work/logo/13.png',
-    'http://localhost/edo/assets/img/work/logo/14.png',
+    'http://edo.scafol.id/assets/img/work/logo/deskmodd.png',
+    'http://edo.scafol.id/assets/img/work/logo/uclothing.png',
+    'http://edo.scafol.id/assets/img/work/logo/edocs.png',
+    'http://edo.scafol.id/assets/img/work/logo/palsmart.png',
+    'http://edo.scafol.id/assets/img/work/logo/sienger.png',
+    'http://edo.scafol.id/assets/img/work/logo/ut.png',
+    'http://edo.scafol.id/assets/img/work/logo/warm.png',
+    'http://edo.scafol.id/assets/img/work/logo/palembangcom.png',
+    'http://edo.scafol.id/assets/img/work/logo/learn.png',
+    'http://edo.scafol.id/assets/img/work/logo/karpetjuaro.png',
+    'http://edo.scafol.id/assets/img/work/logo/kemilau.png',
+    'http://edo.scafol.id/assets/img/work/logo/quickyuda.png',
+    'http://edo.scafol.id/assets/img/work/logo/piban.png',
+    'http://edo.scafol.id/assets/img/work/logo/comnets.png',
+    'http://edo.scafol.id/assets/img/work/logo/1.png',
+    'http://edo.scafol.id/assets/img/work/logo/2.png',
+    'http://edo.scafol.id/assets/img/work/logo/3.png',
+    'http://edo.scafol.id/assets/img/work/logo/4.png',
+    'http://edo.scafol.id/assets/img/work/logo/5.png',
+    'http://edo.scafol.id/assets/img/work/logo/6.png',
+    'http://edo.scafol.id/assets/img/work/logo/7.png',
+    'http://edo.scafol.id/assets/img/work/logo/8.png',
+    'http://edo.scafol.id/assets/img/work/logo/9.png',
+    'http://edo.scafol.id/assets/img/work/logo/10.png',
+    'http://edo.scafol.id/assets/img/work/logo/11.png',
+    'http://edo.scafol.id/assets/img/work/logo/12.png',
+    'http://edo.scafol.id/assets/img/work/logo/13.png',
+    'http://edo.scafol.id/assets/img/work/logo/14.png',
   ];
 
  var element = {
@@ -307,7 +307,7 @@ function loadImage() {
     console.log("loadimage");
     // var path = "/home/ridwanzal/NetBeansProjects/EdoWeb/public_html/myweb/img/gallery/";
     // var path = "../../assets/img/work/logo/";
-    // var path = "http://localhost/edo/assets/img/work/logo";
+    // var path = "http://edo.scafol.id/assets/img/work/logo";
     $.ajax({
         url: path,
         success: function (data) {
