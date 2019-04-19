@@ -67,10 +67,10 @@ var imageLoad = {
     load : function(img, ulid){
         console.log("image method");
         try {
-            $.each(img, function(i, src){
-                console.log("index i : "+ i);
-                var li = $('<img title="Image Gallery" class="galhover2" src='+src+'>').appendTo(ulid);
-            });
+            let i = 0;
+            for(i; i < img.length ; i++){
+                var li = $('<img title="'+img[i].title+'" class="galhover2" src='+img[i].src+'>').appendTo(ulid);
+            }
         }
         catch (e){
             console.log("" + e);

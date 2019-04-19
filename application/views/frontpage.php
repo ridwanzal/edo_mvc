@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-lg-9 col-md-6 col-xs-12">
                         <p  class="medium_text">Hello there, my name is</p>
-                        <h1 class="text_bold">M. Ridwan Zalbina</h1>
+                        <h2 class="text_bold">M. Ridwan Zalbina (Edo)</h1>
                         <p>Software Engineer, Graphic Designer and Linux Enthusiast</p>
                         <br/>
                         <p class="medium_text">I'am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Co-Founder and Tech Lead Engineer. </p>

@@ -48,14 +48,14 @@
                         <li class="menu">
                             <a href="<?php echo base_url() ?>index.php/frontpage/contact" title="Kontak">Contact</a>
                         </li>
+                        <li class="toppad"><input id="searchinput" placeholder="Pencarian . . ." type="text"></li>
+                        <li title="Cari" id="searchbar"><span class="fa fa-search searchspan" style="cursor:pointer;"></span></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                     <a href="https://api.whatsapp.com/send?phone=081919992000"><button class="button1_outline_small_black_smaller" title="Contact Me"><span class="lil_caret fa fa-caret-right"></span>&nbsp;&nbsp;Contact Me Personally</button></a>
                         <li>
                             <a href="" title="">Satisfied already ? </a>
                         </li>
-                        <li class="toppad"><input id="searchinput" placeholder="Pencarian . . ." type="text"></li>
-                        <!-- <li id="searchbar"><span class="fa fa-search searchspan"></span></li> -->
                     </ul>
                 </div>
             </div>

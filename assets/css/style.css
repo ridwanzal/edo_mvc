@@ -226,6 +226,7 @@ nav > .mynav{
 #searchinput {
 	display: none;
 	margin-right: 10px;
+	cursor: pointer;
 	margin-top: 12px;
 	/*border-bottom: 1px solid #eee;*/
 	border-width: 0 0 2px 0;
@@ -282,6 +283,11 @@ nav > .mynav{
 	z-index: 1;
 	width:150px;
 	margin : 2px;
+}
+
+.galhover2:hover{
+	opacity: 0.6;
+	cursor: pointer;
 }
 
 .load_list_img{
