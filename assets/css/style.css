@@ -389,6 +389,8 @@ nav > .mynav{
 	position: relative;
 	bottom: 35px;
 	/* width: 100%; */
+	width: 97%;
+	text-align: center;
 	background: #eee;
 	/* color: #fff; */
 	padding: 5px 10px 5px 10px;
@@ -397,5 +399,11 @@ nav > .mynav{
 	border: 1px solid #ccc;
 	z-index: 10;
 	cursor: pointer;
+	color: #888;
+	font-weight: bold;
 	border-radius: 2px;
+}
+
+.gal_caption_title:hover{
+	background: #fff;
 }
