@@ -1,0 +1,12 @@
+{
+	"plugin-data":
+	{
+		"name": "Backup",
+		"description": "The simple way to backup your Bludit."
+	},
+	"create-backup": "Create Backup",
+	"download": "Download",
+	"restore-backup": "Restore Backup",
+	"delete-backup": "Delete Backup",
+	"there-are-no-backups-for-the-moment": "There are no backups for the moment"
+}

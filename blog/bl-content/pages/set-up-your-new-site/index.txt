@@ -1,0 +1,1 @@
+Update the settings of your site from the <a href="./admin/">admin panel</a>, you can change the title, description and the social networks from <a href="./admin/settings">Settings > General</a>.
