@@ -14,8 +14,9 @@
 
 .secondsection{
 	background-color:#053d67;
-	background:url(../img/background.png);
+	background:url(../img/background_blur.png);
 	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: Open Sans, sans-serif;
 	color: #fff;
 	padding-top:175px;
