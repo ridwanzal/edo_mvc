@@ -18,8 +18,6 @@
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         </script> 
-        <script src="<?php echo base_url() ?>assets/js/publicvariable.js" type="text/javascript">
-        </script>
         <script src="<?php echo base_url() ?>assets/js/imageload.js" type="text/javascript">
         </script> 
         <script src="<?php echo base_url() ?>assets/js/main.js" type="text/javascript">
