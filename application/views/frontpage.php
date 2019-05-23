@@ -1,4 +1,4 @@
-<div class="secondsection">
+<div class="secondsection asyncImage" data-src="<?php echo base_url() ?>/asset/img/background.png">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12">
