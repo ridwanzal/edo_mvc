@@ -5,7 +5,7 @@
                         <p class="text_header headingtext">IT Consulting</p>
                         <p id="captiontext">I am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
                         <div class="separator"></div>
-                        <a href="<?php echo base_url() ?>index.php/frontpage/contact"><button class="button1_outline_small" type="button" id="learnmore"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <button class="button1_small" type="button"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button></a>
+                        <button class="button1_outline_small" type="button" id="learnmores"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>index.php/frontpage/contact"><button class="button1_small" type="button"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12"></div>
                 </div>

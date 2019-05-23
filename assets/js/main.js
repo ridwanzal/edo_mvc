@@ -420,9 +420,6 @@ function loadtest() {
 
 function loadImage() {
     console.log("loadimage");
-    // var path = "/home/ridwanzal/NetBeansProjects/EdoWeb/public_html/myweb/img/gallery/";
-    // var path = "../../assets/img/work/logo/";
-    // var path = "https://edo.scafol.id/assets/img/work/logo";
     $.ajax({
         url: path,
         success: function (data) {
@@ -439,6 +436,12 @@ function loadImage() {
 }
 
 $(document).ready(function () {
+    $('#learnmores').on('click', function (event) {
+        console.log('kamu klik ini')
+        $('html, body').animate({
+            scrollTop: $('.fourthsection').offset().top,
+        }, 300);
+    });
 
     const objects = document.getElementsByClassName('asyncImage');
     Array.from(objects).map((item) => {
@@ -572,11 +575,7 @@ $(document).ready(function () {
      Pencarian Statis
      ------------------------------------------------------*/
 
-    $('#learnmore').on('click', function (event) {
-        event.preventDefault();
-        $('html, body').animate({
-        }, 100);
-    });
+
 
     onclick_menu();
 
