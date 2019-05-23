@@ -42,8 +42,8 @@
                                     <li>Cloud Management</li>
                                 </ul>
                             </div>
-                        </div>
-                        <button class="button1_outline_small_black block_display mycv download" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Download my CV</button> &nbsp;&nbsp;&nbsp;
+                        </div>  
+                        <a href="<?php echo base_url() ?>asset/docs/curriculum_vitae_2019.pdf" download><button class="button1_outline_small_black block_display mycv download" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Download my CV</button></a>&nbsp;&nbsp;&nbsp;
                          <button class="button1_outline_small_black block_display block_display linkedin" type="button"><span class="fa fa-linkedin"></span>&nbsp;&nbsp;View my Linkedin</button>&nbsp;&nbsp;&nbsp;
                          <button class="button1_outline_small_black block_display block_display linkedin" type="button"><span class="fa fa-github"></span>&nbsp;&nbsp;View my Github</button>&nbsp;&nbsp;&nbsp;
                     </div>
