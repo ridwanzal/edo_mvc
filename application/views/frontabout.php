@@ -43,7 +43,7 @@
                                 </ul>
                             </div>
                         </div>  
-                        <a href="<?php echo base_url(); ?>asset/docs/curriculum_vitae_2019.pdf" download><button class="button1_outline_small_black block_display mycv download" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Download my CV</button></a>&nbsp;&nbsp;&nbsp;
+                        <a href="<?php echo base_url(); ?>assets/docs/curriculum_vitae_2019.pdf" download><button class="button1_outline_small_black block_display mycv download" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Download my CV</button></a>&nbsp;&nbsp;&nbsp;
                          <a target="_blank" href="https://id.linkedin.com/in/mridwanzalbina"><button class="button1_outline_small_black block_display block_display linkedin" type="button"><span class="fa fa-linkedin"></span>&nbsp;&nbsp;View my Linkedin</button></a>&nbsp;&nbsp;&nbsp;
                          <a target="_blank" href="https://github.com/ridwanzal"><button class="button1_outline_small_black block_display block_display linkedin" type="button"><span class="fa fa-github"></span>&nbsp;&nbsp;View my Github</button></a>&nbsp;&nbsp;&nbsp;
                     </div>
