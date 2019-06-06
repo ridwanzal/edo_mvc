@@ -17,7 +17,7 @@
                             Shortly after graduating from <b>Universitas Sriwijaya</b> in 2016 as a 
                             Computer Engineering student, I joined easySoft Indonesia as
                             a Front-End Engineer, UI/UX Engineer where I got to work on a 
-                            variety of interesting projects and improve my design and coding skills.
+                            variety of interesting projects and improving my design and coding skills.
 
                             Here's a few things I'm experienced with :
                         </p>
