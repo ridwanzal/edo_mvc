@@ -14,14 +14,14 @@
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
                                     <p>Name</p>
-                                    <input placeholder="Please input your name" type="text" name="p_name" class="form-control input_general" >
+                                    <input placeholder="Please input your name" type="text" name="p_name" class="form-control input_general" required>
                                 </div> 
                             </div>
                             <br/>
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
                                     <p>Email</p>
-                                    <input placeholder="Please input your email" type="text" name="p_email" class="form-control input_general" >
+                                    <input placeholder="Please input your email" type="text" name="p_email" class="form-control input_general" required >
                                 </div> 
                             </div>
                             <br/>

@@ -48,9 +48,9 @@ class Frontpage extends CI_Controller {
   }
 
   public function insert_contact(){
-    $name = $this->input->post('p_name');
-    $email = $this->input->post('p_email');
-    $message = $this->input->post('p_message');
+    $name = $this->input->post('p_name', TRUE);
+    $email = $this->input->post('p_email', TRUE);
+    $message = $this->input->post('p_message', TRUE);
     $data = array(
       'name' => $name,
       'email' => $email,
