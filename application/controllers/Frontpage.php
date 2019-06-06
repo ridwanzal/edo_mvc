@@ -61,7 +61,7 @@ class Frontpage extends CI_Controller {
     $check = $this->db->affected_rows() > 0;
 		if($check){
       $this->session->set_flashdata('success', 'Submit data berhasil, Terima kasih.');
-			redirect(base_url('index.php/frontpage/contact'));
+			redirect(base_url('frontpage/contact'));
 		}
   }
 
