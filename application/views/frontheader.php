@@ -31,22 +31,22 @@
                             <a href="<?php echo base_url() ?>" title="Home">Home</a>
                         </li>
                         <li class="menu">
-                            <a href="<?php echo base_url() ?>index.php/frontpage/about" title="About me">About Me</a>
+                            <a href="<?php echo base_url() ?>frontpage/about" title="About me">About Me</a>
                         </li>
                         <li class="menu">
-                            <a href="<?php echo base_url() ?>index.php/frontpage/service" title="Service">Service</a>
+                            <a href="<?php echo base_url() ?>frontpage/service" title="Service">Service</a>
                         </li>
                         <li class="menu">
-                            <a href="<?php echo base_url() ?>index.php/frontpage/project" title="Portofolio">Portofolio</a>
+                            <a href="<?php echo base_url() ?>frontpage/project" title="Portofolio">Portofolio</a>
                         </li> 
                         <!-- <li class="menu">
-                            <a href="<?php echo base_url() ?>index.php/frontpage/project" title="Project">Project</a>
+                            <a href="<?php echo base_url() ?>frontpage/project" title="Project">Project</a>
                         </li> -->
                         <!-- <li class="menu">
                             <a href="<?php echo base_url() ?>blog" title="Blog">Blog</a>
                         </li> -->
                         <li class="menu">
-                            <a href="<?php echo base_url() ?>index.php/frontpage/contact" title="Kontak">Contact</a>
+                            <a href="<?php echo base_url() ?>frontpage/contact" title="Kontak">Contact</a>
                         </li>
                         <li class="toppad"><input id="searchinput" placeholder="Pencarian . . ." type="text"></li>
                         <li title="Cari" id="searchbar"><span class="fa fa-search searchspan" style="cursor:pointer;"></span></li>
