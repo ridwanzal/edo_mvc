@@ -45,7 +45,7 @@ class Frontpage extends CI_Controller {
     $this->load->view('frontheader', $data );
     $this->load->view('frontproject', $data);
     $this->load->view('frontfooter', $data);
-  }
+  } 
 
   public function notfound(){
     $data['title_bar'] = "4040 Not Found | Edo";

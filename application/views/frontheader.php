@@ -52,8 +52,8 @@
                         <li title="Cari" id="searchbar"><span class="fa fa-search searchspan" style="cursor:pointer;"></span></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                    <a href="https://api.whatsapp.com/send?phone=081919992000"><button class="button1_outline_small_black_smaller" title="Contact Me"><span class="lil_caret fa fa-caret-right"></span>&nbsp;&nbsp;Contact Me Personally</button></a>
-                        <li>
+                    <a href="https://api.whatsapp.com/send?phone=081919992000"><button id="btn_connect" class="button1_outline_small_black_smaller" title="Contact Me"><span class="lil_caret fa fa-caret-right"></span>&nbsp;&nbsp;Contact Me Personally</button></a>
+                        <li id="satis">
                             <a href="" title="">Satisfied already ? </a>
                         </li>
                     </ul>

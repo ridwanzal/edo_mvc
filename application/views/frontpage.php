@@ -43,7 +43,7 @@
                         <a href=""><span class="fa fa-facebook social"></span></a> <a href=""><span class="fa fa-linkedin social"></span></a> <a href=""><span class="fa fa-instagram social"></span></a>
                     </div>
                     <div class="col-lg-9 col-md-6 col-xs-12">
-                        <p  class="medium_text">Hello there, my name is</p>
+                        <p id="text_sapa" class="medium_text">Hello there, my name is</p>
                         <h2 class="text_bold">M. Ridwan Zalbina (Edo)</h1>
                         <p>Software Engineer, Graphic Designer and Linux Enthusiast</p>
                         <br/>

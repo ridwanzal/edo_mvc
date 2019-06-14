@@ -442,6 +442,37 @@ nav > .mynav{
 		padding-bottom: 0px;
 	}
 
+	.fourthsection{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	#myimage{
+		margin : 0px;
+	}
+
+	#searchbar{
+		display: none;
+	}
+
+	#text_sapa{
+		margin-top: 20px;
+	}
+
+	#satis{
+		display: none;
+	}
+
+	.panel_container{
+		margin-bottom: 15px;
+	}
+
+	#btn_connect{
+		width: 94%;
+		margin-left: 12px;
+		top: 0px;
+	}
+
 	#learnmores{
 		display: none;
 	}
