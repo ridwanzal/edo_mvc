@@ -137,8 +137,3 @@
                 </div>
             </div>
         </div>
-        <div id="map">
-            <div class="container">
-                <div class="col-lg-12 col-md-12 col-xs-12"></div>
-            </div>
-        </div>
