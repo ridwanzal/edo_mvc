@@ -413,3 +413,49 @@ nav > .mynav{
 .item img{
 	border-radius: 5px !important;
 }
+
+/*Media Queries for mobile view*/
+
+@media screen and  (max-width : 767px){
+	.text_header{
+		font-size: 35px;
+	}
+	.secondsection{
+		padding-top: 100px;
+		padding-bottom: 50px;
+	}
+
+	#captiontext{
+		font-size: 20px;
+	}
+
+	.galhover{
+		width : 100%;
+	}
+
+	.gal_caption_title{
+		right: 5px;
+	}
+
+	.fifthsection{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	#learnmores{
+		display: none;
+	}
+
+	#bcontacts{
+		display: none;
+	}
+
+	.separator{
+		margin-bottom: 0px;
+	}
+
+	.thirdsection{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
