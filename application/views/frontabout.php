@@ -1,4 +1,4 @@
-        <div class="thirdsection">
+        <div class="thirdsection thirdsection_ext">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-xs-12">
@@ -43,9 +43,9 @@
                                 </ul>
                             </div>
                         </div>  
-                        <a href="<?php echo base_url(); ?>assets/docs/curriculum_vitae_2019.pdf" download><button class="button1_outline_small_black block_display mycv download" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Download my CV</button></a>&nbsp;&nbsp;&nbsp;
-                         <a target="_blank" href="https://id.linkedin.com/in/mridwanzalbina"><button class="button1_outline_small_black block_display block_display linkedin" type="button"><span class="fa fa-linkedin"></span>&nbsp;&nbsp;View my Linkedin</button></a>&nbsp;&nbsp;&nbsp;
-                         <a target="_blank" href="https://github.com/ridwanzal"><button class="button1_outline_small_black block_display block_display linkedin" type="button"><span class="fa fa-github"></span>&nbsp;&nbsp;View my Github</button></a>&nbsp;&nbsp;&nbsp;
+                        <a href="<?php echo base_url(); ?>assets/docs/curriculum_vitae_2019.pdf" download><button class="button1_outline_small_black block_display mycv download btn_mobile" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Download my CV</button></a>&nbsp;&nbsp;&nbsp;
+                         <a target="_blank" href="https://id.linkedin.com/in/mridwanzalbina"><button class="button1_outline_small_black block_display block_display linkedin btn_mobile" type="button"><span class="fa fa-linkedin"></span>&nbsp;&nbsp;View my Linkedin</button></a>&nbsp;&nbsp;&nbsp;
+                         <a target="_blank" href="https://github.com/ridwanzal"><button class="button1_outline_small_black block_display block_display linkedin btn_mobile" type="button"><span class="fa fa-github"></span>&nbsp;&nbsp;View my Github</button></a>&nbsp;&nbsp;&nbsp;
                     </div>
                 </div>
             </div>

@@ -451,16 +451,41 @@ nav > .mynav{
 		margin : 0px;
 	}
 
+	#author_names{
+		font-size: 25px;
+	}
+
 	#searchbar{
 		display: none;
+	}
+
+	.galhover2{
+		width : 159px;
+		margin : 3px;
+	}
+
+	.thirdsection_ext{
+		margin-top: 45px;
+	}
+
+	.list_expertise{
+		margin-left: 20px;	
 	}
 
 	#text_sapa{
 		margin-top: 20px;
 	}
 
+	.block_display{
+		margin-top: 0px;
+	}
+
 	#satis{
 		display: none;
+	}
+	
+	.btn_mobile{
+		width: 100%;
 	}
 
 	.panel_container{
