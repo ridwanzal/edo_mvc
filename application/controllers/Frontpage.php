@@ -47,6 +47,13 @@ class Frontpage extends CI_Controller {
     $this->load->view('frontfooter', $data);
   }
 
+  public function notfound(){
+    $data['title_bar'] = "4040 Not Found | Edo";
+    $this->load->view('frontheader', $data );
+    $this->load->view('notfound', $data);
+    $this->load->view('frontfooter', $data);
+  }
+
   public function insert_contact(){
     $name = $this->input->post('p_name', TRUE);
     $email = $this->input->post('p_email', TRUE);
