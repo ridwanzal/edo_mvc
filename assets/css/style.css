@@ -521,6 +521,14 @@ nav > .mynav{
 		margin-bottom: 15px;
 	}
 
+	.navbar-default .navbar-toggle{
+			border-color: #fff !important;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		    background-color: #fff !important;
+	}
+
 	#learnmores{
 		display: none !important;
 	}
