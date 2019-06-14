@@ -437,16 +437,31 @@ function loadImage() {
 
 $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
-        items: 3,
-        dots: true,
+        animateIn: 'fadeIn',
+        slideSpeed: 1000,
+        nav: true,
+        items: 4,
+        loop: true,
+        dots: false,
         lazyLoad: true,
-        margin: 3,
-        responsiveClass: true,
-        responsive: true,
+        autoplay: true,
+        animateOut: 'fadeOut',
+        animateIn: 'flipInX',
+        autoHeight: true,
+        margin: 5,
         navigation: true,
-        slideSpeed: 100,
-        paginationSpeed: 100,
-    })
+        paginationSpeed: 1000,
+        responsiveClass: true,
+        URLhashListener: true,
+    });
+    $('.owl-carousel').on('mousewheel', '.owl-stage', function (e) {
+        if (e.deltaY > 0) {
+            owl.trigger('next.owl');
+        } else {
+            owl.trigger('prev.owl');
+        }
+        e.preventDefault();
+    });
     $('#learnmores').on('click', function (event) {
         console.log('kamu klik ini')
         $('html, body').animate({

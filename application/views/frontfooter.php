@@ -15,6 +15,8 @@
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
+        <script src="<?php echo base_url() ?>assets/lib/owlcarousel/dist/owl.carousel.min.js" type="text/javascript">
+        </script> 
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         </script> 
@@ -27,10 +29,6 @@
         <script src="<?php echo base_url() ?>assets/js/uploadjs.js" type="text/javascript">
         </script> 
         <script src="<?php echo base_url() ?>assets/js/input.js" type="text/javascript">
-        </script> 
-        <script src="<?php echo base_url() ?>assets/lib/owl-carousel/owl.carousel.min.js" type="text/javascript">
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js">
         </script> 
     </body>
 </html>
