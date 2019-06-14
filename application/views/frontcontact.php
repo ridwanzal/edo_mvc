@@ -8,19 +8,19 @@
                     <form method="post" action="<?php echo base_url('index.php/frontpage/insert_contact'); ?>">
                     <div class="col-lg-9 col-md-6 col-xs-12">
                         <p  class="medium_text">Let's keep in touch</p>
-                        <p  class="small_text">Fill the information below for further info</p>
+                        <p  class="small_text">Feel free to ask, or contact me personally, if you want another option just fill the information below. Enjoy :)</p>
                         <p style="color : #28af77"><?php echo $this->session->flashdata('success'); ?></p>
                         <br/>
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
-                                    <p>Name</p>
+                                    <p>Name *</p>
                                     <input placeholder="Please input your name" type="text" name="p_name" class="form-control input_general" required>
                                 </div> 
                             </div>
                             <br/>
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
-                                    <p>Email</p>
+                                    <p>Email *</p>
                                     <input placeholder="Please input your email" type="text" name="p_email" class="form-control input_general" required >
                                 </div> 
                             </div>

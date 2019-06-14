@@ -6,6 +6,7 @@
         <link rel="icon" type="image/png" href="<?php echo base_url() ?>assets/img/favicons.png"/>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/style.css">
         <link href="<?php echo base_url() ?>assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo base_url() ?>assets/css/animate.css" rel="stylesheet" type="text/css">
         <!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,12 +40,9 @@
                         <li class="menu">
                             <a href="<?php echo base_url() ?>frontpage/project" title="Portofolio">Portofolio</a>
                         </li> 
-                        <!-- <li class="menu">
-                            <a href="<?php echo base_url() ?>frontpage/project" title="Project">Project</a>
-                        </li> -->
-                        <!-- <li class="menu">
+                        <li class="menu">
                             <a href="<?php echo base_url() ?>blog" title="Blog">Blog</a>
-                        </li> -->
+                        </li>
                         <li class="menu">
                             <a href="<?php echo base_url() ?>frontpage/contact" title="Kontak">Contact</a>
                         </li>

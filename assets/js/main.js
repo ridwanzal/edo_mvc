@@ -100,11 +100,11 @@
 //           $this.fadeIn(500);
 //       });
 //   }, 3500);
-  $('.galhover').hover(function () {
-      $(this).delay(500).addClass('overlay');
-  }).mouseleave(function () {
-      $(this).removeClass('overlay');
-  });
+$('.galhover').hover(function () {
+    $(this).delay(500).addClass('overlay');
+}).mouseleave(function () {
+    $(this).removeClass('overlay');
+});
 
 //   function myMap() {
 //       console.log("Masuk map nih");
@@ -282,122 +282,122 @@
 //     'https://edo.scafol.id/assets/img/work/logo/14.png',
 //   ];
 
- var imageslist2 = [
-     {
-         title : 'Deskmodd Logo',
-         src : 'https://edo.scafol.id/assets/img/work/logo/deskmodd.png'
-     },
-     {
-         title : 'U Clothing',
-         src : 'https://edo.scafol.id/assets/img/work/logo/uclothing.png'
-     },
-     {
-         title : 'E Docs',
-         src : 'https://edo.scafol.id/assets/img/work/logo/edocs.png'
-     },
-     {
-         title : 'Palembang Smart City',
-         src : 'https://edo.scafol.id/assets/img/work/logo/palsmart.png'
-     },
-     {
-         title : 'Sienger',
-         src : 'https://edo.scafol.id/assets/img/work/logo/sienger.png'
-     },
-     {
-         title : 'UT',
-         src : 'https://edo.scafol.id/assets/img/work/logo/ut.png'
-     },
-     {
-         title : 'Warm',
-         src : 'https://edo.scafol.id/assets/img/work/logo/warm.png'
-     },
-     {
-         title : 'Palembang.com',
-         src : 'https://edo.scafol.id/assets/img/work/logo/palembangcom.png'
-     },
-     {
-         title : 'Learning by Doiung',
-         src : 'https://edo.scafol.id/assets/img/work/logo/learn.png'
-     },
-     {
-         title : 'Karpet Juaro',
-         src : 'https://edo.scafol.id/assets/img/work/logo/karpetjuaro.png'
-     },
-     {
-         title : 'Sanggar Kemilau',
-         src : 'https://edo.scafol.id/assets/img/work/logo/kemilau.png'
-     },
-     {
-         title : 'Quicky Uda',
-         src : 'https://edo.scafol.id/assets/img/work/logo/quickyuda.png'
-     },
-     {
-         title : 'Pisang Bantet',
-         src : 'https://edo.scafol.id/assets/img/work/logo/piban.png'
-     },
-     {
-         title : 'Comnets Logo',
-         src : 'https://edo.scafol.id/assets/img/work/logo/comnets.png'
-     },
-     {
-         title : 'Wolf',
-         src : 'https://edo.scafol.id/assets/img/work/logo/1.png'
-     },
-     {
-         title : 'Posen',
-         src : 'https://edo.scafol.id/assets/img/work/logo/2.png'
-     },
-     {
-         title : 'Epoestic',
-         src : 'https://edo.scafol.id/assets/img/work/logo/3.png'
-     },
-     {
-         title : 'Linggau Mengaji',
-         src : 'https://edo.scafol.id/assets/img/work/logo/4.png'
-     },
-     {
-         title : 'Linggau Mengaji',
-         src : 'https://edo.scafol.id/assets/img/work/logo/5.png'
-     },
-     {
-         title : 'Rodakita',
-         src : 'https://edo.scafol.id/assets/img/work/logo/6.png'
-     },
-     {
-         title : 'Iconisce',
-         src : 'https://edo.scafol.id/assets/img/work/logo/7.png'
-     },
-     {
-         title : 'dataset ilkom',
-         src : 'https://edo.scafol.id/assets/img/work/logo/8.png'
-     },
-     {
-         title : 'ARS',
-         src : 'https://edo.scafol.id/assets/img/work/logo/9.png'
-     },
-     {
-         title : 'Pulse',
-         src : 'https://edo.scafol.id/assets/img/work/logo/10.png'
-     },
-     {
-         title : 'ICTTC',
-         src : 'https://edo.scafol.id/assets/img/work/logo/11.png'
-     },
-     {
-         title : 'Empower',
-         src : 'https://edo.scafol.id/assets/img/work/logo/12.png'
-     },
-     {
-         title : '',
-         src : 'https://edo.scafol.id/assets/img/work/logo/13.png'
-     },
-     {
-         title : '',
-         src : 'https://edo.scafol.id/assets/img/work/logo/14.png'
-     },
- ]
+var imageslist2 = [
+    {
+        title: 'Deskmodd Logo',
+        src: 'https://edo.scafol.id/assets/img/work/logo/deskmodd.png'
+    },
+    {
+        title: 'U Clothing',
+        src: 'https://edo.scafol.id/assets/img/work/logo/uclothing.png'
+    },
+    {
+        title: 'E Docs',
+        src: 'https://edo.scafol.id/assets/img/work/logo/edocs.png'
+    },
+    {
+        title: 'Palembang Smart City',
+        src: 'https://edo.scafol.id/assets/img/work/logo/palsmart.png'
+    },
+    {
+        title: 'Sienger',
+        src: 'https://edo.scafol.id/assets/img/work/logo/sienger.png'
+    },
+    {
+        title: 'UT',
+        src: 'https://edo.scafol.id/assets/img/work/logo/ut.png'
+    },
+    {
+        title: 'Warm',
+        src: 'https://edo.scafol.id/assets/img/work/logo/warm.png'
+    },
+    {
+        title: 'Palembang.com',
+        src: 'https://edo.scafol.id/assets/img/work/logo/palembangcom.png'
+    },
+    {
+        title: 'Learning by Doiung',
+        src: 'https://edo.scafol.id/assets/img/work/logo/learn.png'
+    },
+    {
+        title: 'Karpet Juaro',
+        src: 'https://edo.scafol.id/assets/img/work/logo/karpetjuaro.png'
+    },
+    {
+        title: 'Sanggar Kemilau',
+        src: 'https://edo.scafol.id/assets/img/work/logo/kemilau.png'
+    },
+    {
+        title: 'Quicky Uda',
+        src: 'https://edo.scafol.id/assets/img/work/logo/quickyuda.png'
+    },
+    {
+        title: 'Pisang Bantet',
+        src: 'https://edo.scafol.id/assets/img/work/logo/piban.png'
+    },
+    {
+        title: 'Comnets Logo',
+        src: 'https://edo.scafol.id/assets/img/work/logo/comnets.png'
+    },
+    {
+        title: 'Wolf',
+        src: 'https://edo.scafol.id/assets/img/work/logo/1.png'
+    },
+    {
+        title: 'Posen',
+        src: 'https://edo.scafol.id/assets/img/work/logo/2.png'
+    },
+    {
+        title: 'Epoestic',
+        src: 'https://edo.scafol.id/assets/img/work/logo/3.png'
+    },
+    {
+        title: 'Linggau Mengaji',
+        src: 'https://edo.scafol.id/assets/img/work/logo/4.png'
+    },
+    {
+        title: 'Linggau Mengaji',
+        src: 'https://edo.scafol.id/assets/img/work/logo/5.png'
+    },
+    {
+        title: 'Rodakita',
+        src: 'https://edo.scafol.id/assets/img/work/logo/6.png'
+    },
+    {
+        title: 'Iconisce',
+        src: 'https://edo.scafol.id/assets/img/work/logo/7.png'
+    },
+    {
+        title: 'dataset ilkom',
+        src: 'https://edo.scafol.id/assets/img/work/logo/8.png'
+    },
+    {
+        title: 'ARS',
+        src: 'https://edo.scafol.id/assets/img/work/logo/9.png'
+    },
+    {
+        title: 'Pulse',
+        src: 'https://edo.scafol.id/assets/img/work/logo/10.png'
+    },
+    {
+        title: 'ICTTC',
+        src: 'https://edo.scafol.id/assets/img/work/logo/11.png'
+    },
+    {
+        title: 'Empower',
+        src: 'https://edo.scafol.id/assets/img/work/logo/12.png'
+    },
+    {
+        title: '',
+        src: 'https://edo.scafol.id/assets/img/work/logo/13.png'
+    },
+    {
+        title: '',
+        src: 'https://edo.scafol.id/assets/img/work/logo/14.png'
+    },
+]
 
- var element = {
+var element = {
     attrslen: function (elemclass) {
         document.getElementsByClassName(elemclass).attributes.length;
     }
@@ -445,16 +445,16 @@ $(document).ready(function () {
 
     const objects = document.getElementsByClassName('asyncImage');
     Array.from(objects).map((item) => {
-      // Start loading image
-      const img = new Image();
-      img.src = item.dataset.src;
-      // Once image is loaded replace the src of the HTML element
-      img.onload = () => {
-        item.classList.remove('asyncImage');
-        return item.nodeName === 'IMG' ? 
-          item.src = item.dataset.src :        
-          item.style.backgroundImage = `url(${item.dataset.src})`;
-      };
+        // Start loading image
+        const img = new Image();
+        img.src = item.dataset.src;
+        // Once image is loaded replace the src of the HTML element
+        img.onload = () => {
+            item.classList.remove('asyncImage');
+            return item.nodeName === 'IMG' ?
+                item.src = item.dataset.src :
+                item.style.backgroundImage = `url(${item.dataset.src})`;
+        };
     });
 
     // document ready
@@ -462,9 +462,9 @@ $(document).ready(function () {
     let container = $('#imageList');
     let galhover2 = $('.galhover2');
     document.getElementById('preload_gallery').style.display = "none";
-    if(galhover2.length == 0){
-         document.getElementById('preload_gallery').style.display = "none";
-    }else{
+    if (galhover2.length == 0) {
+        document.getElementById('preload_gallery').style.display = "none";
+    } else {
         document.getElementById('preload_gallery').style.display = "none";
     }
 
@@ -504,7 +504,7 @@ $(document).ready(function () {
     var hariini = daysname[hari];
     $('#clock').attr('title', 'Tanggal Hari ini');
     $('#clock').append("&nbsp;&nbsp;" +
-            hariini + " " + " - " + bulan + " - " + year);
+        hariini + " " + " - " + bulan + " - " + year);
     $('.searchspan').attr('title', 'Car');
     // $('#clock').attr('readonly', readonly);	
     setInterval(function () {
@@ -514,7 +514,7 @@ $(document).ready(function () {
             var $text2 = "Web Development";
             var $text3 = "Graphic Design";
             var $text4 = "";
-            $this.text($this.text() == $text1 ? $text2 : $this.text()== $text2 ? $text3 : $text1);
+            $this.text($this.text() == $text1 ? $text2 : $this.text() == $text2 ? $text3 : $text1);
             $this.toggleClass('first second');
             $this.fadeIn(500);
         });
@@ -606,7 +606,7 @@ $(document).ready(function () {
     // imageJSON.load();
     // localLoad.load();
     try {
-        var ulid  = $('#imageList');
+        var ulid = $('#imageList');
         imageLoad.load(imageslist2, ulid);
         // animate the element of the icon
         // animate_el.hoverOverlay(idToOverlay, classOverlay);

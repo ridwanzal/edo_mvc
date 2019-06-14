@@ -57,26 +57,26 @@ var localLoad = {
                 console.log("data callback : " + data);
             });
         }
-        catch (e){
+        catch (e) {
             console.log("" + e);
         }
     }
 }
 
 var imageLoad = {
-    load : function(img, ulid){
+    load: function (img, ulid) {
         console.log("image method");
         try {
             let i = 0;
-            for(i; i < img.length ; i++){
-                var li = $('<img title="'+img[i].title+'" class="galhover2" src='+img[i].src+'>').appendTo(ulid);
+            for (i; i < img.length; i++) {
+                var li = $('<img title="' + img[i].title + '" class="galhover2 animated fadeIn" src=' + img[i].src + '>').appendTo(ulid);
             }
         }
-        catch (e){
+        catch (e) {
             console.log("" + e);
         }
     },
-    hide : function(ulid){
+    hide: function (ulid) {
         $(ulid).remove();
     },
 }
@@ -84,44 +84,44 @@ var imageLoad = {
 /* module for using animate css dynamically */
 var animate_el = {
     // init element
-    init : function(element, animation){
+    init: function (element, animation) {
         element = $(element);
         element.addClass('animated ' + animation);
     },
     // hover element
-    hover : function(element, animation){
+    hover: function (element, animation) {
         element = $(element);
         element.hover(
-            function() {
-                element.addClass('animated ' + animation);        
+            function () {
+                element.addClass('animated ' + animation);
             },
-            function(){
+            function () {
                 //wait for animation to finish before removing classes
-                window.setTimeout( function(){
+                window.setTimeout(function () {
                     element.removeClass('animated ' + animation);
-                }, 2000);         
+                }, 2000);
             });
     },
-    hoverOverlay : function(elementToOverlay, classOverlay){
+    hoverOverlay: function (elementToOverlay, classOverlay) {
         console.log("masuk sini pas hover");
         element = $(elementToOverlay);
-        element.hover(function(callbackhover){
+        element.hover(function (callbackhover) {
             console.log("callback hover : " + callbackhover);
             $(this).delay(200).addClass(classOverlay);
-        }).mouseleave(function(){
+        }).mouseleave(function () {
             $(this).removeClass(classOverlay);
         });
     },
     // click element
-    click : function(element, animation){
+    click: function (element, animation) {
         element = $(element);
-        element.click(function(){
+        element.click(function () {
             element.addClass('animated ' + animation);
             // wait for animation to finish before removing the class
-            window.setTimeout(function(){
+            window.setTimeout(function () {
                 element.removeClass('animated ' + animation);
             }, 2000);
         });
-    } 
+    }
 }
 
