@@ -425,8 +425,21 @@ nav > .mynav{
 		padding-bottom: 5px;	
 	}
 
+	.container_images_me{
+		display: none;
+	}
+
+	.submit_contacts{
+		margin-top: 12px !important;
+    margin-left: -1px !important;
+	}
+
 	.owl-carousel{
 		top:0px !important;
+	}
+
+	ol, ul{
+		margin-bottom: 0px !important;
 	}
 
 	#captiontext{

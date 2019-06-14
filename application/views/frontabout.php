@@ -6,8 +6,8 @@
                         <a href=""><span class="fa fa-facebook social"></span></a> <a href=""><span class="fa fa-linkedin social"></span></a> <a href=""><span class="fa fa-instagram social"></span></a>
                     </div>
                     <div class="col-lg-9 col-md-6 col-xs-12">
-                        <p  class="medium_text">Hello there, my name is</p>
-                        <h2 class="text_bold">M. Ridwan Zalbina (Edo)</h1>
+                        <p id="text_sapa" class="medium_text">Hello there, my name is</p>
+                        <h2 class="text_bold" id="author_names">M. Ridwan Zalbina (Edo)</h1>
                         <p>Software Engineer, Graphic Designer and Linux Enthusiast</p>
                         <br/>
                         <p class="medium_text">I am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Co-Founder and Tech Lead Engineer. </p>
@@ -43,6 +43,7 @@
                                 </ul>
                             </div>
                         </div>  
+                        <br/>
                         <a href="<?php echo base_url(); ?>assets/docs/curriculum_vitae_2019.pdf" download><button class="button1_outline_small_black block_display mycv download btn_mobile" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Download my CV</button></a>&nbsp;&nbsp;&nbsp;
                          <a target="_blank" href="https://id.linkedin.com/in/mridwanzalbina"><button class="button1_outline_small_black block_display block_display linkedin btn_mobile" type="button"><span class="fa fa-linkedin"></span>&nbsp;&nbsp;View my Linkedin</button></a>&nbsp;&nbsp;&nbsp;
                          <a target="_blank" href="https://github.com/ridwanzal"><button class="button1_outline_small_black block_display block_display linkedin btn_mobile" type="button"><span class="fa fa-github"></span>&nbsp;&nbsp;View my Github</button></a>&nbsp;&nbsp;&nbsp;

@@ -1,7 +1,7 @@
 <div class="thirdsection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-xs-12">
+                    <div class="col-lg-3 col-md-6 col-xs-12 container_images_me">
                         <img alt="" height="328px" id="myimage" src="<?php echo base_url() ?>assets/img//me2.png" width="180px"><br>
                         <a href=""><span class="fa fa-facebook social"></span></a> <a href=""><span class="fa fa-linkedin social"></span></a> <a href=""><span class="fa fa-instagram social"></span></a>
                     </div>
@@ -33,7 +33,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
-                                        <input type="submit" name="submit" class="button1_small_black block_display mycv" value="Submit">
+                                        <input type="submit" name="submit" class="button1_small_black block_display mycv submit_contacts" value="Submit">
                                 </div> 
                             </div>
 
