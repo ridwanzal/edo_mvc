@@ -421,8 +421,12 @@ nav > .mynav{
 		font-size: 35px;
 	}
 	.secondsection{
-		padding-top: 100px;
-		padding-bottom: 50px;
+		padding-top: 87px;
+		padding-bottom: 5px;	
+	}
+
+	.owl-carousel{
+		top:0px !important;
 	}
 
 	#captiontext{
@@ -480,6 +484,11 @@ nav > .mynav{
 		margin-top: 0px;
 	}
 
+	.separator{
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+
 	#satis{
 		display: none;
 	}
@@ -499,7 +508,7 @@ nav > .mynav{
 	}
 
 	#learnmores{
-		display: none;
+		display: none !important;
 	}
 
 	#bcontacts{
