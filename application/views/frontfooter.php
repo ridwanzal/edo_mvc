@@ -28,6 +28,8 @@
         </script> 
         <script src="<?php echo base_url() ?>assets/js/input.js" type="text/javascript">
         </script> 
+        <script src="<?php echo base_url() ?>assets/lib/owl-carousel/owl.carousel.min.js" type="text/javascript">
+        </script>
         <script src="https://maps.googleapis.com/maps/api/js">
         </script> 
     </body>

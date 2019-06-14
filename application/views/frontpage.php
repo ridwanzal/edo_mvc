@@ -7,7 +7,28 @@
                         <div class="separator"></div>
                         <button class="button1_outline_small" type="button" id="learnmores"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>index.php/frontpage/contact"><button class="button1_small" type="button"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12"></div>
+                    <div class="col-lg-6 col-md-6 col-xs-12">
+                        <div class="owl-carousel owl-theme" style="position:relative; top:30px;">
+                            <div class="item">
+                                <img src="https://edo.scafol.id/assets/img/work/logo/deskmodd.png" width="150" height="150">
+                            </div>
+                            <div class="item">
+                                <img src="https://edo.scafol.id/assets/img/work/logo/1.png" width="150" height="150">
+                            </div>
+                            <div class="item">
+                                <img src="https://edo.scafol.id/assets/img/work/logo/2.png" width="150" height="150">
+                            </div>
+                            <div class="item">
+                                <img src="https://edo.scafol.id/assets/img/work/logo/3.png" width="150" height="150">
+                            </div>
+                            <div class="item">
+                                <img src="https://edo.scafol.id/assets/img/work/logo/5.png" width="150" height="150">
+                            </div>
+                            <div class="item">
+                                <img src="https://edo.scafol.id/assets/img/work/logo/7.png" width="150" height="150">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

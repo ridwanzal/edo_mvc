@@ -436,6 +436,17 @@ function loadImage() {
 }
 
 $(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        items: 3,
+        dots: true,
+        lazyLoad: true,
+        margin: 3,
+        responsiveClass: true,
+        responsive: true,
+        navigation: true,
+        slideSpeed: 100,
+        paginationSpeed: 100,
+    })
     $('#learnmores').on('click', function (event) {
         console.log('kamu klik ini')
         $('html, body').animate({

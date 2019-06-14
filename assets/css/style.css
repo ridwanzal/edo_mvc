@@ -340,7 +340,8 @@ nav > .mynav{
 }
 
 .background_flyer{
-	background: #fff;
+	/* background: #fff; */
+	background: #fafafa;
 	border: 1px solid #f1f1f1;
 }
 
@@ -407,4 +408,8 @@ nav > .mynav{
 
 .gal_caption_title:hover{
 	background: #fff;
+}
+
+.item img{
+	border-radius: 5px !important;
 }
