@@ -92,11 +92,11 @@
                     <div class="col-lg-9 col-md-9 col-xs-12">
                         <div class="owl-carousel option2">
                             <div class="item">
-                                <p class="medium_text">Saya sudah beberapa kali dibuatkan desain logo dari mas Edo alias M. Ridwan Zalbina dan hasilnya Alhamdulillah memuaskan, desainnya dinamis dan sesuai... Barakallahu Fiikum</p>
+                                <p class="medium_text">"Saya sudah beberapa kali dibuatkan desain logo dari mas Edo alias M. Ridwan Zalbina dan hasilnya Alhamdulillah memuaskan, desainnya dinamis dan sesuai... Barakallahu Fiikum."</p>
                                 <span>M. Iqbal</span> - <span>Founder Karpet Juaro</span>
                             </div>
                             <div class="item">
-                                <p class="medium_text">Sy sudah beberapa kali dibuatkan desain logo dari mas Edo alias Ridwan zilbina Hasilnya Alhamdulillah memuaskan, Desainnya dinamis dan sesuai... Barakallahu Fiikum</p>
+                                <p class="medium_text">"Sy sudah beberapa kali dibuatkan desain logo dari mas Edo alias Ridwan zilbina Hasilnya Alhamdulillah memuaskan, Desainnya dinamis dan sesuai... Barakallahu Fiikum."</p>
                                 <span>Faris Humam</span> - <span>Founder Cindo</span>
                             </div>
                         </div>
