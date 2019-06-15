@@ -8,7 +8,7 @@
                         <button class="button1_outline_small" type="button" id="learnmores"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>index.php/frontpage/contact"><button class="button1_small" type="button" id="bcontacts"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12">
-                        <div class="owl-carousel owl-theme" style="position:relative; top:30px;">
+                        <div class="owl-carousel option1 owl-theme" style="position:relative; top:30px;">
                             <div class="item">
                                 <img src="https://edo.scafol.id/assets/img/work/logo/uclothing.png" width="150">
                             </div>
@@ -82,6 +82,30 @@
                 </div>
             </div>
         </div>
+
+        <div class="fourthsectiontwo" style="background:#fff;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <p class="medium_text" style="font-weight:bold;">Let's hear out what people say about us.</p>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-xs-12">
+                        <div class="owl-carousel option2">
+                            <div class="item">
+                                <p class="medium_text">Saya sudah beberapa kali dibuatkan desain logo dari mas Edo alias M. Ridwan Zalbina dan hasilnya Alhamdulillah memuaskan, desainnya dinamis dan sesuai... Barakallahu Fiikum</p>
+                                <span>M. Iqbal</span> - <span>Founder Karpet Juaro</span>
+                            </div>
+                            <div class="item">
+                                <p class="medium_text">Sy sudah beberapa kali dibuatkan desain logo dari mas Edo alias Ridwan zilbina Hasilnya Alhamdulillah memuaskan, Desainnya dinamis dan sesuai... Barakallahu Fiikum</p>
+                                <span>Faris Humam</span> - <span>Founder Cindo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
         <div class="fifthsection">
             <div class="container">
                 <div class="row">

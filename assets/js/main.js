@@ -436,7 +436,7 @@ function loadImage() {
 }
 
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+    $('.option1').owlCarousel({
         animateIn: 'fadeIn',
         slideSpeed: 1000,
         nav: true,
@@ -454,6 +454,14 @@ $(document).ready(function () {
         responsiveClass: true,
         URLhashListener: true,
     });
+    $('.option2').owlCarousel({
+        items: 1,
+        nav: true,
+        loop: true,
+        autoplay: true,
+    });
+
+
     $('.owl-carousel').on('mousewheel', '.owl-stage', function (e) {
         if (e.deltaY > 0) {
             owl.trigger('next.owl');
