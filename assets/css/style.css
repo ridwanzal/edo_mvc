@@ -432,6 +432,9 @@ nav > .mynav{
 /*Media Queries for mobile view*/
 
 @media screen and  (max-width : 767px){
+	.navbar-toggle{
+		margin-right: 3px !important;
+	}
 	.text_header{
 		font-size: 35px;
 	}
