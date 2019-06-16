@@ -99,6 +99,10 @@
                                 <p class="medium_text">"Recomended designer. Desain yang dibuatnya selalu memuaskan."</p>
                                 <span class="font_bold">Faris Humam</span> - <span>Founder Cindo, Annajaah</span>
                             </div>
+                            <div class="item">
+                                <p class="medium_text">"Saya sudah 2 (dua) kali membuat logo dengan edo, dan semua karya nya bagus dan sangat memuaskan."</p>
+                                <span class="font_bold">Kahbi Hardiansyah</span> - <span>Sinaroja Kontraktor & Supplier</span>
+                            </div>
                         </div>
                     </div>
                 </div>
