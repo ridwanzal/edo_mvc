@@ -568,3 +568,7 @@ nav > .mynav{
 		padding-bottom: 20px;
 	}
 }
+
+.font_bold{
+	font-weight: bold;
+}
