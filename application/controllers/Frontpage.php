@@ -86,7 +86,7 @@ class Frontpage extends CI_Controller {
       $this->email->from('zalbinaridwan@gmail.com', 'MRZ');
 
       // Email penerima
-      $this->email->to('mridwanzalbina@gmail.com'); // Ganti dengan email tujuan kamu
+      $this->email->to('zalbinaridwan@gmail.com'); // Ganti dengan email tujuan kamu
 
       // Lampiran email, isi dengan url/path file
       $this->email->attach('https://masrud.com/content/images/20181215150137-codeigniter-smtp-gmail.png');
@@ -100,6 +100,7 @@ class Frontpage extends CI_Controller {
       // Tampilkan pesan sukses atau error
       if ($this->email->send()) {
           echo 'Sukses! email berhasil dikirim.';
+        $this->session->set_flashdata('success', 'Submit data berhasil, Terima kasih.');
       } else {
           echo 'Error! email tidak dapat dikirim.';
       }
