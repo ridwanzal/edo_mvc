@@ -73,7 +73,7 @@ class Frontpage extends CI_Controller {
         'protocol'  => 'smtp',
         'smtp_host' => 'ssl://smtp.gmail.com',
         'smtp_user' => 'zalbinaridwan@gmail.com',    // Ganti dengan email gmail kamu
-        'smtp_pass' => 'passwordemail',      // Password gmail kamu
+        'smtp_pass' => 'indrabesmara933993',      // Password gmail kamu
         'smtp_port' => 465,
         'crlf'      => "\r\n",
         'newline'   => "\r\n"
