@@ -88,6 +88,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-xs-12">
                         <p class="medium_text" style="font-weight:bold;">Okay Let's see what client said (Testimonial) ?</p>
+                        <span class="fa fa-quote-left fa-5x"></span>
                     </div>
                     <div class="col-lg-9 col-md-9 col-xs-12">
                         <div class="owl-carousel option2">
@@ -109,7 +110,7 @@
                             </div>
                             <div class="item">
                                 <p class="medium_text">"Saya Owner Nukimoto Photograpy sangat puas atas layanan jasa pembuatan logo yang sangat baik, terutama dengan pelayanan yang ramah dan juga disain yang bagus dan support dalam berbagai bentuk format file sehingga bisa langsung di gunakan . Semoga kedepannya dapat mempertahankan dan meningkatkan kwalitas layanannya ."</p>
-                                <span class="font_bold">Nuki MK</span> - <span>Sinaroja Kontraktor & Supplier</span>
+                                <span class="font_bold">Nuki MK</span> - <span>Nukimoto Photograpy</span>
                             </div>
                         </div>
                     </div>

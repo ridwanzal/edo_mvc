@@ -244,6 +244,7 @@ nav > .mynav{
 	margin-right: 10px;
 	cursor: pointer;
 	margin-top: 12px;
+	width : 160px;
 	/*border-bottom: 1px solid #eee;*/
 	border-width: 0 0 2px 0;
 	border-color: #eee;
