@@ -67,7 +67,7 @@ class Frontpage extends CI_Controller {
     $this->db->insert('contact', $data);
     $check = $this->db->affected_rows() > 0;
 		if($check){
-      $config = [
+      $configs = [
         'mailtype'  => 'html',
         'charset'   => 'utf-8',
         'protocol'  => 'smtp',
@@ -80,7 +80,7 @@ class Frontpage extends CI_Controller {
       ];
 
       // Load library email dan konfigurasinya
-      $this->load->library('email', $config);
+      $this->load->library('email', $configs);
 
       // Email dan nama pengirim
       $this->email->from('zalbinaridwan@gmail.com', 'MRZ');
