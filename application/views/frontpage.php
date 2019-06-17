@@ -88,7 +88,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-xs-12">
                         <p class="medium_text" style="font-weight:bold;">Okay Let's see what client said (Testimonial) ?</p>
-                        <span class="fa fa-quote-left fa-5x"></span>
+                        <span class="fa fa-quote-left fa-5x" style="margin-top:8px; margin-bottom:8px;"></span>
                     </div>
                     <div class="col-lg-9 col-md-9 col-xs-12">
                         <div class="owl-carousel option2">
