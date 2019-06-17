@@ -109,7 +109,7 @@
                             </div>
                             <div class="item">
                                 <p class="medium_text">"Saya Owner Nukimoto Photograpy sangat puas atas layanan jasa pembuatan logo yang sangat baik, terutama dengan pelayanan yang ramah dan juga disain yang bagus dan support dalam berbagai bentuk format file sehingga bisa langsung di gunakan . Semoga kedepannya dapat mempertahankan dan meningkatkan kwalitas layanannya ."</p>
-                                <span class="font_bold">Kahbi Hardiansyah</span> - <span>Sinaroja Kontraktor & Supplier</span>
+                                <span class="font_bold">Nuki MK</span> - <span>Sinaroja Kontraktor & Supplier</span>
                             </div>
                         </div>
                     </div>
