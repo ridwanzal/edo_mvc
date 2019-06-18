@@ -81,6 +81,25 @@ var imageLoad = {
     },
 }
 
+var imageLoadCarousel = {
+    load: function (img, elem) {
+        console.log("image method");
+        try {
+            let i = 0;
+            for (i; i < img.length; i++) {
+                var data = $('<div class="item"><img title="' + img[i].title + '" width="150" src=' + img[i].src + '></div>').appendTo(elem);
+            }
+        }
+        catch (e) {
+            console.log("" + e);
+        }
+    },
+    hide: function (elem) {
+        $(ulid).remove();
+    },
+}
+
+
 /* module for using animate css dynamically */
 var animate_el = {
     // init element

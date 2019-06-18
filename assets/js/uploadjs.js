@@ -14,12 +14,12 @@ var upload = {
             alert("file belum dipilih");
             return;
         }
-        
-        if(filename.includes(" ")){
+
+        if (filename.includes(" ")) {
             console.log("file tidak boleh mengandung spasi");
             alert("file tidak boleh mengandung spasi");
         }
-        
+
         /*
          * get filetype (format or extension)
          */
@@ -59,29 +59,29 @@ var upload = {
     /*
      * onprogress
      */
-    progress : function(event, elemprogress){
-        if(event.lengthComputable){
-             var percentComplete = Math.round(evt.loaded * 100 / evt.total);
-        var text = percentComplete < 100 ? "Uploading" : "Uploaded";
-        document.getElementById(elemprogress).innerHTML = text + " " + percentComplete.toString() + '%';
+    progress: function (event, elemprogress) {
+        if (event.lengthComputable) {
+            var percentComplete = Math.round(evt.loaded * 100 / evt.total);
+            var text = percentComplete < 100 ? "Uploading" : "Uploaded";
+            document.getElementById(elemprogress).innerHTML = text + " " + percentComplete.toString() + '%';
         }
     },
     /*
      * onfailed
      */
-    failed : function(event, elemprogress){
+    failed: function (event, elemprogress) {
         document.getElementById(elemprogress).innerHTML = ("There was an error attempting to upload the file." + event);
     },
     /*
      * oncomplete
      */
-    complete : function(event){
+    complete: function (event) {
         uploadedfile.target.responseText;
     },
     /*
      * oncanceled
      */
-    canceled : function(event){
+    canceled: function (event) {
         document.getElementById(elemprogress).innerHTML = ("The upload has been canceled by the user or browser dropped the connection");
     }
 }

@@ -8,8 +8,8 @@
                         <button class="button1_outline_small" type="button" id="learnmores"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>index.php/frontpage/contact"><button class="button1_small" type="button" id="bcontacts"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12">
-                        <div class="owl-carousel option1 owl-theme" style="position:relative; top:30px;">
-                            <div class="item">
+                        <div class="owl-carousel option1 owl-theme" id="append_images" style="position:relative; top:30px;width:100%;">
+                            <!-- <div class="item">
                                 <img src="https://edo.scafol.id/assets/img/work/logo/uclothing.png" width="150">
                             </div>
                             <div class="item">
@@ -29,7 +29,7 @@
                             </div>
                             <div class="item">
                                 <img src="https://edo.scafol.id/assets/img/work/logo/piban.png" width="150">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -105,12 +105,12 @@
                                 <span class="font_bold">Kahbi Hardiansyah</span> - <span>Sinaroja Kontraktor & Supplier</span>
                             </div>
                             <div class="item">
-                                <p class="medium_text">"Saya sudah 2 (dua) kali membuat logo dengan edo, dan semua karya nya bagus dan sangat memuaskan."</p>
-                                <span class="font_bold">Kahbi Hardiansyah</span> - <span>Sinaroja Kontraktor & Supplier</span>
+                                <p class="medium_text">"Saya Owner Nukimoto Photograpy sangat puas atas layanan jasa pembuatan logo yang sangat baik, terutama dengan pelayanan yang ramah dan juga disain yang bagus dan support dalam berbagai bentuk format file sehingga bisa langsung di gunakan . Semoga kedepannya dapat mempertahankan dan meningkatkan kwalitas layanannya ."</p>
+                                <span class="font_bold">Nuki MK</span> - <span>Owner Nukimoto Photograpy</span>
                             </div>
                             <div class="item">
-                                <p class="medium_text">"Saya Owner Nukimoto Photograpy sangat puas atas layanan jasa pembuatan logo yang sangat baik, terutama dengan pelayanan yang ramah dan juga disain yang bagus dan support dalam berbagai bentuk format file sehingga bisa langsung di gunakan . Semoga kedepannya dapat mempertahankan dan meningkatkan kwalitas layanannya ."</p>
-                                <span class="font_bold">Nuki MK</span> - <span>Nukimoto Photograpy</span>
+                                <p class="medium_text">"Kami pernah dibuatkan logo dan hasilnya keren oke punya."</p>
+                                <span class="font_bold">Dian Purnama</span> - <span>Guru Seni</span>
                             </div>
                         </div>
                     </div>
