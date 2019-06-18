@@ -169,9 +169,14 @@ $(document).ready(function () {
     let elems = $('#append_images');
     let i = 0;
     for (i; i < imgs.length; i++) {
-        var object = '<div class="item"><img title="' + imgs[i].title + '" width="150" src=' + imgs[i].src + '></div>';
+        var object = '<div class="item container_mag"><a href=' + imgs[i].src + '><img title="' + imgs[i].title + '" width="150" src=' + imgs[i].src + '></a></div>';
         elems.append(object);
     }
+    $('.container_mag').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image'
+        // other options
+    });
     $('.option1').owlCarousel({
         animateIn: 'fadeIn',
         slideSpeed: 1000,
