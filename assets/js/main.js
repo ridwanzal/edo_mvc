@@ -158,7 +158,7 @@ $(document).ready(function () {
         }
     })
 
-    alert('uhh')
+    // alert('uhh')
 
     let imgs = imageslist2;
     let elems = $('#append_images');
