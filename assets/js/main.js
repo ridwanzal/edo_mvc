@@ -140,23 +140,9 @@ $(document).ready(function () {
     // access endpoint https://api.instagram.com/v1/self/media/recent?access_token=ACCESS_TOKEN
     // /users/self
     // https://api.instagram.com/v1/users/self/?access_token=ACCESS-TOKEN
-
-
     // let local_api_call_instagram = 'https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b';
     let url = '';
     let userid = ''
-    $.ajax({
-        url: "https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b",
-        method: 'POST',
-        contentType: "application/json",
-        success: function (res) {
-            console.log('ajax call bro');
-            console.log(res);
-        },
-        failure: function (res) {
-            console.log(res);
-        }
-    })
 
     // alert('uhh')
 
@@ -167,11 +153,6 @@ $(document).ready(function () {
         var object = '<div class="item container_mag"><a href=' + imgs[i].src + '><img title="' + imgs[i].title + '" width="150" src=' + imgs[i].src + '></a></div>';
         elems.append(object);
     }
-    $('.container_mag').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image'
-        // other options
-    });
     $('.option1').owlCarousel({
         animateIn: 'fadeIn',
         slideSpeed: 1000,
@@ -190,6 +171,7 @@ $(document).ready(function () {
         responsiveClass: true,
         URLhashListener: true,
     });
+
     $('.option2').owlCarousel({
         items: 1,
         nav: true,
@@ -197,7 +179,59 @@ $(document).ready(function () {
         autoplay: true,
     });
 
+    $('.option3').owlCarousel({
+        animateIn: 'fadeIn',
+        slideSpeed: 1000,
+        nav: true,
+        loop: true,
+        dots: false,
+        lazyLoad: true,
+        autoplay: true,
+        animateOut: 'fadeOut',
+        animateIn: 'flipInX',
+        autoHeight: true,
+        navigation: true,
+        paginationSpeed: 1000,
+        responsiveClass: true,
+        URLhashListener: true,
+    });
 
+    let arr_img = [];
+    $.ajax({
+        url: "https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b",
+        method: 'GET',
+        success: function (res) {
+            console.log('ajax call bro');
+            console.log(res.data);
+            let elem = $('#instacontainer');
+            let i = 0;
+            for (i; i < res.data.length; i++) {
+                limit = 16;
+                if (i < limit) {
+                    let img_uri = res.data[i].images.standard_resolution.url;
+                    let object = '<div class="col-lg-3 col-md-3 col-xs-6container_mag2"><a href=' + img_uri + '><img src=' + img_uri + ' style="margin-top:3px; margin-bottom:3px;width:287px;" class="img_insta"></a></div>';
+                    elem.append(object);
+                }
+            }
+        },
+        failure: function (res) {
+            console.log(res);
+        }
+    });
+
+    console.log('imagelist brohhhh')
+    console.log(arr_img);
+
+    $('.container_mag').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image'
+        // other options
+    });
+    $('.container_mag2').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image'
+        // other options
+    });
     $('.owl-carousel').on('mousewheel', '.owl-stage', function (e) {
         if (e.deltaY > 0) {
             owl.trigger('next.owl');

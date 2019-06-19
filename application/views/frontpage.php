@@ -9,27 +9,6 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="owl-carousel option1 owl-theme" id="append_images" style="position:relative; top:30px;width:100%;">
-                            <!-- <div class="item">
-                                <img src="https://edo.scafol.id/assets/img/work/logo/uclothing.png" width="150">
-                            </div>
-                            <div class="item">
-                                <img src="https://edo.scafol.id/assets/img/work/logo/karpetjuaro.png" width="150" >
-                            </div>
-                            <div class="item">
-                                <img src="https://edo.scafol.id/assets/img/work/logo/palembangcom.png" width="150" >
-                            </div>
-                            <div class="item">
-                                <img src="https://edo.scafol.id/assets/img/work/logo/comnets.png" width="150">
-                            </div>
-                            <div class="item">
-                                <img src="https://edo.scafol.id/assets/img/work/logo/edocs.png" width="150">
-                            </div>
-                            <div class="item">
-                                <img src="https://edo.scafol.id/assets/img/work/logo/7.png" width="150">
-                            </div>
-                            <div class="item">
-                                <img src="https://edo.scafol.id/assets/img/work/logo/piban.png" width="150">
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -119,7 +98,7 @@
             </div>
         </div>
 
-        <div class="fifthsection">
+        <div class="fifthsection" style="display:none;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12">
@@ -130,12 +109,25 @@
                 <br/>
                 <div id="imageList"></div>
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-xs-12">
                             <center>
                                 <img style="text-align:center;" id="preload_gallery" src="<?php echo base_url() ?>assets/img/preload_fountain.gif">
                             </center>
-                        </div>
                     </div>
+                </div>
+        </div>
+        <div class="fifthsection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12">
+                        <h3>Instagram Feed</h3>
+                        <p class="medium_text">View my instagram feed here</p>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="" id="instacontainer" style="position:relative; top:30px;width:100%;">
+                    </div>
+                </div>
                 </div>
         </div>
         <div class="fifthsection">
