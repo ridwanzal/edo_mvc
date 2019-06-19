@@ -4,7 +4,6 @@
 //  Start Date	: Dec 1, 2016
 //  ------------------------------------------------------*/
 
-
 $('.galhover').hover(function () {
     $(this).delay(500).addClass('overlay');
 }).mouseleave(function () {
@@ -132,39 +131,35 @@ var element = {
     }
 }
 
-function loadtest() {
-    console.log("load test");
-    $.post({
-        url: 'test.txt',
-        type: 'GET',
-        success: function (callback) {
-            try {
-                console.log("test file result" + callback);
-            } catch (e) {
-                console.log(e)
-            }
-        }
-    })
-}
-
-function loadImage() {
-    console.log("loadimage");
-    $.ajax({
-        url: path,
-        success: function (data) {
-            // alert(data);
-            console.log("ajax " + data);
-            $(data).find("a").attr("href", function (i, val) {
-                if (val.match(/\.(jpe?g|png|gif)$/)) {
-                    $("body").append("<img src='" + path + val + "'>");
-                    console.log('match');
-                }
-            });
-        }
-    });
-}
 
 $(document).ready(function () {
+    // token localhost
+    let local_client_id = '7bcd3b9155bd4ccc80b5aedec639a1dc';
+    let local_token = '461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b';
+    let access_token = '461833723.1677ed0.0bb26120f15745d29d8ae94d4b3f1c6f';
+    // access endpoint https://api.instagram.com/v1/self/media/recent?access_token=ACCESS_TOKEN
+    // /users/self
+    // https://api.instagram.com/v1/users/self/?access_token=ACCESS-TOKEN
+
+
+    // let local_api_call_instagram = 'https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b';
+    let url = '';
+    let userid = ''
+    $.ajax({
+        url: "https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b",
+        method: 'POST',
+        contentType: "application/json",
+        success: function (res) {
+            console.log('ajax call bro');
+            console.log(res);
+        },
+        failure: function (res) {
+            console.log(res);
+        }
+    })
+
+    alert('uhh')
+
     let imgs = imageslist2;
     let elems = $('#append_images');
     let i = 0;
@@ -301,15 +296,6 @@ $(document).ready(function () {
         $(this).removeClass('overlay');
     });
 
-    function myMap() {
-        console.log("Masuk map nih");
-        var mapCanvas = document.getElementById("map");
-        var mapOptions = {
-            center: new google.maps.LatLng(51.5, -0.2),
-            zoom: 10
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-    }
     var link_cv = 'http://home/ridwanzal/myweb'
     $('.mycv').click(function () {
         window.location.href = link_cv;
@@ -318,35 +304,6 @@ $(document).ready(function () {
     $('.linkedin').click(function () {
         window.open(link_ld, '_blank');
     });
-
-    /*------------------------------------------------------
-     Pencarian Statis
-     ------------------------------------------------------*/
-
-    // daftar cari dalam bentuk array
-    var daftar_cari = ["Edo website", "Website edo", "Blog edo",
-        "Web Programming", "Web Design", "Web Development",
-        "Functional Programming", "Pemrograman OOP",
-        "Sekilas tentang JAVASCSRIPT", "Penggunaan CMS",
-        "Membangun framework sendiri", "Development purposes",
-        "Javascript in depth", "Pengenalan linux", "Linux scripting",
-        "Linux shell programming", "Data visualization with JS"
-    ];
-
-    // autocomplete anonymouse function
-    $(function () {
-        $('#searchinput').autocomplete({
-            source: daftar_cari,
-            width: 80,
-            height: 30,
-            max: 20,
-            scroll: true
-        });
-    });
-
-    /*------------------------------------------------------
-     Pencarian Statis
-     ------------------------------------------------------*/
 
     onclick_menu();
 
