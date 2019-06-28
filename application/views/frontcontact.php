@@ -13,21 +13,21 @@
                         <br/>
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
-                                    <p>Name *</p>
+                                    <p class="bolders">Name *</p>
                                     <input placeholder="Please input your name" type="text" name="p_name" class="form-control input_general" required>
                                 </div> 
                             </div>
                             <br/>
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
-                                    <p>Email *</p>
+                                    <p class="bolders">Email *</p>
                                     <input placeholder="Please input your email" type="text" name="p_email" class="form-control input_general" required >
                                 </div> 
                             </div>
                             <br/>
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-xs-12">
-                                    <p>Message</p>
+                                    <p class="bolders">Message</p>
                                     <textarea placeholder="Please input your message" width="100%" name="p_message" rows="7" class="form-control input_general"></textarea>
                                 </div> 
                             </div>

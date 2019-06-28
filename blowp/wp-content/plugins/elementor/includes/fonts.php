@@ -597,7 +597,7 @@ class Fonts {
 			'Lalezar' => self::GOOGLE,
 			'Lancelot' => self::GOOGLE,
 			'Lateef' => self::GOOGLE,
-			'Lato' => self::GOOGLE,
+			'Montserrat' => self::GOOGLE,
 			'League Script' => self::GOOGLE,
 			'Leckerli One' => self::GOOGLE,
 			'Ledger' => self::GOOGLE,

@@ -6,7 +6,7 @@
 	text-align:center;
 	background-color:#dd3637;
 	color:#fff;
-	font-family: Open Sans, sans-serif;  
+	font-family: 'Montserrat',  sans-serif;  
 	padding-bottom:8px;
 	padding-top:6px;
 	margin-top:50px;
@@ -17,7 +17,7 @@
 	background:url(../img/background_blur.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	color: #fff;
 	padding-top:175px;
 	padding-bottom:260px;
@@ -32,7 +32,7 @@
 .thirdsection{
 	background-color:#fff;
 	/*background-image:url('img/53.png');*/
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	color: #4d4d4d;
 	padding-top:80px;
 	padding-bottom:80px;
@@ -41,7 +41,7 @@
 .fourthsection{
 	background-color:#f5f5f5;
 	/*background-image:url('img/53.png');*/
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	color: #4d4d4d;
 	padding-top:40px;
 	padding-bottom:40px;
@@ -50,7 +50,7 @@
 
 .fourthsectiontwo{
 	background-color:#f5f5f5;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	color: #4d4d4d;
 	padding-top:70px;
 	padding-bottom:0px;
@@ -66,7 +66,7 @@
 .fifthsection{
 	background-color:#fff;
 	/*background-image:url('img/53.png');*/
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	color: #4d4d4d;
 	padding-top:40px;
 	padding-bottom:40px;
@@ -75,7 +75,7 @@
 .contact {
 	background-color:#f5f5f5;
 	/*background-image:url('img/53.png');*/
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	color: #4d4d4d;
 	padding-top:60px;
 	padding-bottom:60px;
@@ -101,7 +101,7 @@
 .footer{
 	background-color:#eee;
 	/*background-image:url('img/53.png');*/
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	color: #f5f5f5;
 	padding-top:20px;
 	padding-bottom:10px;
@@ -109,7 +109,7 @@
 }
 
 .navbar {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	font-weight: bold;
 	background: #000;
 	/*letter-spacing: 0.06;	*/
@@ -170,7 +170,7 @@ nav > .mynav{
 	background: #fff;
 	border:2px solid #fff;
 	color: #000;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	font-size: 15px;
 	border-radius: 2px;
 	padding:10px 24px 10px 24px;
@@ -182,7 +182,7 @@ nav > .mynav{
 	border:2px solid #fff;
 	color: #fff;
 
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	font-size: 15px;
 	border-radius: 2px;
 	padding:10px 24px 10px 24px;
@@ -193,7 +193,7 @@ nav > .mynav{
 	background: transparent;
 	border: 2px solid #fff;
 	color: #fff;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	font-size: 15px;
 	border-radius: 2px;
 	padding: 10px 24px 10px 24px;
@@ -209,7 +209,7 @@ nav > .mynav{
 	background: transparent;
 	border: 2px solid #888;
 	color: #888;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	font-size: 15px;
 	border-radius: 2px;
 	padding: 10px 24px 10px 24px;
@@ -225,7 +225,7 @@ nav > .mynav{
 	background: transparent;
 	border: 2px solid #888;
 	color: #888;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Montserrat',  sans-serif;
 	font-size: 12px;
 	border-radius: 2px;
 	padding: 4px 24px 4px 24px;
@@ -429,8 +429,10 @@ nav > .mynav{
 .item img{
 	border-radius: 5px !important;
 }
-uda
 /*Media Queries for mobile view*/
+.bolders{
+	font-weight: bolder;
+}
 
 @media screen and  (max-width : 767px){
 	.img_insta{
