@@ -158,8 +158,8 @@ $(document).ready(function () {
         slideSpeed: 1000,
         nav: true,
         items: 4,
-        loop: true,
         dots: false,
+        loop: true,
         lazyLoad: true,
         autoplay: true,
         animateOut: 'fadeOut',
@@ -173,24 +173,29 @@ $(document).ready(function () {
     });
 
     $('.option2').owlCarousel({
+        animateIn: 'fadeIn',
+        slideSpeed: 1000,
         items: 1,
-        nav: true,
+        dots: true,
         loop: true,
         autoplay: true,
+        autoHeight: true,
+        margin: 5,
     });
 
     $('.option3').owlCarousel({
         animateIn: 'fadeIn',
         slideSpeed: 1000,
-        nav: true,
+        nav: false,
+        items: 1,
+        dots: true,
         loop: true,
-        dots: false,
         lazyLoad: true,
         autoplay: true,
         animateOut: 'fadeOut',
-        animateIn: 'flipInX',
+        animateIn: 'flipInY',
         autoHeight: true,
-        navigation: true,
+        margin: 5,
         paginationSpeed: 1000,
         responsiveClass: true,
         URLhashListener: true,
@@ -231,14 +236,6 @@ $(document).ready(function () {
         delegate: 'a', // child items selector, by clicking on it popup will open
         type: 'image'
         // other options
-    });
-    $('.owl-carousel').on('mousewheel', '.owl-stage', function (e) {
-        if (e.deltaY > 0) {
-            owl.trigger('next.owl');
-        } else {
-            owl.trigger('prev.owl');
-        }
-        e.preventDefault();
     });
     $('#learnmores').on('click', function (event) {
         console.log('kamu klik ini')
