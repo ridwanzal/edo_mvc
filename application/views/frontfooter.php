@@ -4,8 +4,8 @@
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <p><b>All Rights Reserved</b>. &copy;<span id="printyear"></span> Palembang, Indonesia</p>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-xs-12"></div>
-                    <div class="col-log-3 col-md-3 col-xs-12">
+                    <div class="col-lg-1 col-md-1 col-xs-12"></div>
+                    <div class="col-lg-5 col-md-5 col-xs-12 text-right">
                         <p>Develop with <span class="fa fa-heart">  </span>  by <b> M. Ridwan Zalbina</b></p>
                     </div>
                 </div>
