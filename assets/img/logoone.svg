@@ -54,6 +54,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(240.3112,-74.076775)">
+    <circle
+       style="opacity:1;fill:#777777;fill-opacity:1;stroke:none;stroke-width:0.2846939;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path909"
+       cx="-170.8262"
+       cy="3.6176269"
+       r="35.151787"
+       inkscape:export-xdpi="17.142857"
+       inkscape:export-ydpi="17.142857" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.32385287;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect883"
@@ -82,5 +90,12 @@
        id="path827"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.27910995px;line-height:1.25;font-family:'Avenir LT Std';-inkscape-font-specification:'Avenir LT Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:5.08866644"
        d="m -148.63561,114.54836 c 0,2.76823 2.22544,4.99368 4.99368,4.99368 2.76823,0 4.99368,-2.22545 4.99368,-4.99368 0,-2.76824 -2.22545,-4.99368 -4.99368,-4.99368 -2.76824,0 -4.99368,2.22544 -4.99368,4.99368 z" />
+    <path
+       d="m -184.36884,22.832431 h 27.08528 v -7.81619 H -175.9013 V 7.2000514 h 16.66369 V -0.61614262 H -175.9013 V -7.7809846 h 17.64071 v -7.8161924 h -26.10825 z"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:54.27910995px;line-height:1.25;font-family:'Avenir LT Std';-inkscape-font-specification:'Avenir LT Std Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.08866644"
+       id="path907"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="17.142857"
+       inkscape:export-ydpi="17.142857" />
   </g>
 </svg>
