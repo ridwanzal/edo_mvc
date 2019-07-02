@@ -221,6 +221,7 @@ $(document).ready(function () {
                     let img_uri = res.data[i].images.standard_resolution.url;
                     let object = '<div class="col-lg-3 col-md-3 col-xs-12 item container_mag2 animated fadeIn"><a href=' + img_uri + '><img src=' + img_uri + ' style="margin-top:3px; margin-bottom:3px;width:287px;" class="img_insta"></a></div>';
                     elem.append(object);
+                    showImage();
                 }
             }
         },
@@ -231,11 +232,11 @@ $(document).ready(function () {
 
     console.log('imagelist brohhhh')
     console.log(arr_img);
-    $('.container_mag2').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image'
-        // other options
-    });
+    // $('.container_mag2').magnificPopup({
+    //     delegate: 'a', // child items selector, by clicking on it popup will open
+    //     type: 'image'
+    //     // other options
+    // });
 
     $('.container_mag').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
@@ -327,7 +328,7 @@ $(document).ready(function () {
     }, 3500);
 
     $('.galhover').hover(function () {
-        $(this).delay(500).addClass('overlay');
+        $(this).delay(500).addClass('overlay'); 12
     }).mouseleave(function () {
         $(this).removeClass('overlay');
     });
@@ -400,3 +401,10 @@ function onclick_menu() {
     });
 }
 
+function showImage() {
+    $('.container_mag2').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image'
+        // other options
+    });
+}
