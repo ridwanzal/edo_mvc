@@ -150,7 +150,7 @@ $(document).ready(function () {
     let elems = $('#append_images');
     let i = 0;
     for (i; i < imgs.length; i++) {
-        var object = '<div class="item container_mag"><a href=' + imgs[i].src + '><img title="' + imgs[i].title + '" width="150" src=' + imgs[i].src + '></a></div>';
+        var object = '<div class="item container_mag animated fadeIn"><a href=' + imgs[i].src + '><img title="' + imgs[i].title + '" width="150" src=' + imgs[i].src + '></a></div>';
         elems.append(object);
     }
     $('.option1').owlCarousel({
@@ -201,10 +201,15 @@ $(document).ready(function () {
         URLhashListener: true,
     });
 
+
+
     let arr_img = [];
     $.ajax({
         url: "https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b",
         method: 'GET',
+        progress: function (callback) {
+            console.log(callback);
+        },
         success: function (res) {
             console.log('ajax call bro');
             console.log(res.data);
@@ -214,7 +219,7 @@ $(document).ready(function () {
                 limit = 16;
                 if (i < limit) {
                     let img_uri = res.data[i].images.standard_resolution.url;
-                    let object = '<div class="col-lg-3 col-md-3 col-xs-6container_mag2"><a href=' + img_uri + '><img src=' + img_uri + ' style="margin-top:3px; margin-bottom:3px;width:287px;" class="img_insta"></a></div>';
+                    let object = '<div class="col-lg-3 col-md-3 col-xs-12 item container_mag2 animated fadeIn"><a href=' + img_uri + '><img src=' + img_uri + ' style="margin-top:3px; margin-bottom:3px;width:287px;" class="img_insta"></a></div>';
                     elem.append(object);
                 }
             }
@@ -226,13 +231,13 @@ $(document).ready(function () {
 
     console.log('imagelist brohhhh')
     console.log(arr_img);
-
-    $('.container_mag').magnificPopup({
+    $('.container_mag2').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
         type: 'image'
         // other options
     });
-    $('.container_mag2').magnificPopup({
+
+    $('.container_mag').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
         type: 'image'
         // other options
