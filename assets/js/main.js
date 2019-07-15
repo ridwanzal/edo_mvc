@@ -202,7 +202,6 @@ $(document).ready(function () {
     });
 
 
-
     let arr_img = [];
     $.ajax({
         url: "https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b",
