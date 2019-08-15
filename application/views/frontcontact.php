@@ -5,7 +5,7 @@
                         <img alt="" height="328px" id="myimage" src="<?php echo base_url() ?>assets/img//me2.png" width="180px"><br>
                         <a href=""><span class="fa fa-facebook social"></span></a> <a href=""><span class="fa fa-linkedin social"></span></a> <a href=""><span class="fa fa-instagram social"></span></a>
                     </div>
-                    <form method="post" action="<?php echo base_url('index.php/frontpage/insert_contact'); ?>">
+                    <form method="post" action="<?php echo base_url('frontpage/insert_contact'); ?>">
                     <div class="col-lg-9 col-md-6 col-xs-12">
                         <p  class="medium_text">Let's keep in touch</p>
                         <p  class="small_text">Feel free to ask, or contact me personally, if you want another option just fill the information below. Enjoy :)</p>
