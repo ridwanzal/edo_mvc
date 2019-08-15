@@ -319,8 +319,9 @@ $(document).ready(function () {
             var $text1 = "IT Consulting";
             var $text2 = "Web Development";
             var $text3 = "Graphic Design";
-            var $text4 = "";
-            $this.text($this.text() == $text1 ? $text2 : $this.text() == $text2 ? $text3 : $text1);
+            var $text4 = "UI/UX Engineering";
+            var $text5 = "Android App Dev";
+            $this.text($this.text() == $text1 ? $text2 : $this.text() == $text2 ? $text3 : $this.text() == $text3 ? $text4 : $this.text() == $text4 ? $text5 : $text1);
             $this.toggleClass('first second');
             $this.fadeIn(500);
         });

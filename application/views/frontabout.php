@@ -39,6 +39,7 @@
                             </div>
                             <div class="col-lg-5 col-md-5 col-xs-12">
                                 <ul class="list_expertise">
+                                    <li>UI/UX Engineering</li>
                                     <li>Cloud Management</li>
                                     <li>Android Development</li>
                                 </ul>
