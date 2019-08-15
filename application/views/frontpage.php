@@ -2,7 +2,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12">
-                        <p class="text_header headingtext">IT Consulting</p>
+                        <p class="text_header headingtext">Web Development</p>
                         <p id="captiontext">I am a Software Engineer and Graphic Designer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
                         <div class="separator"></div>
                         <button class="button1_outline_small" type="button" id="learnmores"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>frontpage/contact"><button class="button1_small" type="button" id="bcontacts"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button></a>
@@ -134,7 +134,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12">
-                        <h3>My Recent Work&nbsp;&nbsp;<span><img src="<?php echo base_url() ?>assets/img/recent_image.png"></span></h3>
+                        <h3>My Work&nbsp;&nbsp;<span><img src="<?php echo base_url() ?>assets/img/recent_image.png"></span></h3>
                         <p class="medium_text">These are the latest recent work that I've been working up     </p>
                     </div>
                 </div>
@@ -143,6 +143,27 @@
                     <a target="_blank" href="<?php echo base_url() ?>samuraisec/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
                     <a target="_blank" href="<?php echo base_url() ?>akad/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
                     <a target="_blank" href="<?php echo base_url() ?>qeropal/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"><span title="View Details"  class="gal_caption_title">View Details</span></div></a>
+                </div>
+            </div>
+        </div>
+        <div class="" style="margin-top:0px; margin-bottom:50px;font-family: 'Montserrat',  sans-serif;">
+            <div class="container">
+                <h3>Tools I'm using</h3>
+                <p class="medium_text">List of tools that I'm using</p>
+                <br/>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <img  class="img-responsive imagetools" style="text-align:center;" id="" width="267" src="<?php echo base_url() ?>assets/img/1.png">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <img  class="img-responsive imagetools" style="text-align:center;" id=""  width="267" src="<?php echo base_url() ?>assets/img/2.png">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <img  class="img-responsive imagetools" style="text-align:center;" id=""  width="267" src="<?php echo base_url() ?>assets/img/3.png">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <img  class="img-responsive imagetools" style="text-align:center;" id=""  width="267" src="<?php echo base_url() ?>assets/img/4.png">
+                    </div>
                 </div>
             </div>
         </div>

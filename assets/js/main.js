@@ -316,12 +316,11 @@ $(document).ready(function () {
     setInterval(function () {
         $('.text_header').fadeOut(300, function () {
             var $this = $(this);
-            var $text1 = "IT Consulting";
-            var $text2 = "Web Development";
-            var $text3 = "Graphic Design";
-            var $text4 = "UI/UX Engineering";
-            var $text5 = "Android App Dev";
-            $this.text($this.text() == $text1 ? $text2 : $this.text() == $text2 ? $text3 : $this.text() == $text3 ? $text4 : $this.text() == $text4 ? $text5 : $text1);
+            var $text1 = "Web Development";
+            var $text2 = "Graphic Design";
+            var $text3 = "UI/UX Design";
+            var $text4 = "Android App Dev";
+            $this.text($this.text() == $text1 ? $text2 : $this.text() == $text2 ? $text3 : $this.text() == $text3 ? $text4 : $text1);
             $this.toggleClass('first second');
             $this.fadeIn(500);
         });

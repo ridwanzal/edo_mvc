@@ -435,6 +435,10 @@ nav > .mynav{
 }
 
 @media screen and  (max-width : 767px){
+	.imagetools{
+		width:100%;
+	}
+
 	.img_insta{
 		width: 100% !important;
 	}

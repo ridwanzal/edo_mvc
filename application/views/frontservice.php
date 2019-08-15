@@ -3,8 +3,8 @@
         <p class="text_bold">What I offer to you.</p>
         <br/>
         <p class="medium_text">
-                    I provide a lot of service including, IT Consulting,
-                    Web Development, Graphic Design services. Create stunning, clean and acceptable product.
+                    I provide a lot of service including,
+                    Web Development, Graphic Design services, UI/ UX Design and Android Mobile App Development. Create stunning, clean and acceptable product.
                     I'm very happy if you want to collaborate to make an awesome product.
         </p>
         <br/>
