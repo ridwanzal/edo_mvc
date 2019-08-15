@@ -148,8 +148,7 @@
         </div>
         <div class="" style="margin-top:0px; margin-bottom:50px;font-family: 'Montserrat',  sans-serif;">
             <div class="container">
-                <h3>Tools I'm using</h3>
-                <p class="medium_text">List of tools that I'm using</p>
+                <hr/>
                 <br/>
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-xs-12">
