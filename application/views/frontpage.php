@@ -91,6 +91,14 @@
                                 <p class="medium_text">"Kami pernah dibuatkan logo dan hasilnya keren oke punya."</p>
                                 <span class="font_bold">Dian Purnama</span> - <span>Guru Seni</span>
                             </div>
+                            <div class="item">
+                                <p class="medium_text">"
+                                Ada banyak assets yang saya percayakan pembuatannya dengan Ridwan Z a.k.a Edo. Besutan hasil karyanya sesuai dengan keinginan. Mulai dari semua assets design untuk konfrensi internasional : EECSI 2015 sd 2017, ICECOS 2017-2019,ARS 2016-2017. Official Logo indexing dan repository nasional RISTEKDIKTI : SINTA, GARUDA dan ANJANI, termasuk bemper slider footer websitenya. Termasuk juga cover jurnal ilmiah FASILKOM UNSRI dan beberpa logo riset group di dalamnya. Sentuhan tone, degradasi dan warna sangat tepat yang dihasilkan dalam sebuah art yang arstristik. Nilai tambah lainnya dari sudut pandang akademisi adalah semua tools yang  digunakan menggunalan platform open source. Good Job and high satisfaction guys
+                                Salam.
+                                
+                                "</p>
+                                <span class="font_bold">Deris Stiawan. Ph.D</span> - <span>Associate Professor Universitas Sriwijaya </span>
+                            </div>
                         </div>
                     </div>
                 </div>
