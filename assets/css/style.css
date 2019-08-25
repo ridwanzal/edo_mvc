@@ -397,8 +397,12 @@ nav > .mynav{
 }
 
 .input_general{
+	border-top: none  !important;
+	border-left: none  !important;
+	border-right: none !important;
+	border-bottom:  1px solid #aaa;
 	background: #fff !important;
-	border-radius: 2px !important;
+	border-radius: 0px !important;
 	box-shadow: none !important;
 	outline: none !important;
 }
