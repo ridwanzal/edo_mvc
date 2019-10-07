@@ -366,6 +366,10 @@ nav > .mynav{
 	border-radius: 2px;
 }
 
+.panel_container_service{
+	margin-top: 25px;
+}
+
 .text_center{
 	text-align: center;
 }
