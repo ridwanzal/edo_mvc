@@ -1,36 +1,51 @@
-<div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-12">
-                        <p><b>All Rights Reserved</b>. &copy;<span id="printyear"></span> Palembang, Indonesia</p>
-                    </div>
-                    <div class="col-lg-1 col-md-1 col-xs-12"></div>
-                    <div class="col-lg-5 col-md-5 col-xs-12 text-right">
-                        <p>Develop with <span class="fa fa-heart">  </span>  by <b> M. Ridwan Zalbina</b></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-        <script src="<?php echo base_url() ?>assets/lib/owlcarousel/dist/owl.carousel.min.js" type="text/javascript">
-        </script> 
-         <script src="<?php echo base_url() ?>assets/lib/magnific-popups/dist/jquery.magnific-popup.min.js" type="text/javascript">
-        </script> 
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        </script> 
-        <script src="<?php echo base_url() ?>assets/js/imageload.js" type="text/javascript">
-        </script> 
-        <script src="<?php echo base_url() ?>assets/js/main.js" type="text/javascript">
-        </script> 
-        <script src="<?php echo base_url() ?>assets/js/outtermodule.js" type="text/javascript">
-        </script> 
-        <script src="<?php echo base_url() ?>assets/js/uploadjs.js" type="text/javascript">
-        </script> 
-        <script src="<?php echo base_url() ?>assets/js/input.js" type="text/javascript">
-        </script> 
-    </body>
+</div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" type="text/javascript"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+  <script>
+    feather.replace()
+  </script>
+
+  <!-- Graphs -->
+  <!-- <script>
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        datasets: [{
+          data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+          lineTension: 0,
+          backgroundColor: 'transparent',
+          borderColor: '#007bff',
+          borderWidth: 4,
+          pointBackgroundColor: '#007bff'
+        }]
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: false
+            }
+          }]
+        },
+        legend: {
+          display: false,
+        }
+      }
+    });
+  </script> -->
+</body>
+
 </html>

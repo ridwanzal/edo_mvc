@@ -56,6 +56,7 @@ $route['frontservice'] = 'frontpage/frontservice';
 $route['frontcontact'] = 'frontpage/frontcontact';
 $route['frontproject'] =  'frontpage/frontproject';
 $route['admin'] =  'admin';
+$route['blog'] = 'blog';
 $route['404_override'] = 'frontpage/notfound';
 
 $route['translate_uri_dashes'] = FALSE;

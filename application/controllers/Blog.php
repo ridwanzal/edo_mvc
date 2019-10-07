@@ -10,9 +10,9 @@ class Blog extends CI_Controller {
   public function index(){
     $data['title_bar'] = "Edo";
     $data['header_page'] = "";
-    $this->load->view('frontheader', $data );
-    $this->load->view('frontpage', $data);
-    $this->load->view('frontfooter', $data);
+    $this->load->view('frontpage/frontheader', $data );
+    $this->load->view('frontpage/frontpage', $data);
+    $this->load->view('frontpage/frontfooter', $data);
   }
 
 }

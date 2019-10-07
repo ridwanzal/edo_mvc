@@ -10,9 +10,10 @@ class Admin extends CI_Controller {
   public function index(){
     $data['title_bar'] = "Admin";
     $data['header_page'] = "";
-    $this->load->view('adminheader', $data );
-    $this->load->view('adminpage', $data);
-    $this->load->view('adminfooter', $data);
+    $this->load->view('admin/adminheader', $data );
+    $this->load->view('admin/adminbar', $data);
+    $this->load->view('admin/adminpage', $data);
+    $this->load->view('admin/adminfooter', $data);
   }
 
 }

@@ -13,5 +13,5 @@
   <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="<?php echo base_url() ?>assets/css/dashstyle.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/dash.css">
 </head>
