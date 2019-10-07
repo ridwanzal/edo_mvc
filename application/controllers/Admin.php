@@ -16,6 +16,14 @@ class Admin extends CI_Controller {
     $this->load->view('admin/adminfooter', $data);
   }
 
+  public function login(){
+    $data['title_bar'] = "Login | Admin";
+    $data['header_page'] = "";
+    $this->load->view('admin/adminheader', $data );
+    $this->load->view('admin/adminlogin', $data);
+    $this->load->view('admin/adminfooter', $data);
+  }
+
 }
 
 ?>

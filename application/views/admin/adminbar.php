@@ -26,7 +26,7 @@
             <li class="nav-item">
               <a class="nav-link" href="<? echo base_url()?>adminpage">
                 <span data-feather="home"></span>
-                Dashboard Admin
+                Create New Content
               </a>
             </li>
           </ul>
