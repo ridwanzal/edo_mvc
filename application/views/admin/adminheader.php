@@ -14,4 +14,5 @@
 
   <!-- Custom styles for this template -->
   <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/dash.css">
+  <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
 </head>

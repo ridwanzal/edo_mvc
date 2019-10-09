@@ -1,6 +1,6 @@
 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-          <div class="btn-toolbar mb-2 mb-md-0">
+          <!-- <div class="btn-toolbar mb-2 mb-md-0">
             <div class="btn-group mr-2">
               <button class="btn btn-sm btn-outline-secondary">Share</button>
               <button class="btn btn-sm btn-outline-secondary">Export</button>
@@ -9,7 +9,7 @@
               <span data-feather="calendar"></span>
               This week
             </button>
-          </div>
+          </div> -->
         </div>
 
         <!-- <canvas class="my-4" id="myChart" width="900" height="380"></canvas> -->
@@ -28,8 +28,9 @@
                     </div> 
                     <div class="form-group">
                         <label for="usr">Content:</label>
-                        <textarea type="text" class="form-control" rows="10" id="usr"></textarea>
+                        <textarea type="text" class="form-control" rows="10" id="editor" name="editor"></textarea>
                     </div>   
+                    <input type="submit" class="btn btn-primary" name="submit" id="submit blog"/> 
               </div>
             </div>
           </div>
@@ -39,3 +40,6 @@
       <!-- Tab panes -->
 
     </main> 
+    <script>
+      CKEDITOR.replace( 'editor' );
+    </script>

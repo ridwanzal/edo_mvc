@@ -59,5 +59,10 @@ $route['admin'] =  'admin';
 $route['blog'] = 'blog';
 $route['login'] = 'admin/login';
 $route['404_override'] = 'frontpage/notfound';
+$route['about'] = 'frontpage/about';
+$route['service'] = 'frontpage/service';
+$route['portofolio'] = 'frontpage/project';
+$route['contact'] = 'frontpage/contact';    
+
 
 $route['translate_uri_dashes'] = FALSE;
