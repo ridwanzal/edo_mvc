@@ -54,6 +54,13 @@ class Frontpage extends CI_Controller {
     $this->load->view('frontpage/frontfooter', $data);
   }
 
+  public function blog(){
+    $data['title_bar'] = "Blog | Edo";
+    $this->load->view('frontpage/frontheader', $data );
+    $this->load->view('frontpage/frontblog', $data);
+    $this->load->view('frontpage/frontfooter', $data);
+  }
+
   public function insert_contact(){
     $name = $this->input->post('p_name', TRUE);
     $email = $this->input->post('p_email', TRUE);

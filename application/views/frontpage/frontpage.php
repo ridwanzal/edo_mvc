@@ -136,6 +136,9 @@
                 </div>
                 <div class="row">
                     <div class="" id="instacontainer" style="position:relative; top:30px;width:100%;">
+                        <center>
+                            <img style="text-align:center;" class="preload_gallery" src="<?php echo base_url() ?>assets/img/preload_fountain.gif">
+                        </center>
                     </div>
                 </div>
                 </div>

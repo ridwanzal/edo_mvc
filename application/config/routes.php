@@ -58,11 +58,13 @@ $route['frontproject'] =  'frontpage/frontproject';
 $route['admin'] =  'admin';
 $route['blog'] = 'blog';
 $route['login'] = 'admin/login';
+$route['logout'] = 'admin/submit_logout';
 $route['404_override'] = 'frontpage/notfound';
 $route['about'] = 'frontpage/about';
 $route['service'] = 'frontpage/service';
 $route['portofolio'] = 'frontpage/project';
 $route['contact'] = 'frontpage/contact';    
+$route['blog'] = 'frontpage/blog';
 
 
 $route['translate_uri_dashes'] = FALSE;

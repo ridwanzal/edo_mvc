@@ -24,6 +24,18 @@
 	font-size:26px;
 }
 
+
+.blogsection{
+	background-color:#053d67;
+	background: #ffffff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Montserrat',  sans-serif;
+	color: #4d4d4d;
+	padding-top:80px;
+	padding-bottom:50px;
+}
+
 #captiontext{
 	font-weight: 300;	
 }
@@ -122,6 +134,11 @@ nav > .mynav{
 
 .text_header {
 	font-size: 58px;
+	font-weight: bold;
+}
+
+.text_header_blog{
+	font-size: 28px;
 	font-weight: bold;
 }
 
@@ -588,4 +605,13 @@ nav > .mynav{
 
 .font_bold{
 	font-weight: bold;
+}
+
+.blog_tabs{
+	margin-top:20px;
+	margin-bottom:20px
+}
+
+.containers_blog{
+	padding-top: 15px;
 }

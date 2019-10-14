@@ -133,26 +133,33 @@ var element = {
 
 
 $(document).ready(function () {
-    // token localhost
     let local_client_id = '7bcd3b9155bd4ccc80b5aedec639a1dc';
     let local_token = '461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b';
     let access_token = '461833723.1677ed0.0bb26120f15745d29d8ae94d4b3f1c6f';
-    // access endpoint https://api.instagram.com/v1/self/media/recent?access_token=ACCESS_TOKEN
-    // /users/self
-    // https://api.instagram.com/v1/users/self/?access_token=ACCESS-TOKEN
-    // let local_api_call_instagram = 'https://api.instagram.com/v1/users/self/media/recent?access_token=461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b';
     let url = '';
     let userid = ''
-
-    // alert('uhh')
-
     let imgs = imageslist2;
     let elems = $('#append_images');
     let i = 0;
+    const objects = document.getElementsByClassName('asyncImage');
+    Array.from(objects).map((item) => {
+        // Start loading image
+        const img = new Image();
+        img.src = item.dataset.src;
+        // Once image is loaded replace the src of the HTML element
+        img.onload = () => {
+            item.classList.remove('asyncImage');
+            return item.nodeName === 'IMG' ?
+                item.src = item.dataset.src :
+                item.style.backgroundImage = `url(${item.dataset.src})`;
+        };
+    });
     for (i; i < imgs.length; i++) {
         var object = '<div class="item container_mag animated fadeIn"><a href=' + imgs[i].src + '><img title="' + imgs[i].title + '" width="150" src=' + imgs[i].src + '></a></div>';
         elems.append(object);
+        $('#preload_gallery').hide();
     }
+    
     $('.option1').owlCarousel({
         animateIn: 'fadeIn',
         slideSpeed: 1000,
@@ -223,6 +230,7 @@ $(document).ready(function () {
                     showImage();
                 }
             }
+            $('.preload_gallery').hide();
         },
         failure: function (res) {
             console.log(res);
@@ -249,31 +257,11 @@ $(document).ready(function () {
         }, 300);
     });
 
-    const objects = document.getElementsByClassName('asyncImage');
-    Array.from(objects).map((item) => {
-        // Start loading image
-        const img = new Image();
-        img.src = item.dataset.src;
-        // Once image is loaded replace the src of the HTML element
-        img.onload = () => {
-            item.classList.remove('asyncImage');
-            return item.nodeName === 'IMG' ?
-                item.src = item.dataset.src :
-                item.style.backgroundImage = `url(${item.dataset.src})`;
-        };
-    });
 
     // document ready
-    let prgal = $('#preload_gallery');
+    let prgal = $('.preload_gallery');
     let container = $('#imageList');
     let galhover2 = $('.galhover2');
-    document.getElementById('preload_gallery').style.display = "none";
-    if (galhover2.length == 0) {
-        document.getElementById('preload_gallery').style.display = "none";
-    } else {
-        document.getElementById('preload_gallery').style.display = "none";
-    }
-
     $('#searchbar').click(function () {
         $('#searchinput').toggle(function () {
         }).animate({
@@ -296,23 +284,6 @@ $(document).ready(function () {
         "width": "100px",
         "text-overflow": "ellipsis"
     });
-
-
-    /*------------------------------------------------------
-     Tanggal
-     ------------------------------------------------------*/
-
-    var almanac = new Date();
-    var year = almanac.getFullYear();
-    var bulan = almanac.getMonth() + 1;
-    var hari = almanac.getDay();
-    var daysname = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    var hariini = daysname[hari];
-    $('#clock').attr('title', 'Tanggal Hari ini');
-    $('#clock').append("&nbsp;&nbsp;" +
-        hariini + " " + " - " + bulan + " - " + year);
-    $('.searchspan').attr('title', 'Car');
-    // $('#clock').attr('readonly', readonly);	
     setInterval(function () {
         $('.text_header').fadeOut(300, function () {
             var $this = $(this);
