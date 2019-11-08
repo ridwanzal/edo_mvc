@@ -19,12 +19,13 @@
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|PT+Sans|Quicksand|Roboto|Signika|Titillium+Web&display=swap" rel="stylesheet">
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" type="text/javascript"> -->
         <script
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top mynav">
@@ -41,13 +42,13 @@
                             <a href="<?php echo base_url() ?>" title="Home">Home</a>
                         </li>
                         <li class="menu">
-                            <a href="<?php echo base_url() ?>about" title="About me">About Me</a>
+                            <a href="<?php echo base_url() ?>about" title="About me">About</a>
                         </li>
                         <li class="menu">
-                            <a href="<?php echo base_url() ?>service" title="Service">Service</a>
+                            <a href="<?php echo base_url() ?>service" title="Service">Services</a>
                         </li>
                         <li class="menu">
-                            <a href="<?php echo base_url() ?>portofolio" title="Portofolio">Portofolio</a>
+                            <a href="<?php echo base_url() ?>portfolio" title="Portfolio">Portfolio</a>
                         </li> 
                         <li class="menu">
                             <a href="<?php echo base_url() ?>blog" title="Blog">Blog</a>
@@ -59,9 +60,9 @@
                         <!-- <li title="Cari" id="searchbar"><span class="fa fa-search searchspan" style="cursor:pointer;"></span></li> -->
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                    <a href="https://api.whatsapp.com/send?phone=081919992000"><button id="btn_connect" class="button1_outline_small_black_smaller" title="Contact Me"><span class="lil_caret fa fa-caret-right"></span>&nbsp;&nbsp;Contact Me Personally</button></a>
+                    <a href="https://api.whatsapp.com/send?phone=081919992000"><button id="btn_connect" class="button1_outline_small_green_smaller" title="Contact Me"><span class="lil_caret fa fa-caret-right"></span>&nbsp;&nbsp;Whatsapp</button></a>
                         <li id="satis">
-                            <a href="" title="">Satisfied already ? </a>
+                            <a href="" style="pointer-events: none; cursor: default;" title="">Connect directly ? </a>
                         </li>
                     </ul>
                 </div>

@@ -20,13 +20,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="<? echo base_url()?>admin">
                   <span data-feather="home"></span>
-                  Buat Post Baru
+                  Buat Konten Baru
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<? echo base_url()?>admin/postlist">
                   <span data-feather="book"></span>
-                  Daftar Post
+                  Daftar Konten
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="<? echo base_url()?>admin/connectlist">
+                  <span data-feather="compass"></span>
+                  Terhubung
                 </a>
               </li>
           </ul>

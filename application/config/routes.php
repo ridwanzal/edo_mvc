@@ -62,9 +62,12 @@ $route['logout'] = 'admin/submit_logout';
 $route['404_override'] = 'frontpage/notfound';
 $route['about'] = 'frontpage/about';
 $route['service'] = 'frontpage/service';
-$route['portofolio'] = 'frontpage/project';
+$route['portfolio'] = 'frontpage/project';
 $route['contact'] = 'frontpage/contact';    
+$route['submit_contact'] = 'frontpage/insert_contact';
 $route['blog'] = 'frontpage/blog';
+$route['blog/artikel/list'] = 'blog/blog_content_list';
+$route['blog/artikel/(:any)'] = 'blog/blog_content_detail/$1'; 
 
 
 $route['translate_uri_dashes'] = FALSE;

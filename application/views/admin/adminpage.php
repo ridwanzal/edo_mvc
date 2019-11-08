@@ -1,4 +1,5 @@
 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+        <?php echo form_open_multipart('blog/submit_blog'); ?>
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
         </div>
           <div class="row">
@@ -7,12 +8,12 @@
                 <div class="card-body">
                   <div class="row">
                         <div class="col-lg-1 col-md-1 col-xs-6">
-                          <img width="70" src="<?php echo base_url() ?>assets/img/image_default.png">
+                          <img style="object-fit:cover;border-radius:10px;" width="110" height="110" id="img_thumb" src="<?php echo base_url() ?>assets/img/image_default.png">
                         </div>
                         <div class="col-lg-11 col-md-11 col-xs-6">
                           <div class="form-group">
                             <label for="exampleFormControlFile1">Upload Thumbnails</label>
-                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            <input type="file" class="form-control-file" id="upload_thumb" name="upload_thumb" id="exampleFormControlFile1" required>
                           </div>
                         </div>
                   </div>
@@ -25,7 +26,6 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-body">
-                  <?php echo form_open_multipart('blog/submit_blog'); ?>
                         <?php
                             if($this->session->flashdata('message')){ ?>
                                 <div class="alert alert-success alert-dismissible"><?php echo $this->session->flashdata('message') ?>
@@ -97,5 +97,24 @@
           console.log('berhasil');
           console.log(result);
         }});
+
+        $('#upload_thumb').on('change', function(){
+          var input = this;
+          var url = $(this).val();
+          var ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
+          if (input.files && input.files[0]&& (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg")) 
+          {
+              var reader = new FileReader();
+
+              reader.onload = function (e) {
+                $('#img_thumb').attr('src', e.target.result);
+              }
+            reader.readAsDataURL(input.files[0]);
+          }
+          else
+          {
+            $('#img').attr('src', '/assets/no_preview.png');
+          }
+        })
       });
     </script>

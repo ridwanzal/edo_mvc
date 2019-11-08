@@ -111,13 +111,13 @@
 }
 
 .footer{
-	background-color:#eee;
+	background-color:#4d4d4d;
 	/*background-image:url('img/53.png');*/
 	font-family: 'Montserrat',  sans-serif;
 	color: #f5f5f5;
-	padding-top:20px;
-	padding-bottom:10px;
-	color: #888;
+	padding-top:55px;
+	padding-bottom:45px;
+	color: #ffffff;
 }
 
 .navbar {
@@ -159,7 +159,12 @@ nav > .mynav{
 .social {
 	margin-left: 20px;
 	letter-spacing: 50px;
-	color: #888;
+	color: #fff;
+}
+
+.social2 {
+	margin-right: 30px;
+	color: #fff;
 }
 
 /*TEXT*/
@@ -227,9 +232,9 @@ nav > .mynav{
 	border: 2px solid #888;
 	color: #888;
 	font-family: 'Montserrat',  sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	border-radius: 2px;
-	padding: 10px 24px 10px 24px;
+	padding: 10px 20px 10px 20px;
 	font-weight: bold;
 }
 
@@ -242,6 +247,19 @@ nav > .mynav{
 	background: transparent;
 	border: 2px solid #888;
 	color: #888;
+	font-family: 'Montserrat',  sans-serif;
+	font-size: 12px;
+	border-radius: 2px;
+	padding: 4px 24px 4px 24px;
+	position: relative;
+	top: 11px;
+	font-weight: bold;
+}
+
+.button1_outline_small_green_smaller{
+	background: #2B9455;
+	border: 2px solid #2B9455;
+	color: #fff;
 	font-family: 'Montserrat',  sans-serif;
 	font-size: 12px;
 	border-radius: 2px;
@@ -480,7 +498,7 @@ nav > .mynav{
 	}
 
 	.submit_contacts{
-		margin-top: 12px !important;
+		margin-top: 7px !important;
     margin-left: -1px !important;
 	}
 
@@ -613,5 +631,51 @@ nav > .mynav{
 }
 
 .containers_blog{
-	padding-top: 15px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.blog_detail_content{
+	font-size:18px;
+	line-height: 2;
+	font-family: 'Roboto', sans-serif; 
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	padding-top:20px;margin-top:-15px;
+	padding-bottom: 20px;
+}
+
+.blog_detail_suminfo{
+	color:#aaa;
+	padding-bottom: 20px;
+	/* position:relative; left:-18px; */
+}
+
+.blog_detail_head{
+	font-weight:bold; 
+	font-size:46px;
+	margin-bottom: 20px;
+	line-height:1.2;font-family: 'Nanum Myeongjo', sans-serif;
+}
+
+.blog_detail_about{
+	margin-top:15px;
+}
+
+.blog_about_me{
+	font-size:13px;
+	color : #888;
+	line-height: 2;
+	text-align: justify;
+	padding-top:10px;margin-top:-15px;
+}
+
+#image_pict{
+	margin-right: 10px;
+	margin-bottom: 7.5px;
+}
+
+#image_pict_aboutme{
+	position: relative;
+	top:30px;
 }

@@ -303,10 +303,10 @@ $(document).ready(function () {
         $(this).removeClass('overlay');
     });
 
-    var link_cv = 'http://home/ridwanzal/myweb'
-    $('.mycv').click(function () {
-        window.location.href = link_cv;
-    });
+    // var link_cv = 'http://home/ridwanzal/myweb'
+    // $('.mycv').click(function () {
+    //     window.location.href = link_cv;
+    // });
     var link_ld = 'https://id.linkedin.com/in/mridwanzalbina';
     $('.linkedin').click(function () {
         window.open(link_ld, '_blank');

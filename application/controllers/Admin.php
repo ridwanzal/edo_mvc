@@ -12,7 +12,7 @@ class Admin extends CI_Controller {
   public function index(){
       if($this->session->userdata('status') != "login"){
         redirect(base_url("login"));
-      }else{
+      }else{  
         $data['title_bar'] = "Buat Post Baru| Admin";
         $data['header_page'] = "";
         $this->load->view('admin/adminheader', $data );
@@ -34,6 +34,21 @@ class Admin extends CI_Controller {
       $this->load->view('admin/adminfooter', $data);
     }
   }
+  
+
+  public function connectlist(){
+    if($this->session->userdata('status') != "login"){
+      redirect(base_url("login"));
+    }else{
+      $data['title_bar'] = "Daftar Terhubung | Admin";
+      $data['header_page'] = "";
+      $this->load->view('admin/adminheader', $data );
+      $this->load->view('admin/adminbar', $data);
+      $this->load->view('admin/adminpagecontact', $data);
+      $this->load->view('admin/adminfooter', $data);
+    }
+  }
+
 
   public function login(){
     $data['title_bar'] = "Login | Admin";

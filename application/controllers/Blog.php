@@ -6,6 +6,8 @@ class Blog extends CI_Controller {
     parent::__construct();
     $this->load->helper('url');
   }
+
+
   
   public function submit_blog(){
     if($this->session->userdata('status') != "login"){
@@ -20,12 +22,29 @@ class Blog extends CI_Controller {
       $submit_draft = $this->input->post('submit_draft_blog');
       $category = $this->input->post('blog_category');
       $tag = $this->input->post('blog_tag');
-
-      if($submit){
+      //Buat slug
+      $string=preg_replace('/[^a-zA-Z0-9 \&%|{.}=,?!*()"-_+$@;<>\']/', '', $title); //filter karakter unik dan replace dengan kosong ('')
+      $trim=trim($string); // hilangkan spasi berlebihan dengan fungsi trim
+      $pre_slug=strtolower(str_replace(" ", "-", $trim)); // hilangkan spasi, kemudian ganti spasi dengan tanda strip (-)
+      $slug=$pre_slug; // tambahkan ektensi .html pada slug
+      $foto = $_FILES['upload_thumb'];
+      $image_path = "";
+      if($submit && !$foto == ''){
+        $config['upload_path'] = './assets/thumb_img/';
+        $config['allowed_types'] = 'jpg|png|gif';
+        $this->load->library('upload', $config);
+        if(!$this->upload->do_upload('upload_thumb')){
+          echo 'Gagal upload';
+        }else{
+          $image_path = $this->upload->data('file_name');
+        }
+        
         $data = array(
           'title' => $title,
           'subtitle' => $subtitle,
+          'slug' => $slug,
           'author_id' => $author_id,
+          'image_path' => $image_path,
           'content' => $content,
           'category' => $category,
           'tag' => $tag,
@@ -45,7 +64,9 @@ class Blog extends CI_Controller {
         $data = array(
           'title' => $title,
           'subtitle' => $subtitle,
+          'slug' => $slug,
           'author_id' => $author_id,
+          'image_path' => $image_path,
           'content' => $content,
           'category' => $category,
           'tag' => $tag,
@@ -64,6 +85,36 @@ class Blog extends CI_Controller {
     }
   }
 
+  public function blog_upload(){
+    if($this->session->userdata('status') != "login"){
+      redirect(base_url("login"));
+    }else{
+      // you can upload if your state is logged in
+      $config['upload_path'] = './images/';
+      $config['allowed_types'] = 'gif|jpg|png';
+      $config['max_size'] = 2000;
+      $config['max_width'] = 1500;
+      $config['max_height'] = 1500;
+      $this->load->library('upload', $config);
+    }
+
+  }
+
+  public function blog_content_detail($slug){
+    $query = "SELECT * FROM blog where slug='$slug'";
+    $query_result = $this->db->query($query);
+    if($query_result->num_rows() > 0 ){
+      $x['data']= $query_result;
+      $x['title_bar'] = "Artikel | Admin";
+      $x['header_page'] = "";
+      $this->load->view('frontpage/frontheader', $x);
+      $this->load->view('frontpage/frontblogdetail',$x);
+      $this->load->view('frontpage/frontfooter', $x);
+    }else{
+      redirect(base_url("blog"));
+    }
+  } 
+
   public function blog_content_list(){
       $query="SELECT * FROM blog order by date_created";
       $query_result = $this->db->query($query);
@@ -72,10 +123,14 @@ class Blog extends CI_Controller {
   }
 
   public function blog_content_list_ex(){
+    if($this->session->userdata('status') != "login"){
+      redirect(base_url("login"));
+    }else{
       $query="SELECT blog_id, title, subtitle, author_id, date_created, max_length, image_path, category, tag, bookmark, likes FROM blog order by date_created";
       $query_result = $this->db->query($query);
       $result = json_encode($query_result->result());
       echo $result;
+    }
   }
 
 }
