@@ -1,10 +1,17 @@
 <div class="blogsection">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="col-lg-10 col-md-10 col-xs-12">
                 <p class="text_header_blog">Artikel</p>
                 <p id="captiontext">Karena dengan menulis dan membaca kamu akan lebih banyak tahu</p>
             </div>
+            <div class="col-lg-2 col-md-2 col-xs-12">
+                    <ol class="breadcrumb" style="background:#f9f9f9;font-size:11px;">
+                        <li class="breadcrumb-item"><a href="<?php echo base_url() ?>" title="Home">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page" title="Blog">Blog</li>
+                    </ol>
+            </div>
+
         </div>
         <div class="row" style="display:none;">
             <div class="col-lg-12">
@@ -55,10 +62,10 @@
             }else{
                 image_path = "<?php echo base_url() ?>assets/thumb_img/" + decode_result[i].image_path ;
             }
-            let adapter = `<div class="col-lg-4 col-md-4 col-xs-12 containers_blog">
-                    <a href=`+result_url+`><img src=`+image_path+` style="height:270px;object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive"></a>
-                    <a href=`+result_url+`><p style="margin-top:15px; color:#4d4d4d; font-size:24px;font-family: 'Bree Serif', serif;">`+decode_result[i].title+`</p></a>
-                    <div style="height: auto; max-height:100px; ;white-space: nowrap;overflow: hidden; text-overflow: ellipsis; margin-bottom:10px;">`+decode_result[i].subtitle+`</div>
+            let adapter = `<div class="col-lg-4 col-md-4 col-xs-12 containers_blog" style="margin-bottom:10px;">
+                    <a href=`+result_url+`><img class="blog_thumbnail_data" src=`+image_path+` style="height:200px; width: 370px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive"></a>
+                    <a href=`+result_url+`><p style="margin-top:15px; color:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">`+decode_result[i].title+`</p></a>
+                    <div style="height: auto; max-height:100px; ;white-space: nowrap;overflow: hidden; ont-family: 'Montserrat', serif; text-overflow: ellipsis; margin-bottom:10px;">`+decode_result[i].subtitle+`</div>
                     <p style="font-size:15px; color:#a4a4a4"><span>M. Ridwan Zalbina</span>&nbsp;&nbsp;<span style="float:right;">`+decode_result[i].date_created+`</span></p>
             </div>`;
             setTimeout(function(){

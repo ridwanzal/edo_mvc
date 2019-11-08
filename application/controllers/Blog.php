@@ -103,9 +103,10 @@ class Blog extends CI_Controller {
   public function blog_content_detail($slug){
     $query = "SELECT * FROM blog where slug='$slug'";
     $query_result = $this->db->query($query);
+    $query_resulat_array = $this->db->query($query)->result();
     if($query_result->num_rows() > 0 ){
       $x['data']= $query_result;
-      $x['title_bar'] = "Artikel | Admin";
+      $x['title_bar'] = $query_resulat_array[0]->title;
       $x['header_page'] = "";
       $this->load->view('frontpage/frontheader', $x);
       $this->load->view('frontpage/frontblogdetail',$x);

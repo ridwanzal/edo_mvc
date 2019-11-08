@@ -631,7 +631,7 @@ nav > .mynav{
 }
 
 .containers_blog{
-	padding-top:10px;
+	padding-top:1px;
 	padding-bottom: 10px;
 }
 
@@ -642,7 +642,7 @@ nav > .mynav{
 	border-top:1px solid #eee;
 	border-bottom:1px solid #eee;
 	padding-top:20px;margin-top:-15px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .blog_detail_suminfo{
@@ -654,8 +654,15 @@ nav > .mynav{
 .blog_detail_head{
 	font-weight:bold; 
 	font-size:46px;
-	margin-bottom: 20px;
-	line-height:1.2;font-family: 'Nanum Myeongjo', sans-serif;
+	line-height:1.2;
+	font-family: 'Nanum Myeongjo', sans-serif;
+}
+
+.blog_detail_subhead{
+	font-size:20px;
+	margin-bottom: 30px;
+	color : #888;
+	line-height:1.2;font-family: 'PT Sans', sans-serif;
 }
 
 .blog_detail_about{
@@ -670,7 +677,7 @@ nav > .mynav{
 	padding-top:10px;margin-top:-15px;
 }
 
-#image_pict{
+#image_pict{	
 	margin-right: 10px;
 	margin-bottom: 7.5px;
 }
@@ -678,4 +685,31 @@ nav > .mynav{
 #image_pict_aboutme{
 	position: relative;
 	top:30px;
+}
+
+.blog_thumbnail_data:hover{
+	opacity: 0.85;
+}
+
+.blog_sharelist{
+	display:flex;
+	margin-top:25px;
+	margin-bottom:15px;  
+}
+
+.blog_sharelist > a > li.items {
+	margin-top:10px;
+	padding-right:20px;
+	padding-left: 20px;
+	padding-top:5px;
+	border-radius: 2px;
+	padding-bottom: 5px;
+	background: #fff;
+	border : 1px solid #ccc;
+	color : #444444;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 17px;
+	position: relative;
+	top: -5px;
 }

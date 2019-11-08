@@ -4,11 +4,29 @@
 			foreach ($data->result() as $row) :
 		?>
 		<div class="col-md-8 col-md-offset-2">
+			<ol class="breadcrumb" style="background:#f9f9f9;font-size:11px;">
+				<li class="breadcrumb-item"><a href="<?php echo base_url() ?>" title="Home">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page"><a href="<?php echo base_url() ?>/blog"  title="Blog">Blog</a></li>
+				<li class="breadcrumb-item active" aria-current="page"  title="<?php echo $row->title;?>"><?php echo $row->title;?></li>
+			</ol>
 			<p class="blog_detail_head"><?php echo $row->title;?></p>
-			<p class="blog_detail_suminfo"><span><img alt="" height="36px" id="image_pict" src="<?php echo base_url() ?>assets/img//rwz.svg"></span><span>M. Ridwan Zalbina</span>&nbsp;/&nbsp;<span><?php echo $row->date_created;?></span>&nbsp;<span>/</span>&nbsp;<?php echo $row->tag;?></p>
-			<div class="blog_detail_content"><?php echo $row->content;?></div>
+			<p class="blog_detail_subhead"><?php echo $row->subtitle;?></p>
+			<p class="blog_detail_suminfo"><span><img alt="" height="28px" id="image_pict" src="<?php echo base_url() ?>assets/img//rwz.svg"></span><span>M. Ridwan Zalbina</span>&nbsp;/&nbsp;
+			<span><?php echo $row->date_created;?></span>&nbsp;</p>
+			<img style="border:1px solid #eee; width:100%;margin-bottom:5px;" src="<?php echo base_url() ."/assets/thumb_img/". $row->image_path;?>" class="img-responsive">
+			<div class="blog_detail_content"><?php echo $row->content;?>
+			<div class="blog_share">
+				<ul class="blog_sharelist" style="display:flex;margin-top:15px;margin-bottom:15px;border:1px solid #eee;padding-top:5px;padding-bottom:0px; padding-left:20px;">
+					<li class="" class="item_titles" style="list-style:none;font-size:16px;margin-right:20px;top:3px;position:relative;">Bagikan  </li>
+					<a href=""><li class="fa fa-facebook items"></li></a>
+					<a href=""><li class="fa fa-twitter items"></li></a>
+					<a href=""><li class="fa fa-instagram items"></li></a>
+					<a href=""><li class="fa fa-linkedin items"></li></a>
+				</ul>
+			</div>
+			</div>
 			<div class="row blog_detail_about">
-				<div class="col-lg-2 col-md-2 col-xs-12">
+				<div class="col-lg-2 col-md-2 col-xs-12">  
 					<img alt="" height="96px" id="image_pict_aboutme" src="<?php echo base_url() ?>assets/img//rwz.svg">
 				</div>
 				<div class="col-lg-10 col-md-10 col-xs-12">
@@ -21,7 +39,50 @@
 					</span>
 				</div>
 			</div>
+			<hr/>
+			<div class="row blog_list_container" style="min-height:200px;">
+                <div class="container_loader">
+                <center>
+                    <img style="text-align:center;" class="preload_gallery" src="<?php echo base_url() ?>assets/img/preload_fountain.gif">
+                </center>
+                </div>
+        	</div>
 		</div> 
 		<?php endforeach;?>
 	</div>
 </div>
+<script>
+ $('.blog_list_container').hide();
+    $('.preload_gallery').fadeIn(1000);
+     $.ajax({
+          url: "<?php echo base_url() ?>blog/artikel/list", 
+          success: function(result){
+          let decode_result = JSON.parse(result);
+          let result_url;
+          let url_link = "<? echo base_url() ?>";
+          let slug = decode_result
+          console.log(decode_result);
+          let image_path = "";
+          let i = 0;
+          for(i; i < decode_result.length; i++){
+			if(i < 3){
+				result_url = url_link +'blog/artikel/'+  decode_result[i].slug;
+				if(decode_result[i].image_path == ""){
+					image_path = "<?php echo base_url() ?>assets/img/work/prowire.png";
+				}else{
+					image_path = "<?php echo base_url() ?>assets/thumb_img/" + decode_result[i].image_path ;
+				}
+				let adapter = `<div class="col-lg-4 col-md-4 col-xs-12 containers_blog" style="margin-bottom:10px;">
+						<a href=`+result_url+`><img class="blog_thumbnail_data" src=`+image_path+` style="height:150px; width: 240px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive"></a>
+						<a href=`+result_url+`><p style="margin-top:15px; color:#4d4d4d; font-size:16px;font-weight:bold;font-family: 'PT Sans', serif;">`+decode_result[i].title+`</p></a>
+						<div style="height: auto; max-height:100px; ;white-space: nowrap;overflow: hidden; ont-family: 'Montserrat', serif; text-overflow: ellipsis; margin-bottom:10px;">`+decode_result[i].subtitle+`</div>
+						<p style="font-size:12px; color:#a4a4a4"><span>M. Ridwan Zalbina</span>&nbsp;&nbsp;<span style="float:right;">`+decode_result[i].date_created+`</span></p>
+				</div>`;
+				setTimeout(function(){
+					$(adapter).insertAfter(".container_loader");    
+					$('.blog_list_container').fadeIn(500);
+				}, 500)
+			}
+          }
+    }});
+</script>

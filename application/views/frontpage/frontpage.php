@@ -41,7 +41,7 @@
         </div>
         
         <div class="fourthsection">
-            <div class="container">
+            <div class="container"> 
                 <div class="row">
                     <!-- <p style="margin-top:24px;"><b>Service we provide :</b></p>
                     <div class="col-lg-2 col-md-3 col-xs-12">
@@ -156,6 +156,58 @@
                     <a target="_blank" href="<?php echo base_url() ?>samuraisec/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
                     <a target="_blank" href="<?php echo base_url() ?>akad/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
                     <a target="_blank" href="<?php echo base_url() ?>qeropal/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"><span title="View Details"  class="gal_caption_title">View Details</span></div></a>
+                </div>
+            </div>
+        </div>
+        <div class="fifthsection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12">
+                        <h3>Blog&nbsp;&nbsp;<span><img src="<?php echo base_url() ?>assets/img/recent_image.png"></span></h3>
+                        <p class="medium_text">Read relevant article about Graphic Design, Programming, Information Security, Startup and much more...</p>
+                    </div>
+                </div>
+                <div class="row imagegallery1">
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <img class="blog_thumbnail_data" src="<?php echo base_url() ?>assets/thumb_img/ae4174fbd6d626d490856ce1d01fd088.jpg" style="height:150px; width: 260px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
+                                <span style="margin-top:15px; c olor:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">Daftar Command Switch Snort</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
+                                <span>Command switch yang berguna bagi kamu prakti</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
+                                <span>M. Ridwan Zalbina</span><span style="float:right;">2019-10-19</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <img class="blog_thumbnail_data" src="<?php echo base_url() ?>assets/thumb_img/ae4174fbd6d626d490856ce1d01fd088.jpg" style="height:150px; width: 260px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
+                                <span style="margin-top:15px; c olor:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">Daftar Command Switch Snort</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
+                                <span>Command switch yang berguna bagi kamu prakti</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-xs-12">
+                                <span>M. Ridwan Zalbina</span><span style="float:right;">2019-10-19</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
