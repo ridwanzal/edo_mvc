@@ -66,7 +66,7 @@
                     <a href=`+result_url+`><img class="blog_thumbnail_data" src=`+image_path+` style="height:200px; width: 370px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive"></a>
                     <a href=`+result_url+`><p style="margin-top:15px; color:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">`+decode_result[i].title+`</p></a>
                     <div style="height: auto; max-height:100px; ;white-space: nowrap;overflow: hidden; ont-family: 'Montserrat', serif; text-overflow: ellipsis; margin-bottom:10px;">`+decode_result[i].subtitle+`</div>
-                    <p style="font-size:15px; color:#a4a4a4"><span>M. Ridwan Zalbina</span>&nbsp;&nbsp;<span style="float:right;">`+decode_result[i].date_created+`</span></p>
+                    <p style="font-size:15px; color:#a4a4a4">&nbsp;<span>M. Ridwan Zalbina</span>&nbsp;&nbsp;<span style="float:right;">`+decode_result[i].date_created+`</span></p>
             </div>`;
             setTimeout(function(){
                 $(adapter).insertAfter(".container_loader");    

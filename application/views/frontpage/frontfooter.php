@@ -8,7 +8,7 @@
                             the sooner you write, the better it is for both of us.</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 text-right">
-                        <a href="<? echo base_url('contact'); ?>"><button class="button1_small block_display mycv download btn_mobile" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Send me a message</button></a>
+                        <a href="<? echo base_url('contact'); ?>"><button class="button1_small block_display mycv download btn_mobile" type="button"><span class="feather-24" data-feather="arrow-right"></span>&nbsp;&nbsp;Send me a message</button></a>
                     </div>
                 </div>
                 <div class="row" style="margin-top:30px; padding-top:30px; margin-bottom:5px; border-top:1px solid #5c5c5c">
@@ -40,5 +40,8 @@
 </script> 
 <script src="<?php echo base_url() ?>assets/js/input.js" type="text/javascript">
 </script> 
+<script>
+feather.replace()
+</script>
 </body>
 </html>

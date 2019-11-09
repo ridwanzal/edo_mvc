@@ -10,18 +10,18 @@
 				<li class="breadcrumb-item active" aria-current="page"  title="<?php echo $row->title;?>"><?php echo $row->title;?></li>
 			</ol>
 			<p class="blog_detail_head"><?php echo $row->title;?></p>
-			<p class="blog_detail_subhead"><?php echo $row->subtitle;?></p>
-			<p class="blog_detail_suminfo"><span><img alt="" height="28px" id="image_pict" src="<?php echo base_url() ?>assets/img//rwz.svg"></span><span>M. Ridwan Zalbina</span>&nbsp;/&nbsp;
-			<span><?php echo $row->date_created;?></span>&nbsp;</p>
+			<p class="blog_detail_subhead"><span data-feather="book" class="feather-8" ></span>&nbsp;<?php echo $row->subtitle;?></p>
+			<p class="blog_detail_suminfo"><span><img alt="" height="28px" id="image_pict" src="<?php echo base_url() ?>assets/img//rwz.svg"></span><span>M. Ridwan Zalbina</span>&nbsp;|&nbsp;
+			<span style=""><span data-feather="calendar" class="feather-8" ></span>&nbsp;&nbsp;<?php echo $row->date_created;?>&nbsp;</p>
 			<img style="border:1px solid #eee; width:100%;margin-bottom:5px;" src="<?php echo base_url() ."/assets/thumb_img/". $row->image_path;?>" class="img-responsive">
 			<div class="blog_detail_content"><?php echo $row->content;?>
 			<div class="blog_share">
 				<ul class="blog_sharelist" style="display:flex;margin-top:15px;margin-bottom:15px;border:1px solid #eee;padding-top:5px;padding-bottom:0px; padding-left:20px;">
 					<li class="" class="item_titles" style="list-style:none;font-size:16px;margin-right:20px;top:3px;position:relative;">Bagikan  </li>
-					<a href=""><li class="fa fa-facebook items"></li></a>
-					<a href=""><li class="fa fa-twitter items"></li></a>
-					<a href=""><li class="fa fa-instagram items"></li></a>
-					<a href=""><li class="fa fa-linkedin items"></li></a>
+					<a href="#" title="Facebook"><li class="fa fa-facebook items"></li></a>
+					<a href="#" title="Twitter"><li class="fa fa-twitter items"></li></a>
+					<a href="#" title="Instagram"><li class="fa fa-instagram items"></li></a>
+					<a href="#" title="Linkedin"><li class="fa fa-linkedin items"></li></a>
 				</ul>
 			</div>
 			</div>

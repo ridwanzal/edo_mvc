@@ -5,7 +5,7 @@
                         <p class="text_header headingtext">Web Development</p>
                         <p id="captiontext">I am a Software Engineer and Graphic Designer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
                         <div class="separator"></div>
-                        <button class="button1_outline_small" type="button" id="learnmores"><span class="fa fa-arrow-right"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>frontpage/contact"><button  style="color:#4d4d4d;" class="button1_small" type="button" id="bcontacts"><span class="fa fa-address-book"></span> &nbsp;&nbsp;Contact me</button></a>
+                        <button class="button1_outline_small" type="button" id="learnmores"><span data-feather="arrow-right" class="feather-24"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>frontpage/contact"><button  style="color:#4d4d4d;" class="button1_small" type="button" id="bcontacts"><span data-feather="briefcase" class="feather-24"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="owl-carousel option1 owl-theme" id="append_images" style="position:relative; top:30px;width:100%;">
@@ -56,7 +56,7 @@
                         <p class="medium_text"><span><img alt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;Graphic Design</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-xs-12">
-                        <p class="medium_text"><span><img alt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;UI/ UX Design <a href="<?php echo base_url() ?>frontpage/service" ><span class="fa fa-caret-right" style="position:relative; left:90px;"><a href="<?php echo base_url() ?>frontpage/service" ></span></a></p>
+                        <p class="medium_text"><span><img alt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;UI/ UX Design <a href="<?php echo base_url() ?>frontpage/service" ><span data-feather="arrow-right" class="feather-32" title="Show details" style="position:relative; left:90px;"><a href="<?php echo base_url() ?>frontpage/service" ></span></a></p>
                     </div>
                     <!-- <div class="col-lg-1 col-md-3 col-xs-12">
                         <a href="<?php echo base_url() ?>frontpage/service" ><p style="text-decoration:underline;margin-top:24px;">More info</p></a>
@@ -147,6 +147,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12">
+                        <h3>Blog&nbsp;&nbsp;<span><img src="<?php echo base_url() ?>assets/img/recent_image.png"></span></h3>
+                        <p class="medium_text">Read relevant article about Graphic Design, Programming, Information Security, Startup and much more...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row containers_blogpage" style="padding-top:50px;">
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12">
+                        <a href="<?php echo base_url() ?>blog/"><p style="margin-top: 29px;margin-bottom:-20px;text-decoration:underline">See more</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fifthsection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12">
                         <h3>My Work&nbsp;&nbsp;<span><img src="<?php echo base_url() ?>assets/img/recent_image.png"></span></h3>
                         <p class="medium_text">These are the latest recent work that I've been working up     </p>
                     </div>
@@ -156,58 +175,6 @@
                     <a target="_blank" href="<?php echo base_url() ?>samuraisec/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
                     <a target="_blank" href="<?php echo base_url() ?>akad/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
                     <a target="_blank" href="<?php echo base_url() ?>qeropal/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"><span title="View Details"  class="gal_caption_title">View Details</span></div></a>
-                </div>
-            </div>
-        </div>
-        <div class="fifthsection">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xs-12">
-                        <h3>Blog&nbsp;&nbsp;<span><img src="<?php echo base_url() ?>assets/img/recent_image.png"></span></h3>
-                        <p class="medium_text">Read relevant article about Graphic Design, Programming, Information Security, Startup and much more...</p>
-                    </div>
-                </div>
-                <div class="row imagegallery1">
-                    <div class="col-lg-3 col-md-3 col-xs-12">
-                        <img class="blog_thumbnail_data" src="<?php echo base_url() ?>assets/thumb_img/ae4174fbd6d626d490856ce1d01fd088.jpg" style="height:150px; width: 260px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-xs-12">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-xs-12">
-                                <span style="margin-top:15px; c olor:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">Daftar Command Switch Snort</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-xs-12">
-                                <span>Command switch yang berguna bagi kamu prakti</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-xs-12">
-                                <span>M. Ridwan Zalbina</span><span style="float:right;">2019-10-19</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-xs-12">
-                        <img class="blog_thumbnail_data" src="<?php echo base_url() ?>assets/thumb_img/ae4174fbd6d626d490856ce1d01fd088.jpg" style="height:150px; width: 260px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive">
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-xs-12">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-xs-12">
-                                <span style="margin-top:15px; c olor:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">Daftar Command Switch Snort</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-xs-12">
-                                <span>Command switch yang berguna bagi kamu prakti</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-xs-12">
-                                <span>M. Ridwan Zalbina</span><span style="float:right;">2019-10-19</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -251,3 +218,53 @@
                 </div>
             </div>
         </div>
+        <script>
+            $.ajax({
+                url: "<?php echo base_url() ?>blog/artikel/list", 
+                success: function(result){
+                let decode_result = JSON.parse(result);
+                let result_url;
+                let url_link = "<? echo base_url() ?>";
+                let slug = decode_result
+                console.log(decode_result);
+                let image_path = "";
+                let i = 0;
+                for(i; i < decode_result.length; i++){
+                    if(i < 2){
+                        result_url = url_link +'blog/artikel/'+  decode_result[i].slug;
+                        if(decode_result[i].image_path == ""){
+                            image_path = "<?php echo base_url() ?>assets/img/work/prowire.png";
+                        }else{
+                            image_path = "<?php echo base_url() ?>assets/thumb_img/" + decode_result[i].image_path ;
+                        }
+                        let adapter = `<div class="">
+                            <div class="col-lg-3 col-md-3 col-xs-12" style="right:14px;">
+                                <img class="blog_thumbnail_data" src=`+image_path+` style="height:130px; width: 260px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-xs-12" style="right:14px;">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-xs-12">
+                                    <a style="color:#444444" href=`+result_url+`><span style="margin-top:15px; c olor:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">`+decode_result[i].title+`</span></a>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:10px;">
+                                <div class="col-lg-12 col-md-12 col-xs-12">
+                                    <span>`+decode_result[i].subtitle+`</span>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:5px;">
+                                <div class="col-lg-12 col-md-12 col-xs-12">
+                                    <span>M. Ridwan Zalbina</span><span style="float:right;">`+decode_result[i].date_created+`</span>
+                                </div>
+                            </div>
+                        </div>
+                        `;
+                        setTimeout(function(){
+                            $(adapter).insertAfter(".containers_blogpage");    
+                            $('.blog_list_container').fadeIn(500);
+                        }, 500)
+                    }
+                }
+                }
+            });
+        </script>
