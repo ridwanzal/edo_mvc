@@ -75,7 +75,7 @@
                         </div>
                         <div class="form-group">
                             <label>Content</label>
-                            <textarea type="text" name="blog_content" class="form-control" rows="10" id="editor" name="editor" required></textarea>
+                            <textarea type="text" name="blog_content" class="form-control" rows="10" id="editor" name="editor" data-sample-preservewhitespace required></textarea>
                         </div>   
                         <input type="submit" value="Save as Draft" class="btn btn-sm btn-primary" name="submit_draft_blog" id="submit blog"/> 
                         <input type="submit" value="Post" class="btn btn-sm btn-success" name="submit_blog" id="submit blog"/> 
@@ -89,7 +89,12 @@
 
     </main> 
     <script>
-      CKEDITOR.replace( 'editor' ); 
+      var ck_config = {
+        extraPlugins: 'codesnippet',
+        codeSnippet_theme: 'monokai_sublime',
+        height: 356
+      };
+      CKEDITOR.replace( 'editor', ck_config); 
       $(document).ready(function(){
         $.ajax({
           url: "<?php echo base_url() ?>blog/blog_content_list", 

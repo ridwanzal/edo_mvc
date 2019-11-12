@@ -2,6 +2,9 @@
   <div class="container">
   <div class="row justify-content-md-center">
       <div class="col-lg-6 col-md-6 col-xs-12">
+      <center><a class="" href="<?php echo base_url() ?>"><img alt="" src="<?php echo base_url() ?>assets/img/logoone.svg" width="90px" style="position:relative;top:-3px;"></a></center>
+      <br/>
+      <br/>
         <form method="POST" action="<?php echo base_url('admin/submit_login'); ?>">
           <div class="card">
               <article class="card-body setpad">
@@ -19,14 +22,14 @@
                     </div> <!-- form-group// -->
                     <div class="form-group">
                       <label>Your password</label>
-                        <input name="p_password" class="form-control" placeholder="******" type="password" required>
+                        <input name="p_password" class="form-control" placeholder="***********" type="password" required>
                     </div> <!-- form-group// --> 
                     <div class="form-group"> 
                     </div> <!-- form-group// -->  
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <div class="form-group">
-                                <input type="submit" class="btn btn-primary btn-block btn-dark" value="Sign In"/>
+                                <input type="submit" class="btn btn-primary btn-block btn-dark" value="Sign In" style="padding-top:15px; padding-bottom:12px;"/>
                             </div> <!-- form-group// -->                                                         
                         </div>
                     </div>

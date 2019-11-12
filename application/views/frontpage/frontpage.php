@@ -157,7 +157,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12">
-                        <a href="<?php echo base_url() ?>blog/"><p style="margin-top: 29px;margin-bottom:-20px;text-decoration:underline">See more</p></a>
+                        <a href="<?php echo base_url() ?>blog/"><p style="margin-top: 29px;margin-bottom:-20px;">See more &nbsp;&nbsp;<span style="position:relative;top:2px;" data-feather="arrow-right"></span></p></a>
                     </div>
                 </div>
             </div>
@@ -244,7 +244,7 @@
                             <div class="col-lg-3 col-md-3 col-xs-12" style="right:14px;">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-xs-12">
-                                    <a style="color:#444444" href=`+result_url+`><span style="margin-top:15px; c olor:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">`+decode_result[i].title+`</span></a>
+                                    <a style="color:#444444" title=`+decode_result[i].title+`    href=`+result_url+`><span style="margin-top:15px; c olor:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">`+decode_result[i].title+`</span></a>
                                 </div>
                             </div>
                             <div class="row" style="margin-top:10px;">
