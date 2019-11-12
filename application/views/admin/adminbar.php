@@ -45,8 +45,9 @@
           </ul>
           <hr/>
           <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link" href="<? echo base_url()?>logout">
+              <li class="nav-item" id="logout">
+                <!-- <a class="nav-link" href="<? echo base_url()?>logout"> -->
+                <a class="nav-link"  href="#">
                   <span data-feather="log-out"></span>
                   Logout
                 </a>
