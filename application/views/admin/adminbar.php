@@ -15,8 +15,15 @@
   <div class="container-fluid">
     <div class="row">
       <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-        <div class="sidebar-sticky">
+        <div class="sidebar-sticky" style="position:relative;top:30px;">
           <ul class="nav flex-column">
+            <li class="nav-item" style="background:#2B9455;">
+                <a class="nav-link" target="_blank" href="<? echo base_url()?>blog">
+                  <span data-feather="navigation" style="color:#ffffff;"></span>
+                  <span style="color:#ffffff;">Buka blog</span>
+                  <span data-feather="arrow-right" style="color:#ffffff; float:right;"></span>
+                </a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="<? echo base_url()?>admin">
                   <span data-feather="home"></span>
