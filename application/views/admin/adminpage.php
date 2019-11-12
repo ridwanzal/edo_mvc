@@ -1,16 +1,14 @@
 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
         <?php echo form_open_multipart('blog/submit_blog'); ?>
-        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-        </div>
           <div class="row">
             <div class="col-md-12">
               <div class="card">
                 <div class="card-body">
                   <div class="row">
                         <div class="col-lg-1 col-md-1 col-xs-6">
-                          <img style="object-fit:cover;border-radius:10px;" width="110" height="110" id="img_thumb" src="<?php echo base_url() ?>assets/img/image_default.png">
+                          <img style="object-fit:cover;border-radius:10px;position:relative;top:6px;" width="50" height="50" id="img_thumb" src="<?php echo base_url() ?>assets/img/image_default.png">
                         </div>
-                        <div class="col-lg-11 col-md-11 col-xs-6">
+                        <div class="col-lg-11 col-md-11 col-xs-6" style="position: relative;left: -57px;">
                           <div class="form-group">
                             <label for="exampleFormControlFile1">Upload Thumbnails</label>
                             <input type="file" class="form-control-file" id="upload_thumb" name="upload_thumb" id="exampleFormControlFile1" required>
@@ -75,7 +73,7 @@
                         </div>
                         <div class="form-group">
                             <label>Content</label>
-                            <textarea type="text" name="blog_content" class="form-control" rows="10" id="editor" name="editor" data-sample-preservewhitespace required></textarea>
+                            <textarea type="text" name="blog_content" class="form-control" contenteditable="true" rows="10" id="editor" name="editor" data-sample-preservewhitespace required></textarea>
                         </div>   
                         <input type="submit" value="Save as Draft" class="btn btn-sm btn-primary" name="submit_draft_blog" id="submit blog"/> 
                         <input type="submit" value="Post" class="btn btn-sm btn-success" name="submit_blog" id="submit blog"/> 
@@ -90,11 +88,93 @@
     </main> 
     <script>
       var ck_config = {
-        extraPlugins: 'codesnippet',
+        extraPlugins: 'easyimage, codesnippet',
         codeSnippet_theme: 'monokai_sublime',
-        height: 356
+        removePlugins: 'image',
+        removeDialogTabs: 'link:advanced',
+        toolbar: [{
+            name: 'document',
+            items: ['Undo', 'Redo', 'mode', 'document', 'doctools' ]
+          },
+          {
+            name: 'styles',
+            items: ['Format']
+          },
+          {
+            name: 'basicstyles',
+            items: ['Bold', 'Italic', 'Strike', '-', 'RemoveFormat']
+          },
+          {
+            name: 'paragraph',
+            items: ['NumberedList', 'BulletedList']
+          },
+          {
+            name: 'links',
+            items: ['Link', 'Unlink']
+          },
+          {
+            name: 'insert',
+            items: ['EasyImageUpload']
+          },
+          { name: 'clipboard', groups: [ 'clipboard', 'undo' ] },
+          { name: 'editing', groups: [ 'find', 'selection', 'spellchecker', 'editing' ] },
+          { name: 'forms', groups: [ 'forms' ] },
+          { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
+          { name: 'insert', groups: [ 'insert' ] },
+          { name: 'colors', groups: [ 'colors' ] },
+          { name: 'tools', groups: [ 'tools' ] },
+          { name: 'others', groups: [ 'others' ] },
+          { name: 'about', groups: [ 'about' ] }
+        ],
+        height: 360,
+        cloudServices_uploadUrl: 'https://33333.cke-cs.com/easyimage/upload/',
+        // Note: this is a token endpoint to be used for CKEditor 4 samples only. Images uploaded using this token may be deleted automatically at any moment.
+        // To create your own token URL please visit https://ckeditor.com/ckeditor-cloud-services/.
+        cloudServices_tokenUrl: 'https://33333.cke-cs.com/token/dev/ijrDsqFix838Gh3wGO3F77FSW94BwcLXprJ4APSp3XQ26xsUHTi0jcb1hoBt',
+        easyimage_styles: {
+          gradient1: {
+            group: 'easyimage-gradients',
+            attributes: {
+              'class': 'easyimage-gradient-1'
+            },
+            label: 'Blue Gradient',
+            icon: 'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/easyimage/icons/gradient1.png',
+            iconHiDpi: 'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/easyimage/icons/hidpi/gradient1.png'
+          },
+          gradient2: {
+            group: 'easyimage-gradients',
+            attributes: {
+              'class': 'easyimage-gradient-2'
+            },
+            label: 'Pink Gradient',
+            icon: 'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/easyimage/icons/gradient2.png',
+            iconHiDpi: 'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/easyimage/icons/hidpi/gradient2.png'
+          },
+          noGradient: {
+            group: 'easyimage-gradients',
+            attributes: {
+              'class': 'easyimage-no-gradient'
+            },
+            label: 'No Gradient',
+            icon: 'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/easyimage/icons/nogradient.png',
+            iconHiDpi: 'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/easyimage/icons/hidpi/nogradient.png'
+          }
+        },
+        easyimage_toolbar: [
+          'EasyImageFull',
+          'EasyImageSide',
+          'EasyImageGradient1',
+          'EasyImageGradient2',
+          'EasyImageNoGradient',
+          'EasyImageAlt'
+        ]
       };
-      CKEDITOR.replace( 'editor', ck_config); 
+      CKEDITOR.addCss('figure[class*=easyimage-gradient]::before { content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; }' +
+      'figure[class*=easyimage-gradient] figcaption { position: relative; z-index: 2; }' +
+      '.easyimage-gradient-1::before { background-image: linear-gradient( 135deg, rgba( 115, 110, 254, 0 ) 0%, rgba( 66, 174, 234, .72 ) 100% ); }' +
+      '.easyimage-gradient-2::before { background-image: linear-gradient( 135deg, rgba( 115, 110, 254, 0 ) 0%, rgba( 228, 66, 234, .72 ) 100% ); }');
+      CKEDITOR.replace( 'editor', ck_config); // apply ckeditor
+
       $(document).ready(function(){
         $.ajax({
           url: "<?php echo base_url() ?>blog/blog_content_list", 
