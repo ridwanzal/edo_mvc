@@ -33,7 +33,7 @@
 <script>
   $( document ).ready(function() {
     $.ajax({
-        url: "http://localhost/edo/blog/blog_content_list_ex", 
+        url: "<?php echo base_url(); ?>blog/blog_content_list_ex", 
         success: function(result){
             console.log(JSON.parse(result));
             $('#tables').DataTable( { 

@@ -27,7 +27,7 @@
 <script>
   $( document ).ready(function() {
     $.ajax({
-        url: "http://localhost/edo/frontpage/connect_list", 
+        url: "<?php echo base_url(); ?>frontpage/connect_list", 
         success: function(result){
             console.log(JSON.parse(result));
             $('#tables').DataTable( { 
