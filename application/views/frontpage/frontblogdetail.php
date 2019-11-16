@@ -3,7 +3,7 @@
 		<?php
 			foreach ($data->result() as $row) :
 		?>
-		<div class="col-md-8 col-md-offset-2">
+		<div class="col-md-8 col-md-offset-2 blog_details_maincontainer" >
 			<ol class="breadcrumb" style="background:#f9f9f9;font-size:11px;">
 				<li class="breadcrumb-item"><a href="<?php echo base_url() ?>" title="Home">Home</a></li>
 				<li class="breadcrumb-item active" aria-current="page"><a href="<?php echo base_url() ?>/blog"  title="Blog">Blog</a></li>

@@ -510,6 +510,10 @@ nav > .mynav{
 }
 
 @media screen and  (max-width : 767px){
+	.blog_details_maincontainer{
+		margin-top:50px;
+	}
+
 	.imagetools{
 		width:100%;
 	}
