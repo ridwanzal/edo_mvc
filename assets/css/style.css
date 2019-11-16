@@ -772,9 +772,15 @@ nav > .mynav{
 	top:30px;
 }
 
+.blog_thumbnail_data{
+	height:200px; 
+	width: 370px; 
+	object-fit:cover;
+	border-radius:4px;border:1px solid #eee;
+}
+
 .blog_thumbnail_data:hover{
 	opacity: 0.85;
-	height:200px; width: 370px; object-fit:cover;border-radius:4px;border:1px solid #eee;
 }
 
 .blog_sharelist{
