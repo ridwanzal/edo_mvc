@@ -133,7 +133,7 @@
                         <h4>Instagram Feed</h4>
                         <p class="medium_text">View my instagram feed here</p>
                     </div>
-                    <div class="col-lg-7 col-md-7 col-md-push-4 col-sm-6 col-xs-12  float-right">
+                    <div class="col-lg-4 col-md-4 col-md-push-1 col-sm-6 col-xs-12  pull-right">
                         <h4>Follow My instagram Account</h4>
                         <span style="position:relative; left : 67px; top:5px;"><img alt="" height="28px" id="image_pict" src="http://localhost/edo/assets/img//rwz.svg">&nbsp;<a href="https://instagram.com/ridwanzal" target="_blank"><button class="button1_outline_smaller_black" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Follow Instagram</button></a></span>
                     </div>
