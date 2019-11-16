@@ -7,7 +7,7 @@
 			<ol class="breadcrumb" style="background:#f9f9f9;font-size:11px;">
 				<li class="breadcrumb-item"><a href="<?php echo base_url() ?>" title="Home">Home</a></li>
 				<li class="breadcrumb-item active" aria-current="page"><a href="<?php echo base_url() ?>/blog"  title="Blog">Blog</a></li>
-				<li class="breadcrumb-item active" aria-current="page"  title="<?php echo $row->title;?>"><?php echo $row->title;?></li>
+				<li class="breadcrumb-item active detail_slug" aria-current="page"  title="<?php echo $row->title;?>"><?php echo $row->title;?></li>
 			</ol>
 			<p class="blog_detail_head"><?php echo $row->title;?></p>
 			<p class="blog_detail_subhead"><span data-feather="book" class="feather-8" ></span>&nbsp;<?php echo $row->subtitle;?></p>
