@@ -155,7 +155,7 @@ $(document).ready(function () {
         };
     });
     for (i; i < imgs.length; i++) {
-        var object = '<div class="item container_mag animated fadeIn"><a href=' + imgs[i].src + '><img title="' + imgs[i].title + '" width="150" src=' + imgs[i].src + '></a></div>';
+        var object = '<div class="item container_mag animated fadeIn"><a href=' + imgs[i].src + '><img title="' + imgs[i].title + '" width="200" src=' + imgs[i].src + '></a></div>';
         elems.append(object);
         $('#preload_gallery').hide();
     }
@@ -222,10 +222,10 @@ $(document).ready(function () {
             let elem = $('#instacontainer');
             let i = 0;
             for (i; i < res.data.length; i++) {
-                limit = 16;
+                limit = 18;
                 if (i < limit) {
                     let img_uri = res.data[i].images.standard_resolution.url;
-                    let object = '<div class="col-lg-3 col-md-3 col-xs-12 item container_mag2 animated fadeIn"><a href=' + img_uri + '><img src=' + img_uri + ' style="margin-top:3px; margin-bottom:3px;width:287px; border:1px solid #eee;" class="img_insta"></a></div>';
+                    let object = '<div class="col-lg-2 col-md-2 col-xs-12 item container_mag2 animated fadeIn"><a href=' + img_uri + '><img src=' + img_uri + ' style="margin-top:3px; margin-bottom:3px;width:190px; border:1px solid #eee;" class="img_insta"></a></div>';
                     elem.append(object);
                     showImage();
                 }
@@ -298,7 +298,7 @@ $(document).ready(function () {
     }, 3500);
 
     $('.galhover').hover(function () {
-        $(this).delay(500).addClass('overlay'); 12
+        $(this).delay(200).addClass('overlay'); 12
     }).mouseleave(function () {
         $(this).removeClass('overlay');
     });

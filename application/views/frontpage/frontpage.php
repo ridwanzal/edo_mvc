@@ -129,9 +129,13 @@
         <div class="fifthsection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xs-12">
-                        <h3>Instagram Feed</h3>
+                    <div class="col-lg-5  col-md-5  col-sm-6 col-xs-12">
+                        <h4>Instagram Feed</h4>
                         <p class="medium_text">View my instagram feed here</p>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-md-push-4 col-sm-6 col-xs-12  float-right">
+                        <h4>Follow My instagram Account</h4>
+                        <span style="position:relative; left : 67px; top:5px;"><img alt="" height="28px" id="image_pict" src="http://localhost/edo/assets/img//rwz.svg">&nbsp;<button class="button1_outline_smaller_black" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Follow Instagram</button></span>
                     </div>
                 </div>
                 <div class="row">

@@ -7,7 +7,6 @@
                     Web Development, Graphic Design services, UI/ UX Design and Android Mobile App Development. Create stunning, clean and acceptable product.
                     I'm very happy if you want to collaborate to make an awesome product.
         </p>
-        <br/>
         <p class="medium_text"></p>
         <div class="row">
         <br/>
