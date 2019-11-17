@@ -514,6 +514,10 @@ nav > .mynav{
 		margin-top:50px;
 	}
 
+	.btn_mobile{
+		margin-bottom: 6px;
+	}
+
 	.blogsection{
 		padding-top:58px;
 	}
@@ -860,4 +864,8 @@ nav > .mynav{
     text-decoration: none;
     color: #333;
     font-weight: 600;
+}
+
+.easyimage > img {
+	width: 100%;
 }
