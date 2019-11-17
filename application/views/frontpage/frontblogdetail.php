@@ -18,10 +18,9 @@
 			<div class="blog_share">
 				<ul class="blog_sharelist" style="display:flex;margin-top:15px;margin-bottom:15px;border:1px solid #eee;padding-top:5px;padding-bottom:0px; padding-left:20px;">
 					<li class="" class="item_titles" style="list-style:none;font-size:16px;margin-right:20px;top:3px;position:relative;">Bagikan  </li>
-					<a href="#" title="Facebook"><li class="fa fa-facebook items"></li></a>
-					<a href="#" title="Twitter"><li class="fa fa-twitter items"></li></a>
-					<a href="#" title="Instagram"><li class="fa fa-instagram items"></li></a>
-					<a href="#" title="Linkedin"><li class="fa fa-linkedin items"></li></a>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Facebook"><li class="fa fa-facebook items"></li></a>
+					<a href="https://twitter.com/intent/tweet?text=<?= $row->title;  ?>&nbsp;<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Twitter"><li class="fa fa-twitter items"></li></a>
+					<a href="https://www.linkedin.com/sharing/share-offsite/?url=<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Linkedin"><li class="fa fa-linkedin items"></li></a>
 				</ul>
 			</div>
 			</div>
