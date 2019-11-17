@@ -133,7 +133,7 @@
                         <h4>Instagram Feed</h4>
                         <p class="medium_text">View my instagram feed here</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-md-push-1 col-sm-6 col-xs-12  pull-right">
+                    <div class="col-lg-4 col-md-4 col-md-push-1 col-sm-6 col-xs-12  pull-right insta_follow">
                         <h4>Follow My instagram Account</h4>
                         <span style="position:relative; left : 67px; top:5px;"><img alt="" height="28px" id="image_pict" src="http://localhost/edo/assets/img//rwz.svg">&nbsp;<a href="https://instagram.com/ridwanzal" target="_blank"><button class="button1_outline_smaller_black" type="button"><span class="fa fa-caret-right"></span>&nbsp;&nbsp;Follow Instagram</button></a></span>
                     </div>
@@ -175,28 +175,27 @@
                     </div>
                 </div>
                 <div class="row imagegallery1">
-                    <a target="_blank" href="<?php echo base_url() ?>prowire/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/prowire.png"><span title="View Details"  class="gal_caption_title">View Details</span></div></a>
-                    <a target="_blank" href="<?php echo base_url() ?>samuraisec/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
-                    <a target="_blank" href="<?php echo base_url() ?>akad/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
-                    <a target="_blank" href="<?php echo base_url() ?>qeropal/index.html"><div class="col-lg-3 col-md-3 col-xs-12 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"><span title="View Details"  class="gal_caption_title">View Details</span></div></a>
+                    <a target="_blank" href="<?php echo base_url() ?>prowire/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/prowire.png"><span title="View Details"  class="gal_caption_title">View Details</span></div></a>
+                    <a target="_blank" href="<?php echo base_url() ?>samuraisec/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
+                    <a target="_blank" href="<?php echo base_url() ?>akad/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
+                    <a target="_blank" href="<?php echo base_url() ?>qeropal/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"><span title="View Details"  class="gal_caption_title">View Details</span></div></a>
                 </div>
             </div>
         </div>
         <div class="" style="margin-top:0px; margin-bottom:50px;font-family: 'Montserrat',  sans-serif;">
             <div class="container">
                 <hr/>
-                <br/>
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-xs-6 toolsuse">
                         <img  class="img-responsive imagetools" style="text-align:center;" id="" width="267" src="<?php echo base_url() ?>assets/img/1.png">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-xs-6 toolsuse">
                         <img  class="img-responsive imagetools" style="text-align:center;" id=""  width="267" src="<?php echo base_url() ?>assets/img/2.png">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-xs-6 toolsuse">
                         <img  class="img-responsive imagetools" style="text-align:center;" id=""  width="267" src="<?php echo base_url() ?>assets/img/3.png">
                     </div>
-                    <div class="col-lg-3 col-md-3 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-xs-6 toolsuse">
                         <img  class="img-responsive imagetools" style="text-align:center;" id=""  width="267" src="<?php echo base_url() ?>assets/img/4.png">
                     </div>
                 </div>

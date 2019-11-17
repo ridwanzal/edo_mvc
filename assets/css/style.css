@@ -510,6 +510,10 @@ nav > .mynav{
 }
 
 @media screen and  (max-width : 767px){
+	.insta_follow > h4{
+		display: none;	
+	}
+
 	.blog_details_maincontainer{
 		margin-top:50px;
 	}
@@ -518,12 +522,16 @@ nav > .mynav{
 		margin-bottom: 6px;
 	}
 
+	.toolsuse{
+		margin-top:10px;
+	}
+
 	.blogsection{
 		padding-top:58px;
 	}
 
 	.blog_thumbnail_data{
-		width: 100%;
+		width: 100% !important;
 	}
 
 	.easyimage > img {
