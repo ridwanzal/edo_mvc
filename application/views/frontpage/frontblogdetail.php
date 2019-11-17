@@ -4,11 +4,22 @@
 			foreach ($data->result() as $row) :
 		?>
 		<div class="col-md-8 col-md-offset-2 blog_details_maincontainer" >
-			<ol class="breadcrumb" style="background:#f9f9f9;font-size:11px;">
-				<li class="breadcrumb-item"><a href="<?php echo base_url() ?>" title="Home">Home</a></li>
-				<li class="breadcrumb-item active" aria-current="page"><a href="<?php echo base_url() ?>/blog"  title="Blog">Blog</a></li>
-				<li class="breadcrumb-item active detail_slug" aria-current="page"  title="<?php echo $row->title;?>"><?php echo $row->title;?></li>
-			</ol>
+		    <div class="row">
+				<div class="col-lg-2 col-md-2 col-xs-3">
+					<a href="#">
+						<ul class="breadcrumb" style="font-size:11px;">
+							<li class="breadcrumb-item" ><a href="<?php echo base_url() ?>blog" title="Home"><span data-feather="arrow-left" class="feather-8" style="position:relative;top:1px;height:10px;"></span>&nbsp;&nbsp;Back</a></li>
+						</ul>
+					</a>
+				</div>
+				<div class="col-lg-10 col-md-10 col-xs-9" style="position:relative;right:23px;">
+					<ol class="breadcrumb" style="font-size:11px;">
+						<li class="breadcrumb-item"><a href="<?php echo base_url() ?>" title="Home">Home</a></li>
+						<li class="breadcrumb-item active" aria-current="page"><a href="<?php echo base_url() ?>/blog"  title="Blog">Blog</a></li>
+						<li class="breadcrumb-item active detail_slug" aria-current="page"  title="<?php echo $row->title;?>"><?php echo $row->title;?></li>
+					</ol>
+				</div>
+			</div>
 			<p class="blog_detail_head"><?php echo $row->title;?></p>
 			<p class="blog_detail_subhead"><span data-feather="book" class="feather-8" ></span>&nbsp;<?php echo $row->subtitle;?></p>
 			<p class="blog_detail_suminfo"><span><img alt="" height="28px" id="image_pict" src="<?php echo base_url() ?>assets/img//rwz.svg"></span><span>M. Ridwan Zalbina</span>&nbsp;|&nbsp;
