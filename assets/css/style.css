@@ -64,7 +64,7 @@
 	background-color:#f5f5f5;
 	font-family: 'Montserrat',  sans-serif;
 	color: #4d4d4d;
-	padding-top:70px;
+	padding-top:40px;
 	padding-bottom:-30px;
 }
 
@@ -526,12 +526,13 @@ nav > .mynav{
 		margin-top:10px;
 	}
 
+
 	.blogsection{
 		padding-top:58px;
 	}
 
 	.blog_thumbnail_data{
-		width: 100% !important;
+		width: 110% !important;
 	}
 
 	.easyimage > img {
@@ -617,11 +618,12 @@ nav > .mynav{
 
 	.gal_caption_title{
 		right: 5px;
+		width: 93% !important;
 	}
 
 	.fifthsection{
-		padding-top: 0px;
-		padding-bottom: 0px;
+		padding-top: 30px;
+		padding-bottom: 20px;
 	}
 
 	.fourthsection{
@@ -877,3 +879,7 @@ nav > .mynav{
 .easyimage > img {
 	width: 100%;
 }	
+
+.containers_blogpage{
+	padding-top:20px;
+}

@@ -157,7 +157,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row containers_blogpage" style="padding-top:50px;">
+                <div class="row containers_blogpage">
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-xs-12">
