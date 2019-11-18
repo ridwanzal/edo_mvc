@@ -881,3 +881,12 @@ nav > .mynav{
 .containers_blogpage{
 	padding-top:20px;
 }
+
+.detail_slug{
+	width: 488px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    top: 4px;
+    overflow: hidden;
+}
