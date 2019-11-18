@@ -117,7 +117,7 @@ class Blog extends CI_Controller {
   } 
 
   public function blog_content_list(){
-      $query="SELECT * FROM blog order by date_created";
+      $query="SELECT * FROM blog order by blog_id";
       $query_result = $this->db->query($query);
       $result = json_encode($query_result->result());
       echo $result;
