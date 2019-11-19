@@ -155,14 +155,13 @@ $(document).ready(function () {
         };
     });
     for (i; i < imgs.length; i++) {
-        var object = '<div class="item container_mag animated fadeIn"><a href=' + imgs[i].src + '><img title="' + imgs[i].title + '" width="200" src=' + imgs[i].src + '></a></div>';
+        var object = '<div class="item container_mag animated slideInUp"><a href=' + imgs[i].src + '><img title="' + imgs[i].title + '" width="200" src=' + imgs[i].src + '></a></div>';
         elems.append(object);
         $('#preload_gallery').hide();
     }
     
     $('.option1').owlCarousel({
-        animateIn: 'fadeIn',
-        slideSpeed: 1000,
+        slideSpeed: 100,
         nav: true,
         items: 4,
         dots: false,
@@ -180,8 +179,7 @@ $(document).ready(function () {
     });
 
     $('.option2').owlCarousel({
-        animateIn: 'fadeIn',
-        slideSpeed: 1000,
+        slideSpeed: 100,
         items: 1,
         dots: true,
         loop: true,
@@ -191,8 +189,7 @@ $(document).ready(function () {
     });
 
     $('.option3').owlCarousel({
-        animateIn: 'fadeIn',
-        slideSpeed: 1000,
+        slideSpeed: 100,
         nav: false,
         items: 1,
         dots: true,
@@ -254,7 +251,7 @@ $(document).ready(function () {
         console.log('kamu klik ini')
         $('html, body').animate({
             scrollTop: $('.fourthsection').offset().top,
-        }, 300);
+        }, 1);
     });
 
 
