@@ -261,7 +261,7 @@ nav > .mynav{
 
 .button1_outline_smaller_black{
 	background: transparent;
-	border: 2px solid #888;
+	border: 1px solid #888;
 	color: #888;
 	font-family: 'Montserrat',  sans-serif;
 	font-size: 14px;
@@ -277,7 +277,7 @@ nav > .mynav{
 
 .button1_outline_smaller_black_smaller{
 	background: transparent;
-	border: 2px solid #888;
+	border: 1px solid #888;
 	color: #888;
 	font-family: 'Montserrat',  sans-serif;
 	font-size: 12px;
