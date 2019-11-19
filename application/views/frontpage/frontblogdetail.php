@@ -26,6 +26,19 @@
 			<span style=""><span data-feather="calendar" class="feather-8" ></span>&nbsp;&nbsp;<?php echo $row->date_created;?>&nbsp;</p>
 			<img style="border:1px solid #eee; width:100%;margin-bottom:5px;" src="<?php echo base_url() ."/assets/thumb_img/". $row->image_path;?>" class="img-responsive">
 			<div class="blog_detail_content"><?php echo $row->content;?>
+			<div class="row blog_tag">
+				<div class="col-lg-12 col-md-12 col-xs-12">
+					<?php $tag = $row->tag;
+						$taglist = explode (",", $tag);
+						for($i =0; $i < sizeof($taglist); $i++){
+							?>  
+									<button class="button1_outline_smaller_black" type="button"><span></span><? echo $taglist[$i] ?></button>
+									<?
+						}
+					?>
+				</div>
+
+			</div>
 			<div class="blog_share">
 				<ul class="blog_sharelist" style="display:flex;margin-top:15px;margin-bottom:15px;border:1px solid #eee;padding-top:5px;padding-bottom:0px; padding-left:20px;">
 					<li class="" class="item_titles" style="list-style:none;font-size:16px;margin-right:20px;top:3px;position:relative;">Bagikan  </li>
