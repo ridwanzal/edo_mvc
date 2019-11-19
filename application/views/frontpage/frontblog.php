@@ -71,7 +71,7 @@
             setTimeout(function(){
                 $(adapter).insertAfter(".container_loader");    
                 $('.blog_list_container').fadeIn(500);
-            }, 500)
+            }, 1)
           }
     }});
 </script>
