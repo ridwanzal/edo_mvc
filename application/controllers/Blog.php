@@ -107,7 +107,8 @@ class Blog extends CI_Controller {
     if($query_result->num_rows() > 0 ){
       $x['data']= $query_result;
       $x['title_bar'] = $query_resulat_array[0]->title;
-      $x['header_page'] = "";
+      $x['header_page'] = ;
+      $x['keyword'] = $query_resulat_array[0]->title;
       $this->load->view('frontpage/frontheader', $x);
       $this->load->view('frontpage/frontblogdetail',$x);
       $this->load->view('frontpage/frontfooter', $x);
