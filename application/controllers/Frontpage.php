@@ -12,6 +12,8 @@ class Frontpage extends CI_Controller {
   public function index(){
     $data['title_bar'] = "Edo";
     $data['header_page'] = "";
+    $date['keyword'] = "Software Engineer, Graphic Design and UI/UX";
+    $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
     $this->load->view('frontpage/frontpage', $data);
     $this->load->view('frontpage/frontfooter', $data);
@@ -20,6 +22,8 @@ class Frontpage extends CI_Controller {
   public function about(){
     $data['title_bar'] = "Tentang Saya | Edo";
     $data['header_page'] = "Sekilas Tentang saya";
+    $date['keyword'] = "Software Engineer, Graphic Design and UI/UX";
+    $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
     $this->load->view('frontpage/frontabout', $data);
     $this->load->view('frontpage/frontfooter', $data);
@@ -28,6 +32,8 @@ class Frontpage extends CI_Controller {
   public function service(){
     $data['title_bar'] = "Layanan | Edo";
     $data['header_page'] = "Sekilas Tentang saya";
+    $date['keyword'] = "Software Engineer, Graphic Design and UI/UX";
+    $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
     $this->load->view('frontpage/frontservice', $data);
     $this->load->view('frontpage/frontfooter', $data);
@@ -36,6 +42,8 @@ class Frontpage extends CI_Controller {
   public function contact(){
     $data['title_bar'] = "Kontak | Edo";
     $data['header_page'] = "Sekilas Tentang saya";
+    $date['keyword'] = "Software Engineer, Graphic Design and UI/UX";
+    $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
     $this->load->view('frontpage/frontcontact', $data);
     $this->load->view('frontpage/frontfooter', $data);
@@ -44,6 +52,8 @@ class Frontpage extends CI_Controller {
   public function project(){
     $data['title_bar'] = "Project | Edo";
     $data['header_page'] = "Sekilas Tentang saay";
+    $date['keyword'] = "Software Engineer, Graphic Design and UI/UX";
+    $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
     $this->load->view('frontpage/frontproject', $data);
     $this->load->view('frontpage/frontfooter', $data);
@@ -51,6 +61,8 @@ class Frontpage extends CI_Controller {
 
   public function notfound(){
     $data['title_bar'] = "4040 Not Found | Edo";
+    $date['keyword'] = "Software Engineer, Graphic Design and UI/UX";
+    $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
     $this->load->view('frontpage/notfound', $data);
     $this->load->view('frontpage/frontfooter', $data);
@@ -58,6 +70,8 @@ class Frontpage extends CI_Controller {
 
   public function blog(){
     $data['title_bar'] = "Blog | Edo";
+    $date['keyword'] = "Sharing, Empowering, Startups and much more";
+    $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
     $this->load->view('frontpage/frontblog', $data);
     $this->load->view('frontpage/frontfooter', $data);
