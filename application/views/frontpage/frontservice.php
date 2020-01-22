@@ -43,7 +43,7 @@
                     <p class="text_justified small_text">Experienced in Graphic Design, UX Research and Visual Design, follow current design trend, and maintaining clean, acceptable design product.
                     </p>
                       <ul class="list_service">
-                          <li>Logo & Brand Design</li>
+                          <li>Logo & Brand Identity Design</li>
                           <li>Fully Asset Design (Banner, XBanner, Flyer)</li>
                      </ul>
                 </div>
