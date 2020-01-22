@@ -12,7 +12,7 @@
         <br/>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="background_flyer panel_container">
-                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img/programming2.png"></span>&nbsp;&nbsp;Web Development</p>
+                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img/programming2.png"></span>&nbsp;&nbsp;Web App Development</p>
                     <p class="text_justified small_text">
                         Many years in Software Development. Have an experiences on lead product engineering, team management, and startup environment. Work with me and create stunning product.
                         </p>
