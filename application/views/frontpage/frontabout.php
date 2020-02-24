@@ -2,22 +2,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-xs-12">
-                        <img alt="" height="328px" id="myimage" src="<?php echo base_url() ?>assets/img//me2.png" width="180px"><br>
+                        <img alt="" height="" width="249px" id="myimage" src="<?php echo base_url() ?>assets/img//me2.png" width="180px"><br>
                     </div>
                     <div class="col-lg-9 col-md-6 col-xs-12">
                         <p id="text_sapa" class="medium_text">Hello there, my name is</p>
                         <h2 class="text_bold" id="author_names">M. Ridwan Zalbina (Edo)</h1>
                         <p>Software Engineer, Graphic Designer and Linux Enthusiast</p>
                         <br/>
-                        <p class="medium_text">I am a Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Co-Founder and Tech Lead Engineer. </p>
+                        <p class="medium_text">Hello, my name is M. Ridwan Zalbina, I'm Co-Founder at Scafol Indonesia (PT. Aplikasi Konstruksi Global) based in Palembang.
+                        We're currently making progress.
+                        
+                        </p>
                         <br/>
                         <h4 class="text_bold">About Me</h4>
                         <p class="medium_text">
                             Shortly after graduating from <b>Universitas Sriwijaya</b> in 2016 as a 
-                            Computer Engineering student, I joined easySoft Indonesia as
-                            a Front-End Engineer, UI/UX Engineer where I got to work on a 
-                            variety of interesting projects and improving my design and coding skills.
-
+                            Computer Engineering student, I worked in different position as Front-End Developer, UI/UX Engineer, Backend Developer & Mobile App Developer, 
+                            where I got to work on a variety of interesting projects and improving my design and coding skills.
                             Here's a few things I'm experienced with :
                         </p>
                         <br/>
@@ -26,7 +27,9 @@
                                 <ul class="list_expertise">
                                     <li>Javascript</li>
                                     <li>PHP</li>
-                                    <li>HTML/ CSS</li>
+                                    <li>VueJS</li>
+                                    <li>ReSTful API</li>
+                                    <li>Startup Coaching</li>
                                 </ul>
                             </div>
                             <div class="col-lg-4 col-md-4 col-xs-12">
@@ -34,6 +37,8 @@
                                     <li>Java</li>
                                     <li>Linux Server Administration</li>
                                     <li>User Interface Design</li>
+                                    <li>NodeJS (Express)</li>
+                                    <li>Team Management</li>
                                 </ul>
                             </div>
                             <div class="col-lg-5 col-md-5 col-xs-12">
@@ -41,6 +46,8 @@
                                     <li>UI/UX Design</li>
                                     <li>Cloud Management</li>
                                     <li>Android Development</li>
+                                    <li>DB Design & Management</li>
+                                    <li>Leadership</li>
                                 </ul>
                             </div>
                         </div>  

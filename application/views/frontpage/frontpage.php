@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-xs-12 container_images_me">
-                        <img alt="" height="328px" id="myimage" src="<?php echo base_url() ?>assets/img//me2.png" width="180px"><br>
+                        <img alt="" height="" widht="249px" id="myimage" src="<?php echo base_url() ?>assets/img//me2.png"><br>
                         <a href=""><span class="fa fa-facebook social"></span></a> <a href=""><span class="fa fa-linkedin social"></span></a> <a href=""><span class="fa fa-instagram social"></span></a>
                     </div>
                     <div class="col-lg-9 col-md-6 col-xs-12">
