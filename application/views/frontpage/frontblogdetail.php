@@ -3,9 +3,9 @@
 		<?php
 			foreach ($data->result() as $row) :
 		?>
-		<div class="col-md-10 col-md-offset-2 blog_details_maincontainer" >
+		<div class="blog_details_maincontainer" >
 		    <div class="row">
-				<div class="col-lg-10 col-md-10 col-xs-9" style="position:relative;">
+				<div class="col-lg-12 col-md-12 col-xs-12" style="position:relative;">
 					<ol class="breadcrumb" style="font-size:11px;">
 						<li class="breadcrumb-item"><a href="<?php echo base_url() ?>" title="Home">Home</a></li>
 						<li class="breadcrumb-item active" aria-current="page"><a href="<?php echo base_url() ?>/blog"  title="Blog">Blog</a></li>

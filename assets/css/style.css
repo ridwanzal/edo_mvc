@@ -19,8 +19,8 @@
 	background-repeat: no-repeat;
 	font-family: 'Montserrat',  sans-serif;
 	color: #fff;
-	padding-top:175px;
-	padding-bottom:260px;
+	padding-top:280px;
+	padding-bottom:280px;
 	font-size:26px;
 }
 
@@ -716,7 +716,7 @@ nav > .mynav{
 
 	.thirdsection{
 		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-bottom: 0px;
 	}
 }
 

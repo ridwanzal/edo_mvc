@@ -65,50 +65,6 @@
             </div>
         </div>
 
-        <div class="fourthsectiontwo" style="background:#fff;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-xs-12">
-                        <p class="medium_text" style="font-weight:bold;">Okay Let's see what client said (Testimonial) ?</p>
-                        <span class="fa fa-quote-left fa-5x" style="margin-top:8px; margin-bottom:8px;"></span>
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-xs-12">
-                        <div class="owl-carousel option2">
-                            <div class="item">
-                                <p class="medium_text">"Saya sudah beberapa kali dibuatkan desain logo dan hasilnya Alhamdulillah memuaskan, desainnya dinamis dan sesuai... Barakallahu Fiikum."</p>
-                                <span class="font_bold">M. Iqbal</span> - <span>Founder Karpet Juaro</span>
-                            </div>
-                            <div class="item">
-                                <p class="medium_text">"Recomended designer. Desain yang dibuatnya selalu memuaskan."</p>
-                                <span class="font_bold">Faris Humam</span> - <span>Founder Cindo, Annajaah</span>
-                            </div>
-                            <div class="item">
-                                <p class="medium_text">"Saya sudah 2 (dua) kali membuat logo dengan edo, dan semua karya nya bagus dan sangat memuaskan."</p>
-                                <span class="font_bold">Kahbi Hardiansyah</span> - <span>Sinaroja Kontraktor & Supplier</span>
-                            </div>
-                            <div class="item">
-                                <p class="medium_text">"Saya Owner Nukimoto Photograpy sangat puas atas layanan jasa pembuatan logo yang sangat baik, terutama dengan pelayanan yang ramah dan juga disain yang bagus dan support dalam berbagai bentuk format file sehingga bisa langsung di gunakan . Semoga kedepannya dapat mempertahankan dan meningkatkan kwalitas layanannya ."</p>
-                                <span class="font_bold">Nuki MK</span> - <span>Owner Nukimoto Photograpy</span>
-                            </div>
-                            <div class="item">
-                                <p class="medium_text">"Kami pernah dibuatkan logo dan hasilnya keren oke punya."</p>
-                                <span class="font_bold">Dian Purnama</span> - <span>Guru Seni</span>
-                            </div>
-                            <div class="item">
-                                <p class="medium_text">"
-                                Ada banyak assets yang saya percayakan pembuatannya dengan Ridwan Z a.k.a Edo. Besutan hasil karyanya sesuai dengan keinginan. Mulai dari semua assets design untuk konfrensi internasional : EECSI 2015 sd 2017, ICECOS 2017-2019,ARS 2016-2017. Official Logo indexing dan repository nasional RISTEKDIKTI : SINTA, GARUDA dan ANJANI, termasuk bemper slider footer websitenya. Termasuk juga cover jurnal ilmiah FASILKOM UNSRI dan beberpa logo riset group di dalamnya. Sentuhan tone, degradasi dan warna sangat tepat yang dihasilkan dalam sebuah art yang arstristik. Nilai tambah lainnya dari sudut pandang akademisi adalah semua tools yang  digunakan menggunalan platform open source. Good Job and high satisfaction guys
-                                Salam.
-                                
-                                "</p>
-                                <span class="font_bold">Deris Stiawan. Ph.D</span> - <span>Associate Professor Universitas Sriwijaya </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-            </div>
-        </div>
-
         <div class="fifthsection" style="display:none;">
             <div class="container">
                 <div class="row">
@@ -164,6 +120,50 @@
                         <a href="<?php echo base_url() ?>blog/"><p style="margin-top: 29px;margin-bottom:-20px;">See more &nbsp;&nbsp;<span style="position:relative;top:2px;" data-feather="arrow-right"></span></p></a>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="fourthsectiontwo" style="background:#fff;">
+            <div class="container">
+                <hr>
+                <div class="row" style="padding-top:20px;">
+                    <div class="col-lg-3 col-md-3 col-xs-12">
+                        <p class="medium_text" style="font-weight:bold;">Okay Let's see what client said (Testimonial) ?</p>
+                        <span class="fa fa-quote-left fa-5x" style="margin-top:8px; margin-bottom:8px;"></span>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-xs-12">
+                        <div class="owl-carousel option2">
+                            <div class="item">
+                                <p class="medium_text">"Saya sudah beberapa kali dibuatkan desain logo dan hasilnya Alhamdulillah memuaskan, desainnya dinamis dan sesuai... Barakallahu Fiikum."</p>
+                                <span class="font_bold">M. Iqbal</span> - <span>Founder Karpet Juaro</span>
+                            </div>
+                            <div class="item">
+                                <p class="medium_text">"Recomended designer. Desain yang dibuatnya selalu memuaskan."</p>
+                                <span class="font_bold">Faris Humam</span> - <span>Founder Cindo, Annajaah</span>
+                            </div>
+                            <div class="item">
+                                <p class="medium_text">"Saya sudah 2 (dua) kali membuat logo dengan edo, dan semua karya nya bagus dan sangat memuaskan."</p>
+                                <span class="font_bold">Kahbi Hardiansyah</span> - <span>Sinaroja Kontraktor & Supplier</span>
+                            </div>
+                            <div class="item">
+                                <p class="medium_text">"Saya Owner Nukimoto Photograpy sangat puas atas layanan jasa pembuatan logo yang sangat baik, terutama dengan pelayanan yang ramah dan juga disain yang bagus dan support dalam berbagai bentuk format file sehingga bisa langsung di gunakan . Semoga kedepannya dapat mempertahankan dan meningkatkan kwalitas layanannya ."</p>
+                                <span class="font_bold">Nuki MK</span> - <span>Owner Nukimoto Photograpy</span>
+                            </div>
+                            <div class="item">
+                                <p class="medium_text">"Kami pernah dibuatkan logo dan hasilnya keren oke punya."</p>
+                                <span class="font_bold">Dian Purnama</span> - <span>Guru Seni</span>
+                            </div>
+                            <div class="item">
+                                <p class="medium_text">"
+                                Ada banyak assets yang saya percayakan pembuatannya dengan Ridwan Z a.k.a Edo. Besutan hasil karyanya sesuai dengan keinginan. Mulai dari semua assets design untuk konfrensi internasional : EECSI 2015 sd 2017, ICECOS 2017-2019,ARS 2016-2017. Official Logo indexing dan repository nasional RISTEKDIKTI : SINTA, GARUDA dan ANJANI, termasuk bemper slider footer websitenya. Termasuk juga cover jurnal ilmiah FASILKOM UNSRI dan beberpa logo riset group di dalamnya. Sentuhan tone, degradasi dan warna sangat tepat yang dihasilkan dalam sebuah art yang arstristik. Nilai tambah lainnya dari sudut pandang akademisi adalah semua tools yang  digunakan menggunalan platform open source. Good Job and high satisfaction guys
+                                Salam.
+                                
+                                "</p>
+                                <span class="font_bold">Deris Stiawan. Ph.D</span> - <span>Associate Professor Universitas Sriwijaya </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
             </div>
         </div>
         <div class="fifthsection">

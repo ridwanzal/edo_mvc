@@ -219,10 +219,10 @@ $(document).ready(function () {
             let elem = $('#instacontainer');
             let i = 0;
             for (i; i < res.data.length; i++) {
-                limit = 100;
+                limit = 12;
                 if (i < limit) {
                     let img_uri = res.data[i].images.standard_resolution.url;
-                    let object = '<div class="col-lg-2 col-md-2 col-xs-4 item container_mag2 animated fadeIn"><a href=' + img_uri + '><img src=' + img_uri + ' style="margin-top:3px; margin-bottom:3px;width:190px; border:1px solid #eee;" class="img_insta"></a></div>';
+                    let object = '<div class="col-lg-4 col-md-4 col-xs-4 item container_mag2 animated fadeIn"><a href=' + img_uri + '><img src=' + img_uri + ' style="width:100%;margin-bottom:20px;border:1px solid #eee;" class="img_insta"></a></div>';
                     elem.append(object);
                     showImage();
                 }

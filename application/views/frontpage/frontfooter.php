@@ -13,7 +13,7 @@
                 </div>
                 <div class="row" style="margin-top:30px; padding-top:30px; margin-bottom:5px; border-top:1px solid #5c5c5c">
                     <div class="col-lg-9 col-md-9 col-xs-12">
-                        <p><b>All Rights Reserved</b>. &copy; 2019 <span id="printyear"></span> Palembang, Indonesia&nbsp;&nbsp;|&nbsp;&nbsp;Develop with <span class="fa fa-heart">  </span>  by <b> M. Ridwan Zalbina</b></p>
+                        <p><b>All Rights Reserved</b>. &copy; 2020 <span id="printyear"></span> Palembang, Indonesia&nbsp;&nbsp;|&nbsp;&nbsp;Develop with <span class="fa fa-heart">  </span>  by <b> M. Ridwan Zalbina</b></p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-xs-12 text-right">
                         <a href="#"><i class="fa fa-instagram social2" style="font-size:1.0em;"></i></a>
