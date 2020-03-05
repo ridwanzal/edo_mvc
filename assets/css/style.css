@@ -895,3 +895,7 @@ nav > .mynav{
     top: 4px;
     overflow: hidden;
 }
+
+body{
+	overflow-x: hidden;
+}
