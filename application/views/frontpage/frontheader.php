@@ -39,7 +39,7 @@
                   <button aria-controls="navbar" aria-expanded="true" class="navbar-toggle collapsed" data-target="#navbarx" data-toggle="collapse" type="button">
                         <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                  </button> 
-                  <a class="navbar-brand" href="<?php echo base_url() ?>"><img alt="" src="<?php echo base_url() ?>assets/img/logoone.svg" width="69px" style="position:relative;top:-3px;"></a>
+                  <a class="navbar-brand" href="<?php echo base_url() ?>"><img alt="" src="<?php echo base_url() ?>assets/img/logoone.svg" width="80px" style="position:relative;top:-6px;"></a>
                 </div>
                 <div class="navbar-collapse collapse" id="navbarx">
                     <ul class="nav navbar-nav ul">
