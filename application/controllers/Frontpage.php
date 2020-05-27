@@ -10,17 +10,17 @@ class Frontpage extends CI_Controller {
   }
 
   public function index(){
-    $data['title_bar'] = "Edo";
+    $data['title_bar'] = "Ridwanzal | M.Ridwan Zalbina Personal Page";
     $data['header_page'] = "";
-    $data['keyword'] = "Software Engineer, Graphic Design and UI/UX";
-    $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
+    $data['keyword'] = "M.Ridwan Zalbina Personal Page | Software Engineer, Graphic Design and UI/UX";
+    $data['description'] = "M.Ridwan Zalbina Personal Page | Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
     $this->load->view('frontpage/frontpage', $data);
     $this->load->view('frontpage/frontfooter', $data);
   }
 
   public function about(){
-    $data['title_bar'] = "Tentang Saya | Edo";
+    $data['title_bar'] = "Tentang Saya | Ridwanzal";
     $data['header_page'] = "Sekilas Tentang saya";
     $data['keyword'] = "Software Engineer, Graphic Design and UI/UX";
     $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
@@ -30,7 +30,7 @@ class Frontpage extends CI_Controller {
   }
 
   public function service(){
-    $data['title_bar'] = "Layanan | Edo";
+    $data['title_bar'] = "Layanan | Ridwanzal";
     $data['header_page'] = "Sekilas Tentang saya";
     $data['keyword'] = "Software Engineer, Graphic Design and UI/UX";
     $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
@@ -40,7 +40,7 @@ class Frontpage extends CI_Controller {
   }
 
   public function contact(){
-    $data['title_bar'] = "Kontak | Edo";
+    $data['title_bar'] = "Kontak | Ridwanzal";
     $data['header_page'] = "Sekilas Tentang saya";
     $data['keyword'] = "Software Engineer, Graphic Design and UI/UX";
     $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
@@ -50,7 +50,7 @@ class Frontpage extends CI_Controller {
   }
 
   public function project(){
-    $data['title_bar'] = "Project | Edo";
+    $data['title_bar'] = "Project | Ridwanzal";
     $data['header_page'] = "Sekilas Tentang saay";
     $data['keyword'] = "Software Engineer, Graphic Design and UI/UX";
     $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
@@ -60,7 +60,7 @@ class Frontpage extends CI_Controller {
   } 
 
   public function notfound(){
-    $data['title_bar'] = "4040 Not Found | Edo";
+    $data['title_bar'] = "4040 Not Found | Ridwanzal";
     $data['keyword'] = "Software Engineer, Graphic Design and UI/UX";
     $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
@@ -69,7 +69,7 @@ class Frontpage extends CI_Controller {
   }
 
   public function blog(){
-    $data['title_bar'] = "Blog | Edo";
+    $data['title_bar'] = "Blog | Ridwanzal";
     $data['keyword'] = "Sharing, Empowering, Startups and much more";
     $data['description'] = "Do Application Development, Graphic Design and UI/UX ";
     $this->load->view('frontpage/frontheader', $data );
