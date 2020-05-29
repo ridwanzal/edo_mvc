@@ -53,7 +53,7 @@
                                       <option value="3">Graphic Design</option>
                                       <option value="4">UI/UX</option>
                                       <option value="5">Others</option>
-                                  </select>
+                                  </select> 
                               </div>    
                           </div>
                         </div>

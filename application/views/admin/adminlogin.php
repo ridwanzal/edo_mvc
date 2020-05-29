@@ -2,7 +2,7 @@
   <div class="container">
   <div class="row justify-content-md-center">
       <div class="col-lg-6 col-md-6 col-xs-12">
-      <center><a class="" href="<?php echo base_url() ?>"><img alt="" src="<?php echo base_url() ?>assets/img/logoone.svg" width="90px" style="position:relative;top:-3px;"></a></center>
+      <center><a class="" href="<?php echo base_url() ?>"><img alt="" src="<?php echo base_url() ?>assets/img/logoone.svg" width="120px" style="position:relative;top:-3px;"></a></center>
       <br/>
       <br/>
         <form method="POST" action="<?php echo base_url('admin/submit_login'); ?>">

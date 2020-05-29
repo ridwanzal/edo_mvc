@@ -75,8 +75,6 @@ class Admin extends CI_Controller {
           'email' =>  $query_result[$i]['email'],
           'status' => 'login'
         );
-        var_dump(json_encode($data_session));
-        exit;
       }
       $this->session->set_flashdata('key', 1);
 			$this->session->set_userdata($data_session);	

@@ -5,7 +5,7 @@
 		?>
 		<div class="blog_details_maincontainer" >
 		    <div class="row">
-				<div class="col-lg-12 col-md-12 col-xs-12" style="position:relative;">
+				<div class="col-lg-8 col-md-8 col-xs-12" style="position:relative;">
 					<ol class="breadcrumb" style="font-size:11px;">
 						<li class="breadcrumb-item"><a href="<?php echo base_url() ?>" title="Home">Home</a></li>
 						<li class="breadcrumb-item active" aria-current="page"><a href="<?php echo base_url() ?>/blog"  title="Blog">Blog</a></li>
@@ -13,56 +13,60 @@
 					</ol>
 				</div>
 			</div>
-			<p class="blog_detail_head"><?php echo $row->title;?></p>
-			<p class="blog_detail_subhead"><span data-feather="book" class="feather-8" ></span>&nbsp;<?php echo $row->subtitle;?></p>
-			<p class="blog_detail_suminfo"><span><img alt="" height="28px" id="image_pict" src="<?php echo base_url() ?>assets/img//rwz.svg"></span><span>M. Ridwan Zalbina</span>&nbsp;|&nbsp;
-			<span style=""><span data-feather="calendar" class="feather-8" ></span>&nbsp;&nbsp;<?php echo $row->date_created;?>&nbsp;</p>
-			<img style="border:1px solid #eee; width:100%;margin-bottom:5px;" src="<?php echo base_url() ."/assets/thumb_img/". $row->image_path;?>" class="img-responsive">
-			<div class="blog_detail_content"><?php echo $row->content;?>
-			<div class="row blog_tag">
-				<div class="col-lg-12 col-md-12 col-xs-12">
-					<?php $tag = $row->tag;
-						$taglist = explode (",", $tag);
-						for($i =0; $i < sizeof($taglist); $i++){
-							?>  
-									<button class="button1_outline_smaller_black" type="button"><span></span><? echo $taglist[$i] ?></button>
-									<?
-						}
-					?>
-				</div>
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-xs-12">
+						<p class="blog_detail_head"><?php echo $row->title;?></p>
+						<p class="blog_detail_subhead"><span data-feather="book" class="feather-8" ></span>&nbsp;<?php echo $row->subtitle;?></p>
+						<p class="blog_detail_suminfo"><span><img alt="" height="28px" id="image_pict" src="<?php echo base_url() ?>assets/img//rwz.svg"></span><span>M. Ridwan Zalbina</span>&nbsp;|&nbsp;
+						<span style=""><span data-feather="calendar" class="feather-8" ></span>&nbsp;&nbsp;<?php echo $row->date_created;?>&nbsp;</p>
+						<img style="border:1px solid #eee; width:100%;margin-bottom:5px;" src="<?php echo base_url() ."/assets/thumb_img/". $row->image_path;?>" class="img-responsive">
+						<div class="blog_detail_content"><?php echo $row->content;?>
+						<div class="row blog_tag">
+							<div class="col-lg-12 col-md-12 col-xs-12">
+								<?php $tag = $row->tag;
+									$taglist = explode (",", $tag);
+									for($i =0; $i < sizeof($taglist); $i++){
+										?>  
+												<button class="button1_outline_smaller_black" type="button"><span></span><? echo $taglist[$i] ?></button>
+												<?
+									}
+								?>
+							</div>
 
-			</div>
-			<div class="blog_share">
-				<ul class="blog_sharelist" style="display:flex;margin-top:15px;margin-bottom:15px;border:1px solid #eee;padding-top:5px;padding-bottom:0px; padding-left:20px;">
-					<li class="" class="item_titles" style="list-style:none;font-size:16px;margin-right:20px;top:3px;position:relative;">Bagikan  </li>
-					<a href="https://www.facebook.com/sharer/sharer.php?u=<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Facebook"><li class="fa fa-facebook items"></li></a>
-					<a href="https://twitter.com/intent/tweet?text=<?= $row->title;  ?>&nbsp;<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Twitter"><li class="fa fa-twitter items"></li></a>
-					<a href="https://www.linkedin.com/sharing/share-offsite/?url=<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Linkedin"><li class="fa fa-linkedin items"></li></a>
-				</ul>
-			</div>
-			</div>
-			<div class="row blog_detail_about">
-				<div class="col-lg-2 col-md-2 col-xs-12">  
-					<img alt="" height="96px" id="image_pict_aboutme" src="<?php echo base_url() ?>assets/img//rwz.svg">
+						</div>
+						<div class="blog_share">
+							<ul class="blog_sharelist" style="display:flex;margin-top:15px;margin-bottom:15px;border:1px solid #eee;padding-top:5px;padding-bottom:0px; padding-left:20px;">
+								<li class="" class="item_titles" style="list-style:none;font-size:16px;margin-right:20px;top:3px;position:relative;">Bagikan  </li>
+								<a href="https://www.facebook.com/sharer/sharer.php?u=<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Facebook"><li class="fa fa-facebook items"></li></a>
+								<a href="https://twitter.com/intent/tweet?text=<?= $row->title;  ?>&nbsp;<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Twitter"><li class="fa fa-twitter items"></li></a>
+								<a href="https://www.linkedin.com/sharing/share-offsite/?url=<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Linkedin"><li class="fa fa-linkedin items"></li></a>
+							</ul>
+						</div>
+						</div>
+						<div class="row blog_detail_about">
+							<div class="col-lg-2 col-md-2 col-xs-12">  
+								<img alt="" height="96px" id="image_pict_aboutme" src="<?php echo base_url() ?>assets/img//rwz.svg">
+							</div>
+							<div class="col-lg-10 col-md-10 col-xs-12">
+								<h3>M. Ridwan Zalbina</h3>
+								<div class="blog_about_me">Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Co-Founder and Tech Lead Engineer.</div>
+								<span>
+									<a href="#"><i class="fa fa-instagram " style="font-size:1.0em;color:#888;margin-right:20px;margin-top:10px;"></i></a>
+									<a href="#"><i class="fa fa-behance " style="font-size:1.0em;color:#888;margin-right:20px;margin-top:10px;"></i></a>
+									<a href="#"><i class="fa fa-linkedin " style="font-size:1.0em;color:#888;margin-right:20px;margin-top:10px;"></i></a>
+								</span>
+							</div>
+						</div>
+						<hr/>
+						<div class="row blog_list_container" style="min-height:200px;">
+							<div class="container_loader">
+							<center>
+								<img style="text-align:center;" class="preload_gallery" src="<?php echo base_url() ?>assets/img/preload_fountain.gif">
+							</center>
+							</div>
+						</div>
 				</div>
-				<div class="col-lg-10 col-md-10 col-xs-12">
-					<h3>M. Ridwan Zalbina</h3>
-					<div class="blog_about_me">Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Co-Founder and Tech Lead Engineer.</div>
-					<span>
-						<a href="#"><i class="fa fa-instagram " style="font-size:1.0em;color:#888;margin-right:20px;margin-top:10px;"></i></a>
-						<a href="#"><i class="fa fa-behance " style="font-size:1.0em;color:#888;margin-right:20px;margin-top:10px;"></i></a>
-						<a href="#"><i class="fa fa-linkedin " style="font-size:1.0em;color:#888;margin-right:20px;margin-top:10px;"></i></a>
-					</span>
-				</div>
 			</div>
-			<hr/>
-			<div class="row blog_list_container" style="min-height:200px;">
-                <div class="container_loader">
-                <center>
-                    <img style="text-align:center;" class="preload_gallery" src="<?php echo base_url() ?>assets/img/preload_fountain.gif">
-                </center>
-                </div>
-        	</div>
 		</div> 
 		<?php endforeach;?>
 	</div>
