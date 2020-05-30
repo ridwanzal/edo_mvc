@@ -525,6 +525,10 @@ nav > .mynav{
 }
 
 @media screen and  (max-width : 767px){
+	.submitcontainer{
+		margin-bottom: 20px;
+	}
+
 	.insta_follow > h4{
 		display: none;	
 	}

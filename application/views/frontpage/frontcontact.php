@@ -31,7 +31,7 @@
                                         <textarea placeholder="Please input your message" width="100%" name="p_message" rows="7" class="form-control input_general" required></textarea>
                                     </div> 
                                 </div>
-                                <div class="row">
+                                <div class="row submitcontainer">
                                     <div class="col-xl-12 col-md-12 col-xs-12">
                                         <p style="color : #28af77;margin-top:10px;"><?php echo $this->session->flashdata('success'); ?></p>
                                         <p style="color : #ffcc00;margin-top:10px;"><?php echo $this->session->flashdata('failed'); ?></p>
