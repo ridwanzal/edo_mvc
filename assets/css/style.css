@@ -545,7 +545,11 @@ nav > .mynav{
 	}
 
 	.blog_thumbnail_data{
-		width: 110% !important;
+		width: 100% !important;
+	}
+
+	.author{
+		font-size: 18px;
 	}
 
 	.easyimage > img {
@@ -555,12 +559,16 @@ nav > .mynav{
 	#image_pict_aboutme {
 		display: none;
 	}
-
+/* 
 	.breadcrumb{
-		display: none;
+	} */
+
+	.detail_slug{
+		width: 200px !important;
 	}
 
 	.blog_detail_head{
+		font-size: 30px !important;
 		margin-top:10px;
 		margin-bottom: 10px;
 	}

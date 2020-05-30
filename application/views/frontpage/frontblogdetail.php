@@ -47,7 +47,7 @@
 								<img alt="" height="96px" id="image_pict_aboutme" src="<?php echo base_url() ?>assets/img//rwz.svg">
 							</div>
 							<div class="col-lg-10 col-md-10 col-xs-12">
-								<h3>M. Ridwan Zalbina</h3>
+								<h3 class="author">M. Ridwan Zalbina</h3>
 								<div class="blog_about_me">Software Engineer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications. Currently working at Scafol Indonesia as a Co-Founder and Tech Lead Engineer.</div>
 								<span>
 									<a href="#"><i class="fa fa-instagram " style="font-size:1.0em;color:#888;margin-right:20px;margin-top:10px;"></i></a>
@@ -92,7 +92,7 @@
 					image_path = "<?php echo base_url() ?>assets/thumb_img/" + decode_result[i].image_path ;
 				}
 				let adapter = `<div class="col-lg-4 col-md-4 col-xs-12 containers_blog" style="margin-bottom:10px;">
-						<a href=`+result_url+`><img class="blog_thumbnail_data" src=`+image_path+` style="height:150px; width: 240px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive"></a>
+						<a href=`+result_url+`><img class="blog_thumbnail_data" src=`+image_path+` style="height:200px; width: 240px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive"></a>
 						<a href=`+result_url+`><p style="margin-top:15px; color:#4d4d4d; font-size:16px;font-weight:400;font-family: 'Montserrat', serif;">`+decode_result[i].title+`</p></a>
 						<div style="height: auto; max-height:100px; ;white-space: nowrap;overflow: hidden; ont-family: 'Montserrat', serif; text-overflow: ellipsis; margin-bottom:10px;">`+decode_result[i].subtitle+`</div>
 						<p style="font-size:12px; color:#a4a4a4"><span>M. Ridwan Zalbina</span>&nbsp;&nbsp;<span style="float:right;">`+decode_result[i].date_created+`</span></p>
