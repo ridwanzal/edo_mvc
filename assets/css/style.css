@@ -299,6 +299,8 @@ nav > .mynav{
 	font-weight: 500;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	position: relative;
 }
 
@@ -791,7 +793,6 @@ nav > .mynav{
 
 
 .blog_tag{
-	margin-top:5px;
 }
 
 .blog_about_me{
