@@ -64,7 +64,7 @@
             }
             let adapter = `<div class="col-lg-4 col-md-4 col-xs-12 containers_blog" style="margin-bottom:10px;">
                     <a href=`+result_url+`><img class="blog_thumbnail_data" src=`+image_path+` class="img-responsive"></a>
-                    <a href=`+result_url+`><p style="margin-top:15px; color:#4d4d4d; font-size:20px;font-weight:bold;font-family: 'PT Sans', serif;">`+decode_result[i].title+`</p></a>
+                    <a href=`+result_url+`><p style="margin-top:15px; color:#4d4d4d; font-size:18px;font-weight:400;font-family: 'Montserrat', serif;">`+decode_result[i].title+`</p></a>
                     <div style="height: auto; max-height:100px; ;white-space: nowrap;overflow: hidden; ont-family: 'Montserrat', serif; text-overflow: ellipsis; margin-bottom:10px;">`+decode_result[i].subtitle+`</div>
                     <p style="font-size:15px; color:#a4a4a4">&nbsp;<span>M. Ridwan Zalbina</span>&nbsp;&nbsp;<span style="float:right;">`+decode_result[i].date_created+`</span></p>
             </div>`;

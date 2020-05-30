@@ -289,6 +289,17 @@ nav > .mynav{
 }
 
 
+.button_circle_outline_small{
+	background: transparent;
+	border: 1px solid #888;
+	color: #888;
+	font-family: 'Montserrat',  sans-serif;
+	font-size: 12px;
+	border-radius: 50px;
+	font-weight: 500;
+	position: relative;
+}
+
 
 
 .button1_outline_small_green_smaller{
@@ -751,10 +762,10 @@ nav > .mynav{
 }
 
 .blog_detail_head{
-	font-weight:bold; 
-	font-size:46px;
+	font-size:42px;
+	letter-spacing: -1px;
 	line-height:1.2;
-	font-family: 'Nanum Myeongjo', sans-serif;
+	font-family: 'Merriweather', sans-serif;
 }
 
 .blog_detail_subhead{
@@ -765,7 +776,7 @@ nav > .mynav{
 }
 
 .blog_detail_about{
-	margin-top:15px;
+	margin-top:5px;
 }
 
 
@@ -826,7 +837,7 @@ nav > .mynav{
 }
 
 .blog_sharelist > a > li.items:hover{
-	background: #eee;
+	background: #f7f7f7;
 }
 
 .feather {
@@ -898,4 +909,15 @@ nav > .mynav{
 
 body{
 	overflow-x: hidden;
+}
+
+.breadcrumb{
+	background : #fff !important;
+	left: -10px;
+	position: relative;
+}
+
+.breadcrumb > li > a{
+	color : #888 !important;
+	font-weight: bold !important;
 }

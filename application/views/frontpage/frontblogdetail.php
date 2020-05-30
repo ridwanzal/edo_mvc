@@ -19,7 +19,7 @@
 						<p class="blog_detail_subhead"><span data-feather="book" class="feather-8" ></span>&nbsp;<?php echo $row->subtitle;?></p>
 						<p class="blog_detail_suminfo"><span><img alt="" height="28px" id="image_pict" src="<?php echo base_url() ?>assets/img//rwz.svg"></span><span>M. Ridwan Zalbina</span>&nbsp;|&nbsp;
 						<span style=""><span data-feather="calendar" class="feather-8" ></span>&nbsp;&nbsp;<?php echo $row->date_created;?>&nbsp;</p>
-						<img style="border:1px solid #eee; width:100%;margin-bottom:5px;" src="<?php echo base_url() ."/assets/thumb_img/". $row->image_path;?>" class="img-responsive">
+						<img style="border:1px solid #eee; width:100%;margin-bottom:5px;border-radius:5px;" src="<?php echo base_url() ."/assets/thumb_img/". $row->image_path;?>" class="img-responsive">
 						<div class="blog_detail_content"><?php echo $row->content;?>
 						<div class="row blog_tag">
 							<div class="col-lg-12 col-md-12 col-xs-12">
@@ -27,15 +27,14 @@
 									$taglist = explode (",", $tag);
 									for($i =0; $i < sizeof($taglist); $i++){
 										?>  
-												<button class="button1_outline_smaller_black" type="button"><span></span><? echo $taglist[$i] ?></button>
+												<button class="button_circle_outline_small" type="button"><span></span><? echo $taglist[$i] ?></button>
 												<?
 									}
 								?>
 							</div>
-
 						</div>
 						<div class="blog_share">
-							<ul class="blog_sharelist" style="display:flex;margin-top:15px;margin-bottom:15px;border:1px solid #eee;padding-top:5px;padding-bottom:0px; padding-left:20px;">
+							<ul class="blog_sharelist" style="display:flex;margin-top:15px;margin-bottom:15px;border:1px solid #ddd;background:#eee;border-radius:5px;padding-top:5px;padding-bottom:0px; padding-left:20px;">
 								<li class="" class="item_titles" style="list-style:none;font-size:16px;margin-right:20px;top:3px;position:relative;">Bagikan  </li>
 								<a href="https://www.facebook.com/sharer/sharer.php?u=<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Facebook"><li class="fa fa-facebook items"></li></a>
 								<a href="https://twitter.com/intent/tweet?text=<?= $row->title;  ?>&nbsp;<?= base_url() ."blog/artikel/" ?><?= $row->slug; ?>" title="Twitter"><li class="fa fa-twitter items"></li></a>
@@ -94,7 +93,7 @@
 				}
 				let adapter = `<div class="col-lg-4 col-md-4 col-xs-12 containers_blog" style="margin-bottom:10px;">
 						<a href=`+result_url+`><img class="blog_thumbnail_data" src=`+image_path+` style="height:150px; width: 240px; object-fit:cover;border-radius:4px;border:1px solid #eee;" class="img-responsive"></a>
-						<a href=`+result_url+`><p style="margin-top:15px; color:#4d4d4d; font-size:16px;font-weight:bold;font-family: 'PT Sans', serif;">`+decode_result[i].title+`</p></a>
+						<a href=`+result_url+`><p style="margin-top:15px; color:#4d4d4d; font-size:16px;font-weight:400;font-family: 'Montserrat', serif;">`+decode_result[i].title+`</p></a>
 						<div style="height: auto; max-height:100px; ;white-space: nowrap;overflow: hidden; ont-family: 'Montserrat', serif; text-overflow: ellipsis; margin-bottom:10px;">`+decode_result[i].subtitle+`</div>
 						<p style="font-size:12px; color:#a4a4a4"><span>M. Ridwan Zalbina</span>&nbsp;&nbsp;<span style="float:right;">`+decode_result[i].date_created+`</span></p>
 				</div>`;
