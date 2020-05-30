@@ -297,6 +297,8 @@ nav > .mynav{
 	font-size: 12px;
 	border-radius: 50px;
 	font-weight: 500;
+	padding-left: 10px;
+	padding-right: 10px;
 	position: relative;
 }
 
