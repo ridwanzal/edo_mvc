@@ -30,9 +30,7 @@
                         <br/>
                         <h4 class="text_bold">About Me</h4>
                         <p class="medium_text">
-                        Shortly after graduating from <b>Universitas Sriwijaya</b> in 2016 as a 
-                            Computer Engineering student, I joined easySoft Indonesia as
-                            a Front-End Engineer, UI/UX Engineer where ...
+                        Of all the processes that I went through, I got the chance to become one of the C-Levels in a startup company. Giving me new insights about management and self-development, how can empowering teams, protecting and also becoming a bridge for team members to continue to grow. I also keep in touch with technical matters such as Software Architecture, Backend development, Mobile apps development and Server management. Working at startup gives the acceleration to develop faster.
                         </p>
                         <a href="<?php echo base_url() ?>frontpage/about" ><p style="text-decoration:underline;">More info</p></a>
                     </div>
