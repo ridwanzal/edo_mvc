@@ -9,47 +9,47 @@
 
 <url>
   <loc>https://ridwanzal.com/</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
+  <lastmod>2020-06-12T11:25:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://ridwanzal.com/frontpage/about</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
+  <loc>https://ridwanzal.com/about</loc>
+  <lastmod>2020-06-12T11:25:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ridwanzal.com/frontpage/service</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>1.0</priority>
+  <loc>https://ridwanzal.com/service</loc>
+  <lastmod>2020-06-12T11:25:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ridwanzal.com/frontpage/project</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>1.0</priority>
+  <loc>https://ridwanzal.com/portfolio</loc>
+  <lastmod>2020-06-12T11:25:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ridwanzal.com/blog/</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>1.0</priority>
+  <lastmod>2020-06-12T11:25:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ridwanzal.com/frontpage/contact</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
+  <loc>https://ridwanzal.com/contact</loc>
+  <lastmod>2020-06-12T11:25:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ridwanzal.com/frontpage/contact</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
+  <lastmod>2020-06-12T11:25:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ridwanzal.com/frontpage/about</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
+  <lastmod>2020-06-12T11:25:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ridwanzal.com/frontpage/service</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
+  <lastmod>2020-06-12T11:25:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -68,73 +68,13 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://ridwanzal.com/qeropal/index.html</loc> 
+  <loc>https://ridwanzal.com/qeropal/index.html</loc>
   <lastmod>2019-04-18T15:04:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ridwanzal.com/assets/docs/curriculum_vitae_2019.pdf</loc>
   <lastmod>2019-05-23T07:35:07+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/prowire/about.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/prowire/services.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/prowire/contact.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/prowire/career.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/prowire/abou.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/samuraisec/contact.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/samuraisec/login.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/samuraisec/download.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/akad/about.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/akad/kredit.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/akad/services.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/akad/contact.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -145,11 +85,6 @@
 <url>
   <loc>https://ridwanzal.com/qeropal/services.html</loc>
   <lastmod>2019-04-18T15:04:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://ridwanzal.com/qeropal/contact.html</loc>
-  <lastmod>2019-07-15T05:08:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
