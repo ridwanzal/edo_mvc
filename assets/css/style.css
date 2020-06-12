@@ -606,6 +606,7 @@ nav > .mynav{
 
 	.img_insta{
 		width: 100% !important;
+		height:100% !important;margin-bottom:16px;border:1px solid #eee;background-size:cover;
 	}
 	.navbar-toggle{
 		margin-right: 3px !important;
@@ -745,8 +746,14 @@ nav > .mynav{
 		padding-top: 20px;
 		padding-bottom: 0px;
 	}
+
+
 }
 
+.img_insta{
+	width: 100% !important;
+	height:373px;margin-bottom:16px;border:1px solid #eee;background-size:cover;
+}
 .font_bold{
 	font-weight: bold;
 }
