@@ -27,7 +27,7 @@
             src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
-        <script defer src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+<script  src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script defer src="<?php echo base_url() ?>assets/lib/owlcarousel/dist/owl.carousel.min.js" type="text/javascript">
 <script defer 
