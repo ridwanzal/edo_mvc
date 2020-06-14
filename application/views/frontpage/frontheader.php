@@ -37,6 +37,11 @@
 
         gtag('config', 'UA-167865622-1');
         </script>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+<script  src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top mynav">
