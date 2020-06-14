@@ -23,15 +23,21 @@
                 </div>
             </div>
 </div>
+<script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script defer src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
 <script defer src="<?php echo base_url() ?>assets/lib/owlcarousel/dist/owl.carousel.min.js" type="text/javascript">
+<script defer 
+    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
+<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</script> 
 </script> 
     <script defer src="<?php echo base_url() ?>assets/lib/magnific-popups/dist/jquery.magnific-popup.min.js" type="text/javascript">
-</script> 
-<script defer 
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-  crossorigin="anonymous"></script>
-<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </script> 
 <script src="<?php echo base_url() ?>assets/js/imageload.js" type="text/javascript">
 </script> 
