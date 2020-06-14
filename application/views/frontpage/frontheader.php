@@ -76,7 +76,7 @@
                         <!-- <li title="Cari" id="searchbar"><span class="fa fa-search searchspan" style="cursor:pointer;"></span></li> -->
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                    <a href="https://api.whatsapp.com/send?phone=081919992000"><button id="btn_connect" class="button1_outline_small_green_smaller" title="Contact Me">Whatsapp&nbsp;&nbsp;<span class="feather-24" data-feather="arrow-right" style="position:relative; top:2.3px;"></span></button></a>
+                    <a href="https://api.whatsapp.com/send?phone=+6281919992000&text=Halo, ada yang bisa dibantu ?"><button id="btn_connect" class="button1_outline_small_green_smaller" title="Contact Me">Whatsapp&nbsp;&nbsp;<span class="feather-24" data-feather="arrow-right" style="position:relative; top:2.3px;"></span></button></a>
                         <li id="satis">
                             <a href="" style="pointer-events: none; cursor: default;" title="">Connect directly ? </a>
                         </li>
