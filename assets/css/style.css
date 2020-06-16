@@ -123,9 +123,14 @@
 	/*background-image:url('img/53.png');*/
 	font-family: 'Montserrat',  sans-serif;
 	color: #f5f5f5;
-	padding-top:55px;
-	padding-bottom:45px;
+	padding-top:30px;
+	padding-bottom:20px;
 	color: #ffffff;
+}
+
+.col-xs-6{
+	padding-left : 5px !important;
+	padding-right: 5px !important;
 }
 
 .navbar {
@@ -416,7 +421,6 @@ nav > .mynav{
 
 #imageList li {
 	display: inline;
-	width: 100%;
 	list-style-type: none;
 	/* text-align: center; */
 	/* margin-left: 12.5px; */
@@ -533,6 +537,16 @@ nav > .mynav{
 }
 
 @media screen and  (max-width : 767px){
+	.sociallist{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		text-align: center !important;
+	}
+	.servicelist{
+		padding: 14px;
+		border : 1px solid #eee;
+		background : #fff;
+	}
 	.submitcontainer{
 		margin-bottom: 20px;
 	}
@@ -663,7 +677,7 @@ nav > .mynav{
 	}
 
 	.fourthsection{
-		padding-top: 10px;
+		padding-top: 20px;
 		padding-bottom: 10px;
 	}
 
