@@ -128,10 +128,6 @@
 	color: #ffffff;
 }
 
-.col-xs-6{
-	padding-left : 5px !important;
-	padding-right: 5px !important;
-}
 
 .navbar {
 	font-family: 'Montserrat',  sans-serif;
@@ -537,6 +533,10 @@ nav > .mynav{
 }
 
 @media screen and  (max-width : 767px){
+	.col-xs-6{
+		padding-left : 5px !important;
+		padding-right: 5px !important;
+	}
 	.sociallist{
 		margin-top: 10px;
 		margin-bottom: 5px;
