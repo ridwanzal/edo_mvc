@@ -2,6 +2,14 @@
 	background-color: #fff !important;
 }
 
+.blog_title_style{
+	margin-top:15px; 
+	color:#4d4d4d; 
+	font-size:16px;
+	font-weight: 600;
+	font-family: 'Montserrat', serif;
+}
+
 .firstsection {
 	text-align:center;
 	background-color:#dd3637;
@@ -766,6 +774,14 @@ nav > .mynav{
 .containers_blog{
 	padding-top:1px;
 	padding-bottom: 10px;
+	/* border: 1px solid #eee;
+	border-radius: 4px; */
+	position: relative;
+}
+
+.blog_info_style{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .blog_detail_content{
@@ -825,9 +841,9 @@ nav > .mynav{
 
 .blog_thumbnail_data{
 	height:200px; 
-	width: 370px; 
+	width: 100%; 
 	object-fit:cover;
-	border-radius:4px;border:1px solid #eee;
+	/* border-radius:4px;border:1px solid #eee; */
 }
 
 .blog_thumbnail_data:hover{
