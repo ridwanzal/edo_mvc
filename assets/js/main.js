@@ -133,6 +133,8 @@ var element = {
 
 
 $(document).ready(function () {
+    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
     let local_client_id = '7bcd3b9155bd4ccc80b5aedec639a1dc';
     let local_token = '461833723.7bcd3b9.a8ad995bbf1740aaa4ce3db9b9af7c7b';
     let access_token = '461833723.1677ed0.0bb26120f15745d29d8ae94d4b3f1c6f';
@@ -222,7 +224,7 @@ $(document).ready(function () {
                 limit = 12;
                 if (i < limit) {
                     let img_uri = res.data[i].images.standard_resolution.url;
-                    let object = '<div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 item container_mag2 animated fadeIn"><a href=' + img_uri + '><img src=' + img_uri + ' style="" class="img_insta"></a></div>';
+                    let object = '<div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 item container_mag2 animated fadeIn"><a href=' + img_uri + '><img loading="lazy" alt=' + img_uri + ' src=' + img_uri + ' style="" class="img_insta"></a></div>';
                     elem.append(object);
                     showImage();
                 }

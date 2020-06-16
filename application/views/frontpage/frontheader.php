@@ -21,13 +21,12 @@
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
         
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|PT+Sans|Quicksand|Roboto|Signika|Titillium+Web&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|PT+Sans|Quicksand|Signika|Titillium+Web&display=swap" rel="stylesheet">
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" type="text/javascript"> -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167865622-1"></script>
         <script>
@@ -38,10 +37,11 @@
         gtag('config', 'UA-167865622-1');
         </script>
         <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-<script  src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+                    src="https://code.jquery.com/jquery-3.3.1.min.js"
+                    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                    crossorigin="anonymous"></script>
+        <script  src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top mynav">
@@ -72,7 +72,7 @@
                         <li class="menu">
                             <a href="<?php echo base_url() ?>contact" title="Kontak">Contact</a>
                         </li>
-                        <li class="toppad"><input id="searchinput" placeholder="Pencarian . . ." type="text"></li>
+                        <li class="toppad"><input id="searchinput" placeholder="Pencarian . . ." type="text"></li>  
                         <!-- <li title="Cari" id="searchbar"><span class="fa fa-search searchspan" style="cursor:pointer;"></span></li> -->
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
