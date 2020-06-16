@@ -45,16 +45,16 @@
                     <div class="col-lg-2 col-md-3 col-xs-12">
                     </div> -->
                     <div class="col-lg-3 col-md-3 col-xs-12">
-                        <p class="medium_text"><span><img alt="" src="<?php echo base_url() ?>assets/img//programming2.png"></span>&nbsp;&nbsp;Web Development</p>
+                        <p class="medium_text servicelist"><span><img alt="" src="<?php echo base_url() ?>assets/img//programming2.png"></span>&nbsp;&nbsp;Web Development</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-xs-12">
-                        <p class="medium_text"><span><img alt="" src="<?php echo base_url() ?>assets/img//programming2.png"></span>&nbsp;&nbsp;Android App Dev</p>
+                        <p class="medium_text servicelist"><span><img alt="" src="<?php echo base_url() ?>assets/img//programming2.png"></span>&nbsp;&nbsp;Android App Dev</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-xs-12">
-                        <p class="medium_text"><span><img alt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;Graphic Design</p>
+                        <p class="medium_text servicelist"><span><img alt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;Graphic Design</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-xs-12">
-                        <p class="medium_text"><span><img alt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;UI/ UX Design <a href="<?php echo base_url() ?>frontpage/service" ><span data-feather="arrow-right" class="feather-32" title="Show details" style="position:relative; left:90px;"><a href="<?php echo base_url() ?>frontpage/service" ></span></a></p>
+                        <p class="medium_text servicelist"><span><img alt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;UI/ UX Design <a href="<?php echo base_url() ?>frontpage/service" ><span data-feather="arrow-right" class="feather-32" title="Show details" style="position:relative; left:90px;"><a href="<?php echo base_url() ?>frontpage/service" ></span></a></p>
                     </div>
                     <!-- <div class="col-lg-1 col-md-3 col-xs-12">
                         <a href="<?php echo base_url() ?>frontpage/service" ><p style="text-decoration:underline;margin-top:24px;">More info</p></a>
