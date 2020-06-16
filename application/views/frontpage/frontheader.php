@@ -42,6 +42,7 @@
                     crossorigin="anonymous"></script>
         <script  src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+        
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top mynav">
