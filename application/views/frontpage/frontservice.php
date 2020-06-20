@@ -12,7 +12,7 @@
         <br/>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="background_flyer panel_container">
-                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img/programming2.png"></span>&nbsp;&nbsp;Web App Development</p>
+                    <p  class="medium_text text_center text_bold text_under"><span><img class="imgsrv" alt="" src="<?php echo base_url() ?>assets/img/programming2.png"></span>&nbsp;&nbsp;Web App Development</p>
                     <p class="text_justified small_text">
                         Many years in Software Development. Have an experiences on lead product engineering, team management, and startup environment. Work with me and create stunning product.
                         </p>
@@ -25,7 +25,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="background_flyer panel_container ">
-                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img/programming2.png"></span>&nbsp;&nbsp;Android App Development</p>
+                    <p  class="medium_text text_center text_bold text_under"><span><img class="imgsrv" alt="" src="<?php echo base_url() ?>assets/img/programming2.png"></span>&nbsp;&nbsp;Android App Development</p>
                     <p class="text_justified small_text">
                         Many years in Software Development. Have an experiences on lead product engineering, team management, and startup environment. Work with me and create stunning product.</p>
                       <ul class="list_service">
@@ -39,7 +39,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="background_flyer panel_container panel_container_service">
-                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img//design2.png"></span>&nbsp;&nbsp;Graphic Design</p>
+                    <p  class="medium_text text_center text_bold text_under"><span><img class="imgsrv" alt="" src="<?php echo base_url() ?>assets/img//design2.png"></span>&nbsp;&nbsp;Graphic Design</p>
                     <p class="text_justified small_text">Experienced in Graphic Design, UX Research and Visual Design, follow current design trend, and maintaining clean, acceptable design product.
                     </p>
                       <ul class="list_service">
@@ -50,7 +50,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="background_flyer panel_container panel_container_service">
-                    <p  class="medium_text text_center text_bold text_under"><span><img alt="" src="<?php echo base_url() ?>assets/img//design2.png"></span>&nbsp;&nbsp;UI Design/ UX Research</p>
+                    <p  class="medium_text text_center text_bold text_under"><span><img class="imgsrv" alt="" src="<?php echo base_url() ?>assets/img//design2.png"></span>&nbsp;&nbsp;UI Design/ UX Research</p>
                     <p class="text_justified small_text">Experienced in Graphic Design, UX Research and Visual Design, follow current design trend, and maintaining clean, acceptable design product.
                     </p>
                       <ul class="list_service">

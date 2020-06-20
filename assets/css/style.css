@@ -27,8 +27,8 @@
 	background-repeat: no-repeat;
 	font-family: 'Montserrat',  sans-serif;
 	color: #fff;
-	padding-top:310px;
-	padding-bottom:310px;
+	padding-top:350px;
+	padding-bottom:350px;
 	font-size:26px;
 }
 
@@ -140,9 +140,8 @@ nav > .mynav{
 	background: #000;
 }
 
-
 .text_header {
-	font-size: 48px;
+	font-size: 45px;
 	font-weight: bold;
 }
 
@@ -154,7 +153,6 @@ nav > .mynav{
 .headingtext {
 	letter-spacing: -1.4px;	
 }
-
 
 #myimage {
 	margin:10px;
@@ -190,6 +188,11 @@ nav > .mynav{
 .separator{
 	margin-top: 30;
 	margin-bottom: 30px;
+}
+
+.separator2{
+	margin-top: 80;
+	margin-bottom: 80px;
 }
 
 
@@ -533,6 +536,10 @@ nav > .mynav{
 }
 
 @media screen and  (max-width : 767px){
+	.medium_text{
+		font-size:16px !important;
+	}
+
 	.col-xs-6{
 		padding-left : 5px !important;
 		padding-right: 5px !important;
@@ -544,11 +551,15 @@ nav > .mynav{
 	}
 	.servicelist{
 		padding: 14px;
-		border : 1px solid #eee;
+		border : 1px solid #dfdfdf;
 		background : #fff;
 	}
 	.submitcontainer{
 		margin-bottom: 20px;
+	}
+
+	.imgsrv{
+		width:37px;
 	}
 
 	.insta_follow > h4{
@@ -639,6 +650,16 @@ nav > .mynav{
 	.secondsection{
 		padding-top: 87px;
 		padding-bottom: 5px;	
+	}
+
+	.separator{
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.separator2{
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 
 	.container_images_me{
