@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <p class="text_header headingtext">Web Development</p>
-                        <p id="captiontext">I am a Software Engineer and Graphic Designer based in Palembang, previously in Jakarta, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
+                        <p id="captiontext">I am a Software Engineer and Graphic Designer, specializing in developing (and occasionally designing) stunning and quality website and applications.</p>
                         <div class="separator"></div>
                         <button class="button1_outline_small" type="button" id="learnmores"><span data-feather="arrow-right" class="feather-24"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>frontpage/contact"><button  style="color:#4d4d4d;" class="button1_small" type="button" id="bcontacts"><span data-feather="briefcase" class="feather-24"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
