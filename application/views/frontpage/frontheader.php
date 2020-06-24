@@ -10,7 +10,6 @@
         <meta name="description" content="<? echo $description ?>" />
 
         <link rel="icon" type="image/png" href="<?php echo base_url() ?>assets/img/favicons.png"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
