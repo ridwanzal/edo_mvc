@@ -1,4 +1,4 @@
-<div class="thirdsection">
+<div class="thirdsection2">
 	<div class="container">
 		<?php
 			foreach ($data->result() as $row) :
