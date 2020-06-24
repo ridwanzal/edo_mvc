@@ -1,3 +1,11 @@
+.navbar-default .navbar-nav>li>a{
+	color : #000;
+}
+
+.navbar{
+	font-weight: 500 !important;
+}
+
 .navbar-default{
 	background-color: #fff !important;
 }
@@ -29,6 +37,17 @@
 	color: #fff;
 	padding-top:350px;
 	padding-bottom:350px;
+	font-size:26px;
+}
+
+.secondsection2{
+	background-color:#fff;
+	color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Montserrat',  sans-serif;
+	padding-top:120px;
+	padding-bottom:20px;
 	font-size:26px;
 }
 
@@ -529,6 +548,7 @@ nav > .mynav{
 
 .item img{
 	border-radius: 5px !important;
+	border : 1px solid #dfdfdf;
 }
 /*Media Queries for mobile view*/
 .bolders{

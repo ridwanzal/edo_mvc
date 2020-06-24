@@ -1,12 +1,16 @@
-<div class="secondsection asyncImage" data-src="<?php echo base_url() ?>/assets/img/background.png">
+<!-- <div class="secondsection2 asyncImage2" data-src="<?php echo base_url() ?>/assets/img/background.png"> -->
+<div class="secondsection2">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12">
-                        <p class="text_header headingtext">Web Development</p>
+                        <div>
+                            <span style="color : #2B9455;font-size:45px;font-weight:bold;"> I do </span>
+                            <span class="text_header headingtext">Web Development</span>
+                        </div>
                         <p id="captiontext">Professional Software Engineer and Graphic Designer </p>
                         <div class="separator"></div>
                         <div class="separator2"></div>
-                        <button class="button1_outline_small" type="button" id="learnmores"><span data-feather="arrow-right" class="feather-24"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>frontpage/contact"><button  style="color:#4d4d4d;" class="button1_small" type="button" id="bcontacts"><span data-feather="briefcase" class="feather-24"></span> &nbsp;&nbsp;Contact me</button></a>
+                        <button class="button1_outline_smaller_black" type="button" id="learnmores"  style="color:#4d4d4d;"><span data-feather="arrow-right" class="feather-24"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>frontpage/contact"><button  style="color:#4d4d4d;" class="button1_outline_smaller_black" type="button" id="bcontacts"><span data-feather="briefcase" class="feather-24"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="owl-carousel option1 owl-theme" id="append_images" style="position:relative; top:30px;width:100%;">
