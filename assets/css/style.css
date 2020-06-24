@@ -77,6 +77,15 @@
 	padding-bottom:0px;
 }	
 
+.thirdsection2{
+	background-color:#fff;
+	/*background-image:url('img/53.png');*/
+	font-family: 'Montserrat',  sans-serif;
+	color: #4d4d4d;
+	padding-top:80px;
+	padding-bottom:80px;
+}	
+
 .fourthsection{
 	background-color:#fff;
 	/*background-image:url('img/53.png');*/
@@ -576,7 +585,8 @@ nav > .mynav{
 		background: #fff !important ;
 		padding : 0px 0px 0px 0px !important;
 		color: #000 !important;
-		margin: none;
+		margin: none !important;
+		border: none !important;
 	}
 	
 	.secondsection2{
