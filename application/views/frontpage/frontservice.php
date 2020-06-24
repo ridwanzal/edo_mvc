@@ -1,4 +1,4 @@
-<div class="thirdsection">
+<div class="thirdsection2">
     <div class="container">
         <p class="text_bold">What I offer to you.</p>
         <br/>
