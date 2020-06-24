@@ -25,12 +25,12 @@
             </div>
         </div>
         <br/>
-        <div class="container_loader">
-            <center>
-                <img style="text-align:center;margin-bottom:20px;" class="preload_gallery" src="<?php echo base_url() ?>assets/img/preload_fountain.gif">
-            </center>
+        <div style="text-align:center;">
+            <img style="margin-bottom:10px;" class="preload_gallery" src="<?php echo base_url() ?>assets/img/preload_fountain.gif">
         </div>
         <div class="row blog_list_container" style="min-height:600px;">
+                <div class="container_loader">
+                </div>
         </div>
     </div>  
 </div>
