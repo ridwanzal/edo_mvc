@@ -71,7 +71,7 @@
                     </div></div>`;
             setTimeout(function(){
                 $(adapter).insertAfter(".container_loader");    
-                $('.blog_list_container').fadeIn(500);
+                $('.blog_list_container').fadeIn(400);
             }, 1)
           }
     }});

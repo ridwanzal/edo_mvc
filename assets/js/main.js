@@ -5,7 +5,7 @@
 //  ------------------------------------------------------*/
 
 $('.galhover').hover(function () {
-    $(this).delay(500).addClass('overlay');
+    $(this).delay(100).addClass('overlay');
 }).mouseleave(function () {
     $(this).removeClass('overlay');
 });
@@ -163,7 +163,7 @@ $(document).ready(function () {
     }
     
     $('.option1').owlCarousel({
-        slideSpeed: 100,
+        slideSpeed: 90,
         nav: true,
         items: 4,
         dots: false,
@@ -175,7 +175,7 @@ $(document).ready(function () {
         autoHeight: true,
         margin: 5,
         navigation: true,
-        paginationSpeed: 1000,
+        paginationSpeed: 800,
         responsiveClass: true,
         URLhashListener: true,
     });
@@ -221,7 +221,7 @@ $(document).ready(function () {
             let elem = $('#instacontainer');
             let i = 0;
             for (i; i < res.data.length; i++) {
-                limit = 12;
+                limit = 16;
                 if (i < limit) {
                     let img_uri = res.data[i].images.standard_resolution.url;
                     let object = '<div class="col-lg-4 col-md-4 col-xs-6 col-sm-6 item container_mag2 animated fadeIn"><a href=' + img_uri + '><img loading="lazy" alt=' + img_uri + ' src=' + img_uri + ' style="" class="img_insta"></a></div>';
@@ -265,7 +265,7 @@ $(document).ready(function () {
         $('#searchinput').toggle(function () {
         }).animate({
             "left": "200"
-        }, 80);
+        }, 10);
         $('#searchinput').focus(function () {
         }).onchange(function () {
             $('#searchbar').hide();
@@ -284,7 +284,7 @@ $(document).ready(function () {
         "text-overflow": "ellipsis"
     });
     setInterval(function () {
-        $('.text_header').fadeOut(300, function () {
+        $('.text_header').fadeOut(200, function () {
             var $this = $(this);
             var $text1 = "Web Development";
             var $text2 = "Graphic Design";
@@ -292,12 +292,12 @@ $(document).ready(function () {
             var $text4 = "Android App Dev";
             $this.text($this.text() == $text1 ? $text2 : $this.text() == $text2 ? $text3 : $this.text() == $text3 ? $text4 : $text1);
             $this.toggleClass('first second');
-            $this.fadeIn(500);
+            $this.fadeIn(100);
         });
-    }, 3500);
+    }, 1);
 
     $('.galhover').hover(function () {
-        $(this).delay(200).addClass('overlay'); 12
+        $(this).delay(50).addClass('overlay'); 12
     }).mouseleave(function () {
         $(this).removeClass('overlay');
     });
