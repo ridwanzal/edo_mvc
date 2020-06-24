@@ -7,7 +7,7 @@
                             <span style="color : #2B9455;font-size:45px;font-weight:bold;"> I do </span>
                             <span class="text_header headingtext">Web Development</span>
                         </div>
-                        <p id="captiontext">Professional Software Engineer and Graphic Designer </p>
+                        <p id="captiontext" class="textbag">Professional Software Engineer and Graphic Designer </p>
                         <div class="separator"></div>
                         <div class="separator2"></div>
                         <button class="button1_outline_smaller_black" type="button" id="learnmores"  style="color:#4d4d4d;"><span data-feather="arrow-right" class="feather-24"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>frontpage/contact"><button  style="color:#4d4d4d;" class="button1_outline_smaller_black" type="button" id="bcontacts"><span data-feather="briefcase" class="feather-24"></span> &nbsp;&nbsp;Contact me</button></a>
