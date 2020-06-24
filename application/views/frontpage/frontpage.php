@@ -4,16 +4,16 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <div>
-                            <span style="color : #2B9455;font-size:45px;font-weight:bold;"> I do </span>
+                            <span class="dotext"> I do </span>
                             <span class="text_header headingtext">Web Development</span>
                         </div>
-                        <p id="captiontext" class="textbag">Professional Software Engineer and Graphic Designer </p>
+                        <p id="captiontext" class="textbag">Professional Software Engineer and Graphic Designer. Let's collaborate</p>
                         <div class="separator"></div>
                         <div class="separator2"></div>
                         <button class="button1_outline_smaller_black" type="button" id="learnmores"  style="color:#4d4d4d;"><span data-feather="arrow-right" class="feather-24"></span> &nbsp;&nbsp;Learn more</button>&nbsp; <a href="<?php echo base_url() ?>frontpage/contact"><button  style="color:#4d4d4d;" class="button1_outline_smaller_black" type="button" id="bcontacts"><span data-feather="briefcase" class="feather-24"></span> &nbsp;&nbsp;Contact me</button></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12">
-                        <div class="owl-carousel option1 owl-theme" id="append_images" style="position:relative; top:30px;width:100%;">
+                        <div class="owl-carousel option1 owl-theme" id="append_images" style="position:relative; top:20px;width:100%;">
                         </div>
                     </div>
                 </div>
@@ -35,9 +35,9 @@
                         <br/>
                         <h4 class="text_bold">About Me</h4>
                         <p class="medium_text">
-                        Of all the processes that I went through, I got the chance to become one of the C-Levels in a startup company. Giving me new insights about management and self-development, how can empowering teams, protecting and also becoming a bridge for team members to continue to grow. I also keep in touch with technical matters such as Software Architecture, Backend development, Mobile apps development and Server management. Working at startup gives the acceleration to develop faster.
+                        Of all the processes that I went through, I got the chance to become one of the C-Levels in a startup company. Giving me new insights about management and self-development ...
                         </p>
-                        <a href="<?php echo base_url() ?>frontpage/about" ><p style="text-decoration:underline;">More info</p></a>
+                        <a href="<?php echo base_url() ?>frontpage/about" ><p style="font-weight:bold;margin-top:20px;color:#2B9455;">More info</p></a>
                     </div>
                 </div>
             </div>
@@ -45,12 +45,12 @@
         
         <div class="fourthsection">
             <div class="container"> 
-                <div class="row">
+                <div class="row testimonies2" >
                     <!-- <p style="margin-top:24px;"><b>Service we provide :</b></p>
                     <div class="col-lg-2 col-md-3 col-xs-12">
                     </div> -->
                     <div class="col-lg-3 col-md-3 col-xs-12">
-                        <p class="medium_text servicelist"><span><img class="imgsrv" alt="" src="<?php echo base_url() ?>assets/img//programming2.png"></span>&nbsp;&nbsp;Web Development</p>
+                        <p class="medium_text servicelist"><span><img class="imgsrv" alt="" src="<?php echo base_url() ?>assets/img//programming2.png"></span>&nbsp;&nbsp;Web Dev</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-xs-12">
                         <p class="medium_text servicelist"><span><img class="imgsrv" alt="" src="<?php echo base_url() ?>assets/img//programming2.png"></span>&nbsp;&nbsp;Android App Dev</p>
@@ -59,11 +59,8 @@
                         <p class="medium_text servicelist"><span><img class="imgsrv" lt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;Graphic Design</p>
                     </div>
                     <div class="col-lg-3 col-md-3 col-xs-12">
-                        <p class="medium_text servicelist"><span><img class="imgsrv" alt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;UI/ UX Design <a href="<?php echo base_url() ?>frontpage/service" ><span data-feather="arrow-right" class="feather-32" title="Show details" style="position:relative; left:90px;"><a href="<?php echo base_url() ?>frontpage/service" ></span></a></p>
+                        <p class="medium_text servicelist"><span><img class="imgsrv" alt="" src="<?php echo base_url() ?>assets/img/design2.png"></span>&nbsp;&nbsp;UI/ UX Design <a href="<?php echo base_url() ?>frontpage/service" ></a></p>
                     </div>
-                    <!-- <div class="col-lg-1 col-md-3 col-xs-12">
-                        <a href="<?php echo base_url() ?>frontpage/service" ><p style="text-decoration:underline;margin-top:24px;">More info</p></a>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -125,38 +122,37 @@
                 </div>
             </div>
         </div>
-        <div class="fourthsectiontwo" style="background:#fff;">
+        <div class="fourthsectiontwo">
             <div class="container">
-                <hr>
-                <div class="row" style="padding-top:20px;">
+                <div class="row testimonies">
                     <div class="col-lg-3 col-md-3 col-xs-12">
-                        <p class="medium_text" style="font-weight:bold;">Okay Let's see what client said (Testimonial) ?</p>
-                        <span class="fa fa-quote-left fa-5x" style="margin-top:8px; margin-bottom:8px;"></span>
+                        <p class="medium_text_white" style="font-weight:bold;">Okay Let's see what client said (Testimonial) ?</p>
+                        <span class="fa fa-quote-left fa-3x" style="margin-top:8px; margin-bottom:8px;"></span>
                     </div>
                     <div class="col-lg-9 col-md-9 col-xs-12">
                         <div class="owl-carousel option2">
                             <div class="item">
-                                <p class="medium_text">"Saya sudah beberapa kali dibuatkan desain logo dan hasilnya Alhamdulillah memuaskan, desainnya dinamis dan sesuai... Barakallahu Fiikum."</p>
+                                <p class="medium_text_white">"Saya sudah beberapa kali dibuatkan desain logo dan hasilnya Alhamdulillah memuaskan, desainnya dinamis dan sesuai... Barakallahu Fiikum."</p>
                                 <span class="font_bold">M. Iqbal</span> - <span>Founder Karpet Juaro</span>
                             </div>
                             <div class="item">
-                                <p class="medium_text">"Recomended designer. Desain yang dibuatnya selalu memuaskan."</p>
+                                <p class="medium_text_white">"Recomended designer. Desain yang dibuatnya selalu memuaskan."</p>
                                 <span class="font_bold">Faris Humam</span> - <span>Founder Cindo, Annajaah</span>
                             </div>
                             <div class="item">
-                                <p class="medium_text">"Saya sudah 2 (dua) kali membuat logo dengan edo, dan semua karya nya bagus dan sangat memuaskan."</p>
+                                <p class="medium_text_white">"Saya sudah 2 (dua) kali membuat logo dengan edo, dan semua karya nya bagus dan sangat memuaskan."</p>
                                 <span class="font_bold">Kahbi Hardiansyah</span> - <span>Sinaroja Kontraktor & Supplier</span>
                             </div>
                             <div class="item">
-                                <p class="medium_text">"Saya Owner Nukimoto Photograpy sangat puas atas layanan jasa pembuatan logo yang sangat baik, terutama dengan pelayanan yang ramah dan juga disain yang bagus dan support dalam berbagai bentuk format file sehingga bisa langsung di gunakan . Semoga kedepannya dapat mempertahankan dan meningkatkan kwalitas layanannya ."</p>
+                                <p class="medium_text_white">"Saya Owner Nukimoto Photograpy sangat puas atas layanan jasa pembuatan logo yang sangat baik, terutama dengan pelayanan yang ramah dan juga disain yang bagus dan support dalam berbagai bentuk format file sehingga bisa langsung di gunakan . Semoga kedepannya dapat mempertahankan dan meningkatkan kwalitas layanannya ."</p>
                                 <span class="font_bold">Nuki MK</span> - <span>Owner Nukimoto Photograpy</span>
                             </div>
                             <div class="item">
-                                <p class="medium_text">"Kami pernah dibuatkan logo dan hasilnya keren oke punya."</p>
+                                <p class="medium_text_white">"Kami pernah dibuatkan logo dan hasilnya keren oke punya."</p>
                                 <span class="font_bold">Dian Purnama</span> - <span>Guru Seni</span>
                             </div>
                             <div class="item">
-                                <p class="medium_text">"
+                                <p class="medium_text_white">"
                                 Ada banyak assets yang saya percayakan pembuatannya dengan Ridwan Z a.k.a Edo. Besutan hasil karyanya sesuai dengan keinginan. Mulai dari semua assets design untuk konfrensi internasional : EECSI 2015 sd 2017, ICECOS 2017-2019,ARS 2016-2017. Official Logo indexing dan repository nasional RISTEKDIKTI : SINTA, GARUDA dan ANJANI, termasuk bemper slider footer websitenya. Termasuk juga cover jurnal ilmiah FASILKOM UNSRI dan beberpa logo riset group di dalamnya. Sentuhan tone, degradasi dan warna sangat tepat yang dihasilkan dalam sebuah art yang arstristik. Nilai tambah lainnya dari sudut pandang akademisi adalah semua tools yang  digunakan menggunalan platform open source. Good Job and high satisfaction guys
                                 Salam.
                                 
@@ -166,7 +162,6 @@
                         </div>
                     </div>
                 </div>
-                <hr>
             </div>
         </div>
         <div class="fifthsection">
@@ -178,14 +173,14 @@
                     </div>
                 </div>
                 <div class="row imagegallery1">
-                    <a target="_blank" href="<?php echo base_url() ?>prowire/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/prowire.png"><span title="View Details"  class="gal_caption_title">View Details</span></div></a>
-                    <a target="_blank" href="<?php echo base_url() ?>samuraisec/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
-                    <a target="_blank" href="<?php echo base_url() ?>akad/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"><span title="View Details" class="gal_caption_title">View Details</span></div></a>
-                    <a target="_blank" href="<?php echo base_url() ?>qeropal/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"><span title="View Details"  class="gal_caption_title">View Details</span></div></a>
+                    <a target="_blank" href="<?php echo base_url() ?>prowire/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/prowire.png"></div></a>
+                    <a target="_blank" href="<?php echo base_url() ?>samuraisec/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/samurai.png"></div></a>
+                    <a target="_blank" href="<?php echo base_url() ?>akad/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/akad.png"></div></a>
+                    <a target="_blank" href="<?php echo base_url() ?>qeropal/index.html"><div class="col-lg-3 col-md-3 col-xs-6 colspan"><img alt="gallery" class="galhover" src="<?php echo base_url() ?>assets/img//work/hostbin.png"></div></a>
                 </div>
             </div>
         </div>
-        <div class="" style="margin-top:0px; margin-bottom:50px;font-family: 'Montserrat',  sans-serif;">
+        <div class="" style="display:none;margin-top:0px; margin-bottom:50px;font-family: 'Montserrat',  sans-serif;">
             <div class="container">
                 <hr/>
                 <div class="row">
