@@ -292,7 +292,7 @@ $(document).ready(function () {
             var $text4 = "Android App Dev";
             $this.text($this.text() == $text1 ? $text2 : $this.text() == $text2 ? $text3 : $this.text() == $text3 ? $text4 : $text1);
             $this.toggleClass('first second');
-            $this.fadeIn(100);
+            $this.fadeIn(1000);
         });
     }, 1);
 
