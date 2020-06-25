@@ -284,7 +284,7 @@ $(document).ready(function () {
         "text-overflow": "ellipsis"
     });
     setInterval(function () {
-        $('.text_header').fadeOut(2000, function () {
+        $('.text_header').fadeOut(500, function () {
             var $this = $(this);
             var $text1 = "Web Development";
             var $text2 = "Graphic Design";
