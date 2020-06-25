@@ -284,7 +284,7 @@ $(document).ready(function () {
         "text-overflow": "ellipsis"
     });
     setInterval(function () {
-        $('.text_header').fadeOut(500, function () {
+        $('.text_header').fadeOut(100, function () {
             var $this = $(this);
             var $text1 = "Web Development";
             var $text2 = "Graphic Design";
@@ -292,7 +292,7 @@ $(document).ready(function () {
             var $text4 = "Android App Dev";
             $this.text($this.text() == $text1 ? $text2 : $this.text() == $text2 ? $text3 : $this.text() == $text3 ? $text4 : $text1);
             $this.toggleClass('first second');
-            $this.fadeIn(1000);
+            $this.fadeIn(600);
         });
     }, 1);
 
